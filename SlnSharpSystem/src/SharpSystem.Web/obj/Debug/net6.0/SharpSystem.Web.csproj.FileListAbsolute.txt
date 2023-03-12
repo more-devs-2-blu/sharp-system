@@ -1,0 +1,8 @@
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.AssemblyReference.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfoInputs.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfo.cs
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CoreCompileInputs.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cs

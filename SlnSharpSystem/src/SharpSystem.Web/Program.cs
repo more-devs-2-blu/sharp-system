@@ -1,21 +1,17 @@
+using Microsoft.EntityFrameworkCore;
 using SharpSystem.Domain.Helper;
 using SharpSystem.Domain.IServices;
+using SharpSystem.Infra.Data.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-
-//Repositorios
-builder.Services.AddScoped<ISessao, SessaoRepository>();
-builder.Services.AddSession(o =>
-{
-    o.Cookie.HttpOnly = true;
-    o.Cookie.IsEssential = true;
-});
-
-
+//Conect SQL Server
+var connectionStringUser = builder.Configuration.GetConnectionString("SQLServerConnection");
+builder.Services.AddDbContext<SQLServerContext>
+    (options => options.UseSqlServer(connectionStringUser));
 
 var app = builder.Build();
 
