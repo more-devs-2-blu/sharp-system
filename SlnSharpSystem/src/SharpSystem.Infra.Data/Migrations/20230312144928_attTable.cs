@@ -5,7 +5,7 @@
 namespace SharpSystem.Infra.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class inicialTable : Migration
+    public partial class attTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
