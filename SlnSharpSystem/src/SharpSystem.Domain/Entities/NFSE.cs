@@ -9,7 +9,6 @@ namespace SharpSystem.Domain.Entities
 {
     public class NFSE
     {
-        public int Id { get; set; }
         public class NotaFiscal
         {
             public int Id { get; set; }

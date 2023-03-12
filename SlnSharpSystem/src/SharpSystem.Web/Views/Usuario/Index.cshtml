@@ -1,49 +1,57 @@
 ﻿@model IEnumerable<SharpSystem.Domain.DTO.UsuarioDTO>
 
-<table id="table-doctor" class="display text-green bg-light tables" style="width:100%">
+<p>
+    <a class="btn btn-primary" asp-action="Create">Add Usuarios</a>
+</p>
+<table class="table">
     <thead>
         <tr>
-            <th scope="col">#</th>
-            <th scope="col">Foto</th>
-            <th scope="col">Nome</th>
-            <th scope="col">CPF CNPJ</th>
-            <th scope="col">E-mail</th>
-            <th scope="col">Login</th>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cpfcnpj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.login)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.senha)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @if (Model != null && Model.Any())
+        @foreach (var item in Model)
         {
-            foreach (var patient in Model)
-            {
-                <tr>
-                    <td scope="row">@patient.id</td>
-                    <td>
-                        @*<figure class="col-md-4">
-                            <img src="~/Upload/@patient.image" style="width: 64px;" />
-                        </figure>*@
-                    </td>
-                    <td>@patient.nome</td>
-                    <td>@patient.cpfcnpj</td>
-                    <td>@patient.email</td>
-                    <td>@patient.login</td>
-                    <td>
-                        <div class="btn-group" role="group">
-                            <a class="btn btnDetails" asp-action="Details" asp-route-id="@patient.id"><i class="fa fa-circle-info"></i></a>
-                            <a class="btn btnEdit" asp-action="Edit" asp-route-id="@patient.id"><i class="fa-regular fa-pen-to-square"></i></a>
-                            <a class="btn btnDelete" href="#" onclick="deletePatient(@patient.id)"><i class="fa fa-trash"></i></a>
-                            <a class="btn btnImage" asp-action="ImagePost" asp-route-id="@patient.id"><i class="fa-regular fa-image"></i></a>
-                        </div>
-                    </td>
-                </tr>
-            }
-        }
-        else
-        {
-            <tr class="odd">
-                <td valign="top" colspan="5">
-                    Nenhum usuário encontrado
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cpfcnpj)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.login)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.senha)
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                    <a class="btn btn-danger" href="#" onclick="deleteNews(@item.id)">Delete</a>
                 </td>
             </tr>
         }
