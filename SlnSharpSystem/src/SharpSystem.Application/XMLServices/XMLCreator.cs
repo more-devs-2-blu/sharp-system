@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SharpSystem.Domain.Entities;
 using System.Security.Cryptography;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Security.Cryptography.Xml;
+using SharpSystem.Domain.Entities.NF;
 
 namespace SharpSystem.Application.XMLServices
 {

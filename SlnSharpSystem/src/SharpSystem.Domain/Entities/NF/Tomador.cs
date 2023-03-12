@@ -5,10 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace SharpSystem.Domain.Entities
+namespace SharpSystem.Domain.Entities.NF
 {
     public class Tomador
     {
+        public Guid Id { get; set; }
+
         [XmlElement("tipo")]
         public string Tipo { get; set; }
 
