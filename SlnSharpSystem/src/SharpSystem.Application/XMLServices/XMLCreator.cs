@@ -25,7 +25,7 @@ namespace SharpSystem.Application.XMLServices
 
             NotaFiscal nf = new NotaFiscal
             {
-                Prestador = prestador
+               /* Prestador = prestador*/
             };
 
 
