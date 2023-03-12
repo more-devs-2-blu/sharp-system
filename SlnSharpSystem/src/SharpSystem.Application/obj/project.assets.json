@@ -1268,23 +1268,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\heart\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pedro\\.nuget\\packages\\": {},
+    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
+      "projectUniqueName": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
       "projectName": "SharpSystem.Application",
-      "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
-      "packagesPath": "C:\\Users\\heart\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\obj\\",
+      "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
+      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\heart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1299,8 +1299,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-              "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
+            "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
+              "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
             }
           }
         }
@@ -1346,7 +1346,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
