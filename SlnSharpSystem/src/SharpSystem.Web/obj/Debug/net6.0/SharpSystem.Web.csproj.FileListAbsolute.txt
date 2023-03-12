@@ -1,11 +1,3 @@
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.AssemblyReference.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.GeneratedMSBuildEditorConfig.editorconfig
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfoInputs.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfo.cs
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CoreCompileInputs.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.MvcApplicationPartsAssemblyInfo.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cs
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.Development.json
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.json
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.staticwebassets.runtime.json
@@ -78,6 +70,14 @@ D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Sh
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.pdb
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Domain.pdb
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Infra.Data.pdb
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.AssemblyReference.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfoInputs.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfo.cs
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CoreCompileInputs.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cs
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.SharpSystem.Web.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.SharpSystem.Web.props
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SharpSystem.Web.props

@@ -11,7 +11,7 @@ using SharpSystem.Infra.Data.Context;
 namespace SharpSystem.Infra.Data.Migrations
 {
     [DbContext(typeof(SQLServerContext))]
-    [Migration("20230312144928_attTable")]
+    [Migration("20230312145829_attTable")]
     partial class attTable
     {
         /// <inheritdoc />
