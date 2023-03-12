@@ -1,5 +1,51 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model IEnumerable<SharpSystem.Domain.DTO.UsuarioDTO>
+
+<table id="table-doctor" class="display text-green bg-light tables" style="width:100%">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Foto</th>
+            <th scope="col">Nome</th>
+            <th scope="col">CPF CNPJ</th>
+            <th scope="col">E-mail</th>
+            <th scope="col">Login</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var patient in Model)
+            {
+                <tr>
+                    <td scope="row">@patient.id</td>
+                    <td>
+                        @*<figure class="col-md-4">
+                            <img src="~/Upload/@patient.image" style="width: 64px;" />
+                        </figure>*@
+                    </td>
+                    <td>@patient.nome</td>
+                    <td>@patient.cpfcnpj</td>
+                    <td>@patient.email</td>
+                    <td>@patient.login</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a class="btn btnDetails" asp-action="Details" asp-route-id="@patient.id"><i class="fa fa-circle-info"></i></a>
+                            <a class="btn btnEdit" asp-action="Edit" asp-route-id="@patient.id"><i class="fa-regular fa-pen-to-square"></i></a>
+                            <a class="btn btnDelete" href="#" onclick="deletePatient(@patient.id)"><i class="fa fa-trash"></i></a>
+                            <a class="btn btnImage" asp-action="ImagePost" asp-route-id="@patient.id"><i class="fa-regular fa-image"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr class="odd">
+                <td valign="top" colspan="5">
+                    Nenhum usuário encontrado
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
