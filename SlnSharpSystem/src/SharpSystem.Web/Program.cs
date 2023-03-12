@@ -1,4 +1,5 @@
 using SharpSystem.Domain.Helper;
+using SharpSystem.Domain.IServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 
 //Repositorios
-builder.Services.AddScoped<ISessao, Sessao>();
+builder.Services.AddScoped<ISessao, SessaoRepository>();
 builder.Services.AddSession(o =>
 {
     o.Cookie.HttpOnly = true;
