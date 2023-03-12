@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "XbSSj13LWQsxUEn7zJAC4nI1SqXEWJKCm1X6XgHxlmYE9ld5gxxFNgDTL6oLiAqKRhgbNddo9nsRbdMUhumWDg==",
+  "success": true,
+  "projectFilePath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Testes\\SharpSystem.Testes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.xmlserializer.generator\\7.0.0\\microsoft.xmlserializer.generator.7.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\system.formats.asn1\\7.0.0\\system.formats.asn1.7.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\system.security.cryptography.pkcs\\7.0.0\\system.security.cryptography.pkcs.7.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\system.security.cryptography.xml\\7.0.1\\system.security.cryptography.xml.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

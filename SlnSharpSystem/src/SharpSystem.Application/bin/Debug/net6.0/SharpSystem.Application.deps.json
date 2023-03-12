@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SharpSystem.Application/1.0.0": {
+        "dependencies": {
+          "SharpSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SharpSystem.Application.dll": {}
+        }
+      },
+      "SharpSystem.Domain/1.0.0": {
+        "runtime": {
+          "SharpSystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharpSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
