@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SharpSystem.Domain.Entities
 {
-    public class Itens : Lista
+    public class Itens
     {
         public int Id { get; set; }
     }

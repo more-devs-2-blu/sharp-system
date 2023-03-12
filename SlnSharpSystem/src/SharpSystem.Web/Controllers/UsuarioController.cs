@@ -2,6 +2,11 @@
 using SharpSystem.Domain.DTO;
 using SharpSystem.Domain.Entities.Usuario;
 using SharpSystem.Domain.IServices;
+using System.Security.Cryptography.Xml;
+using System.Security.Cryptography;
+using System.Xml.Serialization;
+using System.Xml;
+using SharpSystem.Domain.Entities;
 
 namespace SharpSystem.Web.Controllers
 {
@@ -19,13 +24,13 @@ namespace SharpSystem.Web.Controllers
             return View(_service.FindAll());
         }
 
-        public IActionResult Cadastro()
+        public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Cadastro([Bind("id, nome, cpfcnpj, email, login, senha")] UsuarioDTO usuario)
+        public async Task<IActionResult> Create([Bind("id, nome, cpfcnpj, email, login, senha")] UsuarioDTO usuario)
         {
             if (ModelState.IsValid)
             {
