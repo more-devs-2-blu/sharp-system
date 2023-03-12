@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SharpSystem.Domain.IRepositories
+namespace SharpSystem.Domain.IRepositories.IUsuarioRepositories
 {
     public interface IUsuarioRepository : IBaseRepository<Usuario>
     {

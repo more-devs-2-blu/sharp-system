@@ -1,5 +1,5 @@
 ﻿using SharpSystem.Domain.Entities.Usuario;
-using SharpSystem.Domain.IRepositories;
+using SharpSystem.Domain.IRepositories.IUsuarioRepositories;
 using SharpSystem.Infra.Data.Context;
 using System;
 using System.Collections.Generic;

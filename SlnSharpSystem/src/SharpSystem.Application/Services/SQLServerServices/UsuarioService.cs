@@ -1,5 +1,5 @@
 ﻿using SharpSystem.Domain.DTO;
-using SharpSystem.Domain.IRepositories;
+using SharpSystem.Domain.IRepositories.IUsuarioRepositories;
 using SharpSystem.Domain.IServices;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SharpSystem.Application.SQLServerServices
+namespace SharpSystem.Application.Services.SQLServerServices
 {
     public class UsuarioService : IUsuarioService
     {
@@ -46,7 +46,7 @@ namespace SharpSystem.Application.SQLServerServices
 
         public Task<int> Save(UsuarioDTO entity)
         {
-            if(entity.id > 0)
+            if (entity.id > 0)
             {
                 return _repository.Update(entity.mapToEntity());
             }
