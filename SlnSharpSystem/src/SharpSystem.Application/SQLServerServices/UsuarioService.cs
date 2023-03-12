@@ -38,14 +38,22 @@ namespace SharpSystem.Application.SQLServerServices
                 }).ToList();
         }
 
-        public Task<UsuarioDTO> FindById(int id)
+        public async Task<UsuarioDTO> FindById(int id)
         {
-            throw new NotImplementedException();
+            var dto = new UsuarioDTO();
+            return dto.mapToDTO(await _repository.FindById(id));
         }
 
         public Task<int> Save(UsuarioDTO entity)
         {
-            throw new NotImplementedException();
+            if(entity.id > 0)
+            {
+                return _repository.Update(entity.mapToEntity());
+            }
+            else
+            {
+                return _repository.Save(entity.mapToEntity());
+            }
         }
     }
 }

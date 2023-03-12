@@ -27,9 +27,9 @@ namespace SharpSystem.Infra.Data.Repositories
             return _context.Set<T>();
         }
 
-        public Task<T> FindById(int id)
+        public async Task<T> FindById(int id)
         {
-            _context.Set<T>().FindAsync();
+            return await _context.Set<T>().FindAsync(id);
         }
 
         public async Task<int> Save(T entity)
@@ -45,7 +45,7 @@ namespace SharpSystem.Infra.Data.Repositories
                 _context.Set<T>().Update(entity);
                 return await _context.SaveChangesAsync();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return await _context.SaveChangesAsync();
             }

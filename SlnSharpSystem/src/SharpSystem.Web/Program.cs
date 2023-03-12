@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using SharpSystem.Domain.Helper;
+using SharpSystem.Application.SQLServerServices;
+using SharpSystem.Domain.IRepositories;
 using SharpSystem.Domain.IServices;
 using SharpSystem.Infra.Data.Context;
+using SharpSystem.Infra.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,14 @@ builder.Services.AddControllersWithViews();
 var connectionStringUser = builder.Configuration.GetConnectionString("SQLServerConnection");
 builder.Services.AddDbContext<SQLServerContext>
     (options => options.UseSqlServer(connectionStringUser));
+
+// ## Dependency Injection
+
+// Repositories
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+
+// Services
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
 var app = builder.Build();
 
@@ -29,8 +39,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
-app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
