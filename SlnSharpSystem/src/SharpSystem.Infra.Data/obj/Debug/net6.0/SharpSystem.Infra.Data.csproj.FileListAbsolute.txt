@@ -1,17 +1,34 @@
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.deps.json
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.runtimeconfig.json
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.dll
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.pdb
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Domain.dll
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Domain.pdb
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.AssemblyReference.cache
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.AssemblyInfoInputs.cache
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.AssemblyInfo.cs
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.CoreCompileInputs.cache
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.CopyComplete
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.dll
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\refint\SharpSystem.Infra.Data.dll
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.pdb
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.genruntimeconfig.cache
-C:\Users\pedro\OneDrive\Área de Trabalho\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\ref\SharpSystem.Infra.Data.dll
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.deps.json
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.runtimeconfig.json
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.dll
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.pdb
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Domain.dll
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Domain.pdb
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.AssemblyReference.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.AssemblyInfoInputs.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.AssemblyInfo.cs
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.CoreCompileInputs.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.CopyComplete
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.dll
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\refint\SharpSystem.Infra.Data.dll
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.pdb
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.genruntimeconfig.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\ref\SharpSystem.Infra.Data.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.deps.json
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.runtimeconfig.json
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.pdb
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Domain.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Domain.pdb
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.AssemblyReference.cache
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.AssemblyInfoInputs.cache
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.AssemblyInfo.cs
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.CoreCompileInputs.cache
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.CopyComplete
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\refint\SharpSystem.Infra.Data.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.pdb
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.genruntimeconfig.cache
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\ref\SharpSystem.Infra.Data.dll

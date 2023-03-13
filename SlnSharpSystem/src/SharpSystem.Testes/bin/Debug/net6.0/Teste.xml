@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<NotaFiscal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>0</Id>
-  <prestador>
-    <Id>0</Id>
-    <CpfCnpj>123123</CpfCnpj>
-    <Cidade>Palhoca</Cidade>
-  </prestador>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>VnSeumQVlMKoVJeVsn6mTOUTh83Kb1uwzYl2dz+hByY=</DigestValue></Reference></SignedInfo><SignatureValue>HV0q3nYCsR/RfD7eYr6Xrv5pmbJoSyqAGIQf3N3rCvcuWzH9oioJ04gNN7OVQQq4lQ76fk+/f8Gg/Ta0HTxRVfALTn5KrnS22KZf7jDNs+qLiWqalD4Bcuso/NMlyaUzVEcrJwQDqRNEK195ElF3HaWoQF5r6wQexlA12f8PJYw=</SignatureValue></Signature></NotaFiscal>
