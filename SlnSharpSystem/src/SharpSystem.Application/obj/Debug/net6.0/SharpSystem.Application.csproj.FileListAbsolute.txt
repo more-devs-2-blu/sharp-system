@@ -1,0 +1,15 @@
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.deps.json
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.pdb
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.pdb
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.AssemblyReference.cache
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfoInputs.cache
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfo.cs
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CoreCompileInputs.cache
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CopyComplete
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\refint\SharpSystem.Application.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.pdb
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll

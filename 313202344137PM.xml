@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nfse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <nf>
+    <valor_total>10</valor_total>
+  </nf>
+  <prestador>
+    <cpfcnpj>02190-21</cpfcnpj>
+    <cidade>sasujas</cidade>
+  </prestador>
+  <tomador>
+    <tipo>f</tipo>
+    <cpfcnpj>323232</cpfcnpj>
+    <nome_razao_social>teste</nome_razao_social>
+    <logradouro>teste</logradouro>
+    <email>teste</email>
+    <numero_residencia>434</numero_residencia>
+    <bairro>teste</bairro>
+    <cidade>teste</cidade>
+    <cep>3422</cep>
+  </tomador>
+  <itens />
+</nfse>

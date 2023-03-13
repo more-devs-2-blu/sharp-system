@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SharpSystem.Domain\SharpSystem.Domain.csproj" />
+    <Compile Remove="SQLServerServices\**" />
+    <EmbeddedResource Remove="SQLServerServices\**" />
+    <None Remove="SQLServerServices\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="SQLServerServices\" />
+    <ProjectReference Include="..\SharpSystem.Domain\SharpSystem.Domain.csproj" />
   </ItemGroup>
 
 </Project>

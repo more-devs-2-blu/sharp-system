@@ -9,37 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SharpSystem.Web
 build_property.RootNamespace = SharpSystem.Web
-build_property.ProjectDir = D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\
+build_property.ProjectDir = D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web
+build_property.MSBuildProjectDirectory = D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/dev/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Home/Index.cshtml]
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dev/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Home/Privacy.cshtml]
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dev/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Shared/Error.cshtml]
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/NFSE/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkZTRVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/NFSE/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkZTRVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dev/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dev/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/_ViewImports.cshtml]
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dev/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/_ViewStart.cshtml]
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dev/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Shared/_Layout.cshtml]
+[D:/Projects/sharp-system/SlnSharpSystem/src/SharpSystem.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-80v4iddb5w

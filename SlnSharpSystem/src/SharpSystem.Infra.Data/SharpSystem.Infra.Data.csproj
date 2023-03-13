@@ -7,12 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SharpSystem.Domain\SharpSystem.Domain.csproj" />
+    <Compile Remove="Migrations\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <None Remove="Migrations\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
+    <ProjectReference Include="..\SharpSystem.Domain\SharpSystem.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
