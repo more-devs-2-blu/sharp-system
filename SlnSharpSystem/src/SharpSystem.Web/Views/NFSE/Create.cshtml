@@ -1,0 +1,109 @@
+﻿@model SharpSystem.Domain.DTO.NFSEDTO
+
+<h1>CADASTRO DE NFS-E</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" class="text-dark">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="notaFiscal.ValorTotal" class="control-label">Valor Total</label>
+                <input asp-for="notaFiscal.ValorTotal" class="form-control" required />
+                <span asp-validation-for="notaFiscal.ValorTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="prestador.Cidade" class="control-label">Cidade do prestador</label>
+                <input asp-for="prestador.Cidade" class="form-control" required />
+                <span asp-validation-for="prestador.Cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="prestador.CpfCnpj" class="control-label">CPF/CNPJ prestador</label>
+                <input asp-for="prestador.CpfCnpj" class="form-control" required />
+                <span asp-validation-for="prestador.CpfCnpj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.Tipo" class="control-label">Tipo tomador</label>
+                <input asp-for="tomador.Tipo" class="form-control" required />
+                <span asp-validation-for="tomador.Tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.CpfCnpj" class="control-label">CPF/CNPJ tomador</label>
+                <input asp-for="tomador.CpfCnpj" class="form-control" required />
+                <span asp-validation-for="tomador.CpfCnpj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.NomeRazaoSocial" class="control-label">NomeRazaoSocial</label>
+                <input asp-for="tomador.NomeRazaoSocial" class="form-control" required />
+                <span asp-validation-for="tomador.NomeRazaoSocial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.Logradouro" class="control-label">Logradouro</label>
+                <input asp-for="tomador.Logradouro" class="form-control" required />
+                <span asp-validation-for="tomador.Logradouro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.Email" class="control-label">Email</label>
+                <input asp-for="tomador.Email" class="form-control" required />
+                <span asp-validation-for="tomador.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.NumeroResidencia" class="control-label">NumeroResidencia</label>
+                <input asp-for="tomador.NumeroResidencia" class="form-control" required />
+                <span asp-validation-for="tomador.NumeroResidencia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.Bairro" class="control-label">Bairro</label>
+                <input asp-for="tomador.Bairro" class="form-control" required />
+                <span asp-validation-for="tomador.Bairro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.Cidade" class="control-label">Cidade</label>
+                <input asp-for="tomador.Cidade" class="form-control" required />
+                <span asp-validation-for="tomador.Cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.Cep" class="control-label">Cep</label>
+                <input asp-for="tomador.Cep" class="form-control" required />
+                <span asp-validation-for="tomador.Cep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.Lista.TributaMunicipioPrestador" class="control-label">TributaMunicipioPrestador</label>
+                <input asp-for="itens.Lista.TributaMunicipioPrestador" class="form-control" required />
+                <span asp-validation-for="itens.Lista.TributaMunicipioPrestador" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.Lista.CodigoLocalPrestacaoServico" class="control-label">CodigoLocalPrestacaoServico</label>
+                <input asp-for="itens.Lista.CodigoLocalPrestacaoServico" class="form-control" required />
+                <span asp-validation-for="itens.Lista.CodigoLocalPrestacaoServico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.Lista.CodigoItemListaServico" class="control-label">CodigoItemListaServico</label>
+                <input asp-for="itens.Lista.CodigoItemListaServico" class="form-control" required />
+                <span asp-validation-for="itens.Lista.CodigoItemListaServico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.Lista.Descritivo" class="control-label">Descritivo</label>
+                <input asp-for="itens.Lista.Descritivo" class="form-control" required />
+                <span asp-validation-for="itens.Lista.Descritivo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.Lista.AliquotaItemListaServico" class="control-label">AliquotaItemListaServico</label>
+                <input asp-for="itens.Lista.AliquotaItemListaServico" class="form-control" required />
+                <span asp-validation-for="itens.Lista.AliquotaItemListaServico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.Lista.SituacaoTributaria" class="control-label">SituacaoTributaria</label>
+                <input asp-for="itens.Lista.SituacaoTributaria" class="form-control" required />
+                <span asp-validation-for="itens.Lista.SituacaoTributaria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.Lista.ValorTributavel" class="control-label">ValorTributavel</label>
+                <input asp-for="itens.Lista.ValorTributavel" class="form-control" required />
+                <span asp-validation-for="itens.Lista.ValorTributavel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create XML" asp-action="CreateXML" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

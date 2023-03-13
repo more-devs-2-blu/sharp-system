@@ -7,6 +7,7 @@ using System.Security.Cryptography;
 using System.Xml.Serialization;
 using System.Xml;
 using SharpSystem.Domain.Entities;
+using SharpSystem.Domain.Entities.NF;
 
 namespace SharpSystem.Web.Controllers
 {

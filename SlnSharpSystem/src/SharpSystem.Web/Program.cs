@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using SharpSystem.Application.SQLServerServices;
-using SharpSystem.Domain.IRepositories;
+using SharpSystem.Application.Services.SQLServerServices;
+using SharpSystem.Domain.IRepositories.IUsuarioRepositories;
 using SharpSystem.Domain.IServices;
 using SharpSystem.Infra.Data.Context;
 using SharpSystem.Infra.Data.Repositories;
