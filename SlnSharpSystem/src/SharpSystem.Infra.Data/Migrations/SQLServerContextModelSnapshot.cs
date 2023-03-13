@@ -26,23 +26,30 @@ namespace SharpSystem.Infra.Data.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("NotaFiscalId")
+                    b.Property<int>("listaId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("listaId1")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("NotaFiscalId");
+                    b.HasIndex("listaId");
 
-                    b.ToTable("Itens");
+                    b.HasIndex("listaId1");
+
+                    b.ToTable("itens");
 
                     b.HasData(
                         new
                         {
-                            Id = 1
+                            Id = 1,
+                            listaId = 1
                         });
                 });
 
@@ -50,58 +57,61 @@ namespace SharpSystem.Infra.Data.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("AliquotaItemListaServico")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("aliquotaItemListaServico");
 
                     b.Property<string>("CodigoItemListaServico")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("codigoItemListaServico");
 
                     b.Property<string>("CodigoLocalPrestacaoServico")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("codigoLocalPrestacaoServio");
 
                     b.Property<string>("Descritivo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("ItensId")
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("descritivo");
 
                     b.Property<string>("SituacaoTributaria")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("situacaoTributaria");
 
                     b.Property<string>("TributaMunicipioPrestador")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("tributaMunicipioPrestador");
 
                     b.Property<string>("ValorTributavel")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("valorTributavel");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ItensId");
-
-                    b.ToTable("Listas");
+                    b.ToTable("listas");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            AliquotaItemListaServico = "0",
+                            AliquotaItemListaServico = "5,0",
                             CodigoItemListaServico = "94",
                             CodigoLocalPrestacaoServico = "12",
                             Descritivo = "teste bla bla",
                             SituacaoTributaria = "0",
                             TributaMunicipioPrestador = "10",
-                            ValorTributavel = "0"
+                            ValorTributavel = "1,0"
                         });
                 });
 
@@ -109,9 +119,13 @@ namespace SharpSystem.Infra.Data.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ItemId")
+                        .HasColumnType("int");
 
                     b.Property<int>("PrestadorId")
                         .HasColumnType("int");
@@ -121,20 +135,39 @@ namespace SharpSystem.Infra.Data.Migrations
 
                     b.Property<string>("ValorTotal")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("valorTotal");
+
+                    b.Property<int?>("itensId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("prestadorId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("tomadorId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ItemId");
 
                     b.HasIndex("PrestadorId");
 
                     b.HasIndex("TomadorId");
 
-                    b.ToTable("NotasFiscais");
+                    b.HasIndex("itensId");
+
+                    b.HasIndex("prestadorId");
+
+                    b.HasIndex("tomadorId");
+
+                    b.ToTable("NotaFiscal");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
+                            ItemId = 1,
                             PrestadorId = 1,
                             TomadorId = 1,
                             ValorTotal = "150,00"
@@ -145,27 +178,30 @@ namespace SharpSystem.Infra.Data.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Cidade")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("cidade");
 
                     b.Property<string>("CpfCnpj")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("cpfcnpj");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Prestadores");
+                    b.ToTable("prestador");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            Cidade = "Blumenau",
+                            Cidade = "8357",
                             CpfCnpj = "115.187.919-10"
                         });
                 });
@@ -174,49 +210,59 @@ namespace SharpSystem.Infra.Data.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Bairro")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("bairro");
 
                     b.Property<string>("Cep")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("cep");
 
                     b.Property<string>("Cidade")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("cidade");
 
                     b.Property<string>("CpfCnpj")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("cpfcnpj");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("email");
 
                     b.Property<string>("Logradouro")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("logradouro");
 
                     b.Property<string>("NomeRazaoSocial")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("nomeRazaoSocial");
 
                     b.Property<string>("NumeroResidencia")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("numeroResidencia");
 
                     b.Property<string>("Tipo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("tipo");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tomadores");
+                    b.ToTable("tomador");
 
                     b.HasData(
                         new
@@ -224,13 +270,13 @@ namespace SharpSystem.Infra.Data.Migrations
                             Id = 1,
                             Bairro = "Agua Verde",
                             Cep = "89062712",
-                            Cidade = "Blumenau",
+                            Cidade = "8357",
                             CpfCnpj = "12.345.678/0001-00",
                             Email = "teste@gmail.com",
                             Logradouro = "Oscar Wippel",
                             NomeRazaoSocial = "Empresa teste",
                             NumeroResidencia = "123",
-                            Tipo = "1"
+                            Tipo = "J"
                         });
                 });
 
@@ -280,45 +326,84 @@ namespace SharpSystem.Infra.Data.Migrations
 
             modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Itens", b =>
                 {
-                    b.HasOne("SharpSystem.Domain.Entities.NF.NotaFiscal", null)
-                        .WithMany("Lista")
-                        .HasForeignKey("NotaFiscalId");
-                });
+                    b.HasOne("SharpSystem.Domain.Entities.NF.Lista", "Lista")
+                        .WithMany("Itens")
+                        .HasForeignKey("listaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Lista", b =>
-                {
-                    b.HasOne("SharpSystem.Domain.Entities.NF.Itens", null)
-                        .WithMany("Lista")
-                        .HasForeignKey("ItensId");
+                    b.HasOne("SharpSystem.Domain.Entities.NF.Lista", "lista")
+                        .WithMany()
+                        .HasForeignKey("listaId1");
+
+                    b.Navigation("Lista");
+
+                    b.Navigation("lista");
                 });
 
             modelBuilder.Entity("SharpSystem.Domain.Entities.NF.NotaFiscal", b =>
                 {
+                    b.HasOne("SharpSystem.Domain.Entities.NF.Itens", "Itens")
+                        .WithMany("NotaFiscal")
+                        .HasForeignKey("ItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("SharpSystem.Domain.Entities.NF.Prestador", "Prestador")
-                        .WithMany()
+                        .WithMany("NotaFiscal")
                         .HasForeignKey("PrestadorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("SharpSystem.Domain.Entities.NF.Tomador", "Tomador")
-                        .WithMany()
+                        .WithMany("NotaFiscal")
                         .HasForeignKey("TomadorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("SharpSystem.Domain.Entities.NF.Itens", "itens")
+                        .WithMany()
+                        .HasForeignKey("itensId");
+
+                    b.HasOne("SharpSystem.Domain.Entities.NF.Prestador", "prestador")
+                        .WithMany()
+                        .HasForeignKey("prestadorId");
+
+                    b.HasOne("SharpSystem.Domain.Entities.NF.Tomador", "tomador")
+                        .WithMany()
+                        .HasForeignKey("tomadorId");
+
+                    b.Navigation("Itens");
+
                     b.Navigation("Prestador");
 
                     b.Navigation("Tomador");
+
+                    b.Navigation("itens");
+
+                    b.Navigation("prestador");
+
+                    b.Navigation("tomador");
                 });
 
             modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Itens", b =>
                 {
-                    b.Navigation("Lista");
+                    b.Navigation("NotaFiscal");
                 });
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.NotaFiscal", b =>
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Lista", b =>
                 {
-                    b.Navigation("Lista");
+                    b.Navigation("Itens");
+                });
+
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Prestador", b =>
+                {
+                    b.Navigation("NotaFiscal");
+                });
+
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Tomador", b =>
+                {
+                    b.Navigation("NotaFiscal");
                 });
 #pragma warning restore 612, 618
         }

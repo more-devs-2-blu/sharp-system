@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace SharpSystem.Domain.DTO
 {
@@ -19,5 +20,6 @@ namespace SharpSystem.Domain.DTO
         public Tomador tomador { get; set; }
         [XmlElement("itens")]
         public Itens itens { get; set; }
+
     }
 }
