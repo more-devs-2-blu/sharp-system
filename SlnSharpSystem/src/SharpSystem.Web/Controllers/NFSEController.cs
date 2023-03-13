@@ -7,6 +7,7 @@ namespace SharpSystem.Web.Controllers
 {
     public class NFSEController : Controller
     {
+        string arquivoXMLstring = "";
         public ActionResult Index()
         {
             return View();
@@ -23,10 +24,19 @@ namespace SharpSystem.Web.Controllers
             using (StreamWriter stream = new StreamWriter(Path.Combine(@"D:\dev\sharp-system", nomeArquivo)))
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(NFSEDTO));
+                // Cria uma string do XML
+                var sw = new StringWriter();
+                xmlSerializer.Serialize(sw, nfse);
+                arquivoXMLstring = sw.ToString();
+                
+
                 xmlSerializer.Serialize(stream, nfse);
+
+
                 return RedirectToAction(nameof(Index));
+                //return View(arquivoXMLstring);
             }
-            return View();
         }
+
     }
 }

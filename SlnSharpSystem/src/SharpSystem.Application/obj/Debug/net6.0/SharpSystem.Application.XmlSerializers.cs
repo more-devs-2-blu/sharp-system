@@ -1,7 +1,7 @@
 [assembly:System.Security.AllowPartiallyTrustedCallers()]
 [assembly:System.Security.SecurityTransparent()]
 [assembly:System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)]
-[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"be1cd7ce-c7b7-4f11-a637-faeadde62578,", Version=@"1.0.0.0")]
+[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"34ebd3e6-0462-42e2-ab54-d131a8daf749,", Version=@"1.0.0.0")]
 namespace Microsoft.Xml.Serialization.GeneratedAssembly {
 
     public class XmlSerializationWriter1 : System.Xml.Serialization.XmlSerializationWriter {
@@ -188,13 +188,13 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
         }
 
         string id1_WebServiceAPI;
-        string id2_Item;
         string id3_ConverterBase64;
+        string id2_Item;
 
         protected override void InitIDs() {
             id1_WebServiceAPI = Reader.NameTable.Add(@"WebServiceAPI");
-            id2_Item = Reader.NameTable.Add(@"");
             id3_ConverterBase64 = Reader.NameTable.Add(@"ConverterBase64");
+            id2_Item = Reader.NameTable.Add(@"");
         }
     }
 
