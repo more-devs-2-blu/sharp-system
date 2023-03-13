@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.Entities.NF
 {
-    [Table("prestador")]
+    [Table("Prestador")]
     [XmlRoot("prestador")]
     public class Prestador
     {
@@ -25,6 +25,6 @@ namespace SharpSystem.Domain.Entities.NF
         public string Cidade { get; set; }
 
         [XmlIgnoreAttribute]
-        public virtual ICollection<NotaFiscal> NotaFiscal { get; set; }
+        public virtual ICollection<NotaFiscal>? NotaFiscal { get; set; }
     }
 }

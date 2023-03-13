@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nfse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <nf>
+    <valor_total>500,00</valor_total>
+  </nf>
+  <prestador>
+    <cpfcnpj>SC</cpfcnpj>
+    <cidade>Blumenau</cidade>
+  </prestador>
+  <tomador>
+    <tipo>J</tipo>
+    <cpfcnpj>72452188000110</cpfcnpj>
+    <nome_razao_social>Gustavo Schimite Soares</nome_razao_social>
+    <logradouro>Ruas OScar</logradouro>
+    <email>gustavoschimitesoares0211@gmail.com</email>
+    <numero_residencia>123</numero_residencia>
+    <bairro>BELA VISTA</bairro>
+    <cidade>Blumenau</cidade>
+    <cep>89026720</cep>
+  </tomador>
+  <itens>
+    <lista>
+      <tributa_municipio_prestador>SC</tributa_municipio_prestador>
+      <codigo_local_prestacao_servico>89026720</codigo_local_prestacao_servico>
+      <codigo_item_lista_servico>89026720</codigo_item_lista_servico>
+      <descritivo>descricao askldjaslk jl</descritivo>
+      <aliquota_item_lista_servico>5,00</aliquota_item_lista_servico>
+      <situacao_tributaria>0</situacao_tributaria>
+      <valor_tributavel>1,00</valor_tributavel>
+    </lista>
+  </itens>
+</nfse>

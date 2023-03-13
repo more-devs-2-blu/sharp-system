@@ -23,18 +23,15 @@ namespace SharpSystem.Infra.Data.Context
                     );
 
             modelBuilder.Entity<NotaFiscal>()
-                .HasOne(notaFiscal => notaFiscal.Prestador)
-                .WithMany(prestador => prestador.NotaFiscal)
+                .HasOne(prestador => prestador.prestador).WithMany(n => n.NotaFiscal)
                 .HasForeignKey(notaFiscal => notaFiscal.PrestadorId);
 
             modelBuilder.Entity<NotaFiscal>()
-                .HasOne(notaFiscal => notaFiscal.Tomador)
-                .WithMany(tomador => tomador.NotaFiscal)
+                 .HasOne(tomador => tomador.tomador).WithMany(n => n.NotaFiscal)
                 .HasForeignKey(notaFiscal => notaFiscal.TomadorId);
 
             modelBuilder.Entity<NotaFiscal>()
-                .HasOne(notaFiscal => notaFiscal.Itens)
-                .WithMany(itens => itens.NotaFiscal)
+                   .HasOne(item => item.itens).WithMany(n => n.NotaFiscal)
                 .HasForeignKey(notaFiscal => notaFiscal.ItemId);
 
             modelBuilder.Entity<Itens>()

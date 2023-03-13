@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.Entities.NF
 {
-    [Table("listas")]
+    [Table("Listas")]
     [XmlRoot("lista")]
     public class Lista
     {
@@ -46,6 +46,6 @@ namespace SharpSystem.Domain.Entities.NF
 
 
         [XmlIgnoreAttribute]
-        public virtual ICollection<Itens> Itens { get; set; }
+        public virtual ICollection<Itens>? Itens { get; set; }
     }
 }

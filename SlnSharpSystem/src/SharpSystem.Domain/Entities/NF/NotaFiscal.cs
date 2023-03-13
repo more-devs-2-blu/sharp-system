@@ -22,30 +22,23 @@ namespace SharpSystem.Domain.Entities.NF
 
         [Column("prestador")]
         [XmlElement("prestador")]
-        public Prestador Prestador { get; set; }
+        public virtual Prestador? prestador { get; set; }
 
         [Column("tomador")]
         [XmlElement("tomador")]
-        public Tomador Tomador { get; set; }
+        public virtual Tomador? tomador { get; set; }
 
         [Column("itens")]
         [XmlElement("Itens")]
-        public Itens Itens { get; set; }
-
+        public virtual Itens? itens { get; set; }
         [XmlIgnoreAttribute]
         public int PrestadorId { get; set; }
         [XmlIgnoreAttribute]
-        public virtual Prestador? prestador { get; set; }
-
-        [XmlIgnoreAttribute]
         public int TomadorId { get; set; }
         [XmlIgnoreAttribute]
-        public virtual Tomador? tomador { get; set; }
-
-        [XmlIgnoreAttribute]
         public int ItemId { get; set; }
-        [XmlIgnoreAttribute]
-        public virtual Itens? itens { get; set; }
+
+    
 
     }
 }

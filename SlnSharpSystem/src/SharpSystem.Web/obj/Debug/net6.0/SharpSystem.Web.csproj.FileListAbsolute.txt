@@ -1,99 +1,98 @@
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.Development.json
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.json
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.staticwebassets.runtime.json
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.exe
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.deps.json
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.runtimeconfig.json
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.pdb
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Azure.Core.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Azure.Identity.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Humanizer.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Mono.TextTemplating.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.CodeDom.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Memory.Data.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Runtime.Caching.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Text.Json.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Domain.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Infra.Data.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.pdb
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Domain.pdb
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Infra.Data.pdb
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.AssemblyReference.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.GeneratedMSBuildEditorConfig.editorconfig
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfoInputs.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfo.cs
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CoreCompileInputs.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.MvcApplicationPartsAssemblyInfo.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cs
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.SharpSystem.Web.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.SharpSystem.Web.props
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SharpSystem.Web.props
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SharpSystem.Web.props
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets.pack.json
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets.build.json
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets.development.json
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\scopedcss\bundle\SharpSystem.Web.styles.css
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\scopedcss\projectbundle\SharpSystem.Web.bundle.scp.css
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CopyComplete
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\refint\SharpSystem.Web.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.pdb
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.genruntimeconfig.cache
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\ref\SharpSystem.Web.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.Development.json
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.json
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.staticwebassets.runtime.json
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.exe
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.deps.json
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.runtimeconfig.json
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.pdb
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Azure.Core.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Azure.Identity.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Humanizer.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.CodeDom.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Text.Json.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Domain.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Infra.Data.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.pdb
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Domain.pdb
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Infra.Data.pdb
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.AssemblyReference.cache
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfoInputs.cache
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfo.cs
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CoreCompileInputs.cache
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cache
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cs
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.SharpSystem.Web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.SharpSystem.Web.props
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SharpSystem.Web.props
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SharpSystem.Web.props
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets.build.json
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets.development.json
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\scopedcss\bundle\SharpSystem.Web.styles.css
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\scopedcss\projectbundle\SharpSystem.Web.bundle.scp.css
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CopyComplete
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\refint\SharpSystem.Web.dll
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.pdb
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.genruntimeconfig.cache
+D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\ref\SharpSystem.Web.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.Development.json
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.json
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.staticwebassets.runtime.json
@@ -135,7 +134,6 @@ D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsof
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Mono.TextTemplating.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.CodeDom.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -153,8 +151,13 @@ D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Domain.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Infra.Data.dll
@@ -185,221 +188,98 @@ D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\refint\S
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.pdb
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.genruntimeconfig.cache
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\ref\SharpSystem.Web.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\dotnet-Microsoft.XmlSerializer.Generator.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Formats.Asn1.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.XmlSerializers.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\dotnet-Microsoft.XmlSerializer.Generator.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Formats.Asn1.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
-D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.XmlSerializers.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\MessagePack.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\MessagePack.Annotations.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Build.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\NuGet.Common.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\NuGet.Configuration.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\NuGet.Frameworks.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\NuGet.LibraryModel.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\NuGet.Packaging.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\NuGet.ProjectModel.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\NuGet.Protocol.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\NuGet.Versioning.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Composition.AttributedModel.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Composition.Convention.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Composition.Hosting.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Composition.Runtime.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Composition.TypedParts.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.staticwebassets.runtime.json
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.exe
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.deps.json
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.runtimeconfig.json
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Web.pdb
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Humanizer.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Domain.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Infra.Data.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Application.pdb
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Domain.pdb
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\SharpSystem.Infra.Data.pdb
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.AssemblyReference.cache
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfoInputs.cache
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.AssemblyInfo.cs
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CoreCompileInputs.cache
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cache
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.RazorAssemblyInfo.cs
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.SharpSystem.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.SharpSystem.Web.props
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SharpSystem.Web.props
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SharpSystem.Web.props
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\scopedcss\bundle\SharpSystem.Web.styles.css
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\scopedcss\projectbundle\SharpSystem.Web.bundle.scp.css
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CopyComplete
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\refint\SharpSystem.Web.dll
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.pdb
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.genruntimeconfig.cache
+C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\ref\SharpSystem.Web.dll

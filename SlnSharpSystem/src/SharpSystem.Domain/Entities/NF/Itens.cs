@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.Entities.NF
 {
-    [Table("itens")]
+    [Table("Itens")]
     [XmlRoot("itens")]
     public class Itens
     {
@@ -16,15 +16,12 @@ namespace SharpSystem.Domain.Entities.NF
         [XmlIgnoreAttribute]
         public int Id { get; set; }
 
-        [XmlElement("lista")]
-        public Lista Lista { get; set; }
-
         [XmlIgnoreAttribute]
         public int listaId { get; set; }
-        [XmlIgnoreAttribute]
-        public virtual Lista? lista { get; set; }
+        [XmlElement("lista")]
+        public virtual Lista? Lista { get; set; }
 
         [XmlIgnoreAttribute]
-        public virtual ICollection<NotaFiscal> NotaFiscal { get; set; }
+        public virtual ICollection<NotaFiscal>? NotaFiscal { get; set; }
     }
 }

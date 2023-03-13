@@ -28,7 +28,7 @@ namespace SharpSystem.Web.Controllers
                 var sw = new StringWriter();
                 xmlSerializer.Serialize(sw, nfse);
                 arquivoXMLstring = sw.ToString();
-                
+
 
                 xmlSerializer.Serialize(stream, nfse);
 
@@ -37,6 +37,5 @@ namespace SharpSystem.Web.Controllers
                 //return View(arquivoXMLstring);
             }
         }
-
     }
 }

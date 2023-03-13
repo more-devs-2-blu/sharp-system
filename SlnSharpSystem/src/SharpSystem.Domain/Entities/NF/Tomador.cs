@@ -53,6 +53,6 @@ namespace SharpSystem.Domain.Entities.NF
         public string Cep { get; set; }
 
         [XmlIgnoreAttribute]
-        public virtual ICollection<NotaFiscal> NotaFiscal { get; set; }
+        public virtual ICollection<NotaFiscal>?NotaFiscal { get; set; }
     }
 }
