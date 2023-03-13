@@ -9,12 +9,13 @@ namespace SharpSystem.Domain.Entities.NF
 {
     public class Prestador
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         [XmlElement("cpfcnpj")]
         public string CpfCnpj { get; set; }
 
         [XmlElement("cidade")]
         public string Cidade { get; set; }
+
     }
 }

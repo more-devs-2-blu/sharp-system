@@ -9,7 +9,7 @@ namespace SharpSystem.Domain.Entities.NF
 {
     public class Lista
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         [XmlElement("tributa_municipio_prestador")]
         public string TributaMunicipioPrestador { get; set; }
@@ -24,12 +24,13 @@ namespace SharpSystem.Domain.Entities.NF
         public string Descritivo { get; set; }
 
         [XmlElement("aliquota_item_lista_servico")]
-        public decimal AliquotaItemListaServico { get; set; }
+        public string AliquotaItemListaServico { get; set; }
 
         [XmlElement("situacao_tributaria")]
         public string SituacaoTributaria { get; set; }
 
         [XmlElement("valor_tributavel")]
         public string ValorTributavel { get; set; }
+
     }
 }

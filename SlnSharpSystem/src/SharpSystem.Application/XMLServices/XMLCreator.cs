@@ -15,8 +15,6 @@ namespace SharpSystem.Application.XMLServices
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
             Prestador prestador = new Prestador
             {
                 CpfCnpj = "123123",
@@ -25,17 +23,13 @@ namespace SharpSystem.Application.XMLServices
 
             NotaFiscal nf = new NotaFiscal
             {
-               /* Prestador = prestador*/
+                Prestador = prestador
             };
-
-
 
             XmlSerializer ins = new XmlSerializer(typeof(NotaFiscal));
             TextWriter writer = new StreamWriter(@"D:\Downloads\Teste.xml");
             ins.Serialize(writer, nf);
             writer.Close();
-
-
 
             CspParameters cspParams = new()
             {
@@ -47,7 +41,7 @@ namespace SharpSystem.Application.XMLServices
             {
                 PreserveWhitespace = true
             };
-            TextReader reader = new StreamReader(@"D:\DownloadsTeste.xml");
+            TextReader reader = new StreamReader(@"D:\Downloads\Teste.xml");
 
             xmlDoc.Load(reader);
 
