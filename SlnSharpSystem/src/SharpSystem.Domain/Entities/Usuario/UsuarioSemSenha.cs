@@ -11,7 +11,6 @@ namespace SharpSystem.Domain.Entities.Usuario
         public int Id { get; set; }
         public string Nome { get; set; }
         public string CFPCNPJ { get; set; }
-        public string Email { get; set; }
         public string Senha { get; set; }
     }
 }

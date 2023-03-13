@@ -7,6 +7,7 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using SharpSystem.Domain.DTO;
 
 namespace SharpSystem.Infra.Data.Context
 {
