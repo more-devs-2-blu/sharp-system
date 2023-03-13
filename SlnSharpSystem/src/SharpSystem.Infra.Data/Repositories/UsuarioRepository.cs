@@ -17,5 +17,15 @@ namespace SharpSystem.Infra.Data.Repositories
         {
             _context = context;
         }
+
+        public Usuario BuscarEmailCNPJ(string email, string cpfcnpj)
+        {
+            return _context.Usuarios.FirstOrDefault(x => x.CFPCNPJ.ToUpper() == cpfcnpj.ToUpper() && x.Email.ToUpper() == email.ToUpper());
+        }
+
+        public Usuario BuscarLogin(string cpfcnpj)
+        {
+            return _context.Usuarios.FirstOrDefault(x => x.CFPCNPJ.ToUpper() == cpfcnpj.ToUpper());
+        }
     }
 }
