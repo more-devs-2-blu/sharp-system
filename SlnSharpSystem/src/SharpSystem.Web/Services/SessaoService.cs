@@ -4,11 +4,11 @@ using SharpSystem.Domain.IServices;
 
 namespace SharpSystem.Web.Services
 {
-    public class Sessao : ISessao
+    public class SessaoService : ISessaoService
     {
         private readonly IHttpContextAccessor _httpContext;
 
-        public Sessao(IHttpContextAccessor httpContext)
+        public SessaoService(IHttpContextAccessor httpContext)
         {
             _httpContext = httpContext;
         }

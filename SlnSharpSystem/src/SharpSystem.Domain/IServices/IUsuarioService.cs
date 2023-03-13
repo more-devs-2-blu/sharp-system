@@ -7,10 +7,7 @@ using System.Threading.Tasks;
 
 namespace SharpSystem.Domain.IServices
 {
-    public interface ISessao
+    public interface IUsuarioService : IBaseService<UsuarioDTO>
     {
-        void CriarSessaoUsuario(UsuarioDTO usuario);
-        void RemoverSessaoUsuario();
-        UsuarioDTO BuscarSessaoUsuario();
     }
 }
