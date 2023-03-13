@@ -4,6 +4,7 @@ using SharpSystem.Domain.IRepositories.IUsuarioRepositories;
 using SharpSystem.Domain.IServices;
 using SharpSystem.Infra.Data.Context;
 using SharpSystem.Infra.Data.Repositories;
+using SharpSystem.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,13 +16,23 @@ var connectionStringUser = builder.Configuration.GetConnectionString("SQLServerC
 builder.Services.AddDbContext<SQLServerContext>
     (options => options.UseSqlServer(connectionStringUser));
 
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
 // ## Dependency Injection
 
 // Repositories
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<ISessaoService, SessaoService>();
 
 // Services
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+
+// Cookies
+builder.Services.AddSession(o =>
+{
+    o.Cookie.HttpOnly = true;
+    o.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -39,6 +50,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
