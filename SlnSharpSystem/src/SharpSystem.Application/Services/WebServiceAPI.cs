@@ -16,12 +16,12 @@ namespace SharpSystem.Application.Services
             throw new NotImplementedException();
         }
 
-        public XmlSerializer EmitirXMLSerializaer(NFESDTO nfse)
+        public XmlSerializer EmitirXMLSerializaer(NFSEDTO nfse)
         {
             throw new NotImplementedException();
         }
 
-        public XmlSerializer GetFile(NFESDTO nfse)
+        public XmlSerializer GetFile(NFSEDTO nfse)
         {
             throw new NotImplementedException();
         }

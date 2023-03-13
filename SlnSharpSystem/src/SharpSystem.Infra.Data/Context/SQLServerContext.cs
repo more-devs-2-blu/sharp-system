@@ -22,7 +22,7 @@ namespace SharpSystem.Infra.Data.Context
                     new { Id = 1, Nome = "Pedro Godri", CFPCNPJ = "104.752.299-23", Email = "pedrogodri@gmail.com", Login = "PedroGodri", Senha = "12345" }
                     );
 
-            modelBuilder.Entity<NotaFiscal>()
+            /*modelBuilder.Entity<NotaFiscal>()
             .HasData(
                     new { Id = 1, ValorTotal = "150,00", PrestadorId = 1, TomadorId = 1, ItensId = 1 }
                     );
@@ -45,16 +45,16 @@ namespace SharpSystem.Infra.Data.Context
             modelBuilder.Entity<Lista>()
             .HasData(
                     new { Id = 1, TributaMunicipioPrestador = "10", CodigoLocalPrestacaoServico = "12", CodigoItemListaServico = "94", Descritivo = "teste bla bla", AliquotaItemListaServico = "0", SituacaoTributaria = "0", ValorTributavel = "0" }
-                    );
+                    );*/
         }
 
         #region DbSets<Tables>
         public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<NotaFiscal> NotasFiscais { get; set; }
+        /*public DbSet<NotaFiscal> NotasFiscais { get; set; }
         public DbSet<Prestador> Prestadores { get; set; }
         public DbSet<Tomador> Tomadores { get; set; }
         public DbSet<Itens> Itens { get; set; }
-        public DbSet<Lista> Listas { get; set; }
+        public DbSet<Lista> Listas { get; set; }*/
         #endregion
     }
 }

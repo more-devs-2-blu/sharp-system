@@ -9,8 +9,6 @@ namespace SharpSystem.Domain.Entities.NF
 {
     public class NotaFiscal
     {
-        public int Id { get; set; }
-
         [XmlElement("valor_total")]
         public string ValorTotal { get; set; }
         public Prestador Prestador { get; set; }

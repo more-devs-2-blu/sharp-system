@@ -22,53 +22,6 @@ namespace SharpSystem.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            Prestador prestador = new Prestador
-            {
-                CpfCnpj = "1231233333",
-                Cidade = "Palhocaaaaaa"
-            };
-
-            NotaFiscal nf = new NotaFiscal
-            {
-                Prestador = prestador
-            };
-
-            XmlSerializer ins = new XmlSerializer(typeof(NotaFiscal));
-            Random rnd = new Random();
-            TextWriter writer = new StreamWriter(@"D:\dev\sharp-system\Teste.xml");
-            ins.Serialize(writer, nf);
-            writer.Close();
-
-            CspParameters cspParams = new()
-            {
-                KeyContainerName = "Chave"
-            };
-            RSACryptoServiceProvider rsaKey = new(cspParams);
-
-            XmlDocument xmlDoc = new()
-            {
-                PreserveWhitespace = true
-            };
-            TextReader reader = new StreamReader(@"D:\dev\sharp-system\Teste.xml");
-
-            xmlDoc.Load(reader);
-
-            SignedXml signedXml = new(xmlDoc)
-            {
-                SigningKey = rsaKey
-            };
-            Reference reference = new()
-            {
-                Uri = ""
-            };
-            XmlDsigEnvelopedSignatureTransform env = new();
-            reference.AddTransform(env);
-            signedXml.AddReference(reference);
-            signedXml.ComputeSignature();
-            XmlElement xmlDigitalSignature = signedXml.GetXml();
-            xmlDoc.DocumentElement.AppendChild(xmlDoc.ImportNode(xmlDigitalSignature, true));
-            xmlDoc.Save("Teste.xml");
-
             return View(_service.FindAll());
         }
 

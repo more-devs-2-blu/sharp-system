@@ -9,7 +9,6 @@ namespace SharpSystem.Domain.Entities.NF
 {
     public class Lista
     {
-        public int Id { get; set; }
 
         [XmlElement("tributa_municipio_prestador")]
         public string TributaMunicipioPrestador { get; set; }

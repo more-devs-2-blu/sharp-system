@@ -11,7 +11,7 @@ namespace SharpSystem.Application.Interfaces
     public interface IWebServiceAPI
     {
         public string EmitirNotaFiscal(XmlSerializer xmlNotaFiscal);
-        public XmlSerializer GetFile(NFESDTO nfse);
-        public XmlSerializer EmitirXMLSerializaer(NFESDTO nfse);
+        public XmlSerializer GetFile(NFSEDTO nfse);
+        public XmlSerializer EmitirXMLSerializaer(NFSEDTO nfse);
     }
 }

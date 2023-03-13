@@ -8,10 +8,6 @@ namespace SharpSystem.Domain.Entities.NF
 {
     public class Itens
     {
-        public int Id { get; set; }
-        public Lista ListaId { get; set; }
-        public List<Lista> Lista { get; set; }
-
-
+        public Lista Lista { get; set; }
     }
 }

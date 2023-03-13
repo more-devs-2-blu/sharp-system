@@ -9,8 +9,6 @@ namespace SharpSystem.Domain.Entities.NF
 {
     public class Tomador
     {
-        public int Id { get; set; }
-
         [XmlElement("tipo")]
         public string Tipo { get; set; }
 
