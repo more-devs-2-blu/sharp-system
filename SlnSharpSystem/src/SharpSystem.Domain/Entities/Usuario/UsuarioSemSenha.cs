@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SharpSystem.Domain.Entities.Usuario
 {
-    public class Usuario
+    public class UsuarioSemSenha
     {
         public int Id { get; set; }
         public string Nome { get; set; }
