@@ -18,5 +18,4 @@ namespace SharpSystem.Domain.Entities.Usuario
             return encodedString;
         }
     }
-
 }
