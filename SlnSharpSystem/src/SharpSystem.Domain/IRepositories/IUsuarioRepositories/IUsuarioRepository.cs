@@ -1,4 +1,5 @@
-﻿using SharpSystem.Domain.Entities.Usuario;
+﻿using SharpSystem.Domain.DTO;
+using SharpSystem.Domain.Entities.Usuario;
 using SharpSystem.Domain.IServices;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,7 @@ namespace SharpSystem.Domain.IRepositories.IUsuarioRepositories
 {
     public interface IUsuarioRepository : IBaseRepository<Usuario>
     {
+        Usuario BuscarLogin(string cpfcnpj);
+        Usuario BuscarCNPJ(string cpfcnpj);
     }
 }

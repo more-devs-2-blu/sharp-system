@@ -1,4 +1,5 @@
-﻿using SharpSystem.Domain.Entities.Usuario;
+﻿using SharpSystem.Domain.DTO;
+using SharpSystem.Domain.Entities.Usuario;
 using SharpSystem.Domain.IRepositories.IUsuarioRepositories;
 using SharpSystem.Infra.Data.Context;
 using System;
@@ -16,6 +17,16 @@ namespace SharpSystem.Infra.Data.Repositories
             : base(context)
         {
             _context = context;
+        }
+
+        public Usuario BuscarCNPJ(string cpfcnpj)
+        {
+            return _context.Usuarios.FirstOrDefault(x => x.CFPCNPJ.ToUpper() == cpfcnpj.ToUpper());
+        }
+
+        public Usuario BuscarLogin(string cpfcnpj)
+        {
+            return _context.Usuarios.FirstOrDefault(x => x.CFPCNPJ.ToUpper() == cpfcnpj.ToUpper());
         }
     }
 }
