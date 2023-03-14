@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[109.0.1, )"
+            },
             "System.Security.Cryptography.Xml": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -328,10 +332,6 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.12, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[109.0.1, )"
             }
           },
           "imports": [

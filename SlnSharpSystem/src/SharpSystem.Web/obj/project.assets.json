@@ -3821,6 +3821,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.XmlSerializer.Generator": "7.0.0",
+          "RestSharp": "109.0.1",
           "SharpSystem.Domain": "1.0.0",
           "System.Security.Cryptography.Xml": "7.0.1"
         },
@@ -10807,7 +10808,6 @@
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.12",
-      "RestSharp >= 109.0.1",
       "SharpSystem.Application >= 1.0.0",
       "SharpSystem.Domain >= 1.0.0",
       "SharpSystem.Infra.Data >= 1.0.0"
@@ -10895,10 +10895,6 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.12, )"
-          },
-          "RestSharp": {
-            "target": "Package",
-            "version": "[109.0.1, )"
           }
         },
         "imports": [

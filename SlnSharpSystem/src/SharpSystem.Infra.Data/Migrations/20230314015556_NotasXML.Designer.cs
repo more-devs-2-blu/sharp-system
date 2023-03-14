@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SharpSystem.Infra.Data.Context;
 
@@ -10,9 +11,11 @@ using SharpSystem.Infra.Data.Context;
 namespace SharpSystem.Infra.Data.Migrations
 {
     [DbContext(typeof(SQLServerContext))]
-    partial class SQLServerContextModelSnapshot : ModelSnapshot
+    [Migration("20230314015556_NotasXML")]
+    partial class NotasXML
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

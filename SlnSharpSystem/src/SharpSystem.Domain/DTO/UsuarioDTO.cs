@@ -23,8 +23,7 @@ namespace SharpSystem.Domain.DTO
                 Id = id,
                 Nome = nome,
                 CFPCNPJ = cpfcnpj,
-                Email = email,
-                Login = login,
+                //Email = email,
                 Senha = senha
             };
         }
@@ -36,10 +35,17 @@ namespace SharpSystem.Domain.DTO
                 id = usuario.Id,
                 nome = usuario.Nome,
                 cpfcnpj = usuario.CFPCNPJ,
-                email = usuario.Email,
-                login = usuario.Login,
+                //email = usuario.Email,
+                //login = usuario.Login,
                 senha = usuario.Senha,
             };
+        }
+        public string mapTo64()
+        {
+            string str = cpfcnpj + senha;
+            byte[] encodedBytes = Encoding.UTF8.GetBytes(str);
+            string encodedString = Convert.ToBase64String(encodedBytes);
+            return encodedString;
         }
     }
 }

@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace SharpSystem.Domain.Entities.Usuario
 {
-    public class Usuario
+    public class Login
     {
-        public int Id { get; set; }
-        public string Nome { get; set; }
         public string CFPCNPJ { get; set; }
         public string Senha { get; set; }
-
-        public bool SenhaValida(string senha)
+        public string mapTo64()
         {
-            return Senha == senha;
+            string str = CFPCNPJ + Senha;
+            byte[] encodedBytes = Encoding.UTF8.GetBytes(str);
+            string encodedString = Convert.ToBase64String(encodedBytes);
+            return encodedString;
         }
     }
+
 }

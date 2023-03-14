@@ -367,6 +367,19 @@
           }
         }
       },
+      "RestSharp/109.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
@@ -1018,6 +1031,26 @@
         "packageIcon.png"
       ]
     },
+    "RestSharp/109.0.1": {
+      "sha512": "OkJ23uaV8qwCKuR7RKBUFlnXxIDZ7P1jEaoDawXgysujIcWZgIwE6p90kJZxY9EVv9ESjZtGlSmP8k+kOfDH9g==",
+      "type": "package",
+      "path": "restsharp/109.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/net7.0/RestSharp.dll",
+        "lib/net7.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.109.0.1.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "type": "package",
@@ -1263,6 +1296,7 @@
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.XmlSerializer.Generator >= 7.0.0",
+      "RestSharp >= 109.0.1",
       "SharpSystem.Domain >= 1.0.0",
       "System.Security.Cryptography.Xml >= 7.0.1"
     ]
@@ -1325,6 +1359,10 @@
           "Microsoft.XmlSerializer.Generator": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[109.0.1, )"
           },
           "System.Security.Cryptography.Xml": {
             "target": "Package",
