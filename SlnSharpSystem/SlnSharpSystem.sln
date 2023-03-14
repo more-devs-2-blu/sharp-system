@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpSystem.Domain", "src\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpSystem.Application", "src\SharpSystem.Application\SharpSystem.Application.csproj", "{4EC4DF1A-9790-4CDB-A05E-225B2D8FE5BD}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSystem.Console.Testes", "src\SharpSystem.Console.Testes\SharpSystem.Console.Testes.csproj", "{6609635F-D432-48A2-91B0-73A3C77043F5}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpSystem.Console.Testes", "src\SharpSystem.Console.Testes\SharpSystem.Console.Testes.csproj", "{6609635F-D432-48A2-91B0-73A3C77043F5}"
+>>>>>>> afe7de9308e1f37d67ce3c556ec893dbbea30b45
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

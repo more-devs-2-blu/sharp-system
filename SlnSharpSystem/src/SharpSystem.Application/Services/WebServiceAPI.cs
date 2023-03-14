@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 ﻿using RestSharp;
 using SharpSystem.Application.Interfaces;
 using SharpSystem.Domain.DTO.NFDTO;
 using SharpSystem.Domain.IServices;
+=======
+using RestSharp;
+using SharpSystem.Application.Interfaces;
+using SharpSystem.Domain.DTO;
+using SharpSystem.Domain.IServices;
+using SharpSystem.Domain.DTO;
+>>>>>>> afe7de9308e1f37d67ce3c556ec893dbbea30b45
 using System;
 using System.Collections.Generic;
 using System.Linq;

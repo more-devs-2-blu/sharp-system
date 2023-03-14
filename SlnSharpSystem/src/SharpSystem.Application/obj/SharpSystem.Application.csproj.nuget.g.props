@@ -6,11 +6,19 @@
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\pedro\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+<<<<<<< HEAD
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\pedro\.nuget\packages\;D:\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+>>>>>>> afe7de9308e1f37d67ce3c556ec893dbbea30b45
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\pedro\.nuget\packages\" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> afe7de9308e1f37d67ce3c556ec893dbbea30b45
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
@@ -18,4 +26,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\7.0.3\build\net6.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\7.0.3\build\net6.0\Microsoft.EntityFrameworkCore.Design.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.xmlserializer.generator\7.0.0\build\Microsoft.XmlSerializer.Generator.props" Condition="Exists('$(NuGetPackageRoot)microsoft.xmlserializer.generator\7.0.0\build\Microsoft.XmlSerializer.Generator.props')" />
   </ImportGroup>
+    <SourceRoot Include="D:\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
 </Project>
