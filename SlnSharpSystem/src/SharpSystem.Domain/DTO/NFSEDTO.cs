@@ -14,12 +14,16 @@ namespace SharpSystem.Domain.DTO
     {
         [XmlElement("nf")]
         public NotaFiscal notaFiscal { get; set; }
+        
         [XmlElement("prestador")]
         public Prestador prestador { get; set; }
+        
         [XmlElement("tomador")]
         public Tomador tomador { get; set; }
+
         [XmlElement("itens")]
         public Itens itens { get; set; }
 
+        
     }
 }

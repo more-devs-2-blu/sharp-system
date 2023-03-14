@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using SharpSystem.Domain.DTO;
 using System.Xml.Serialization;
+using System;
+using System.Net;
 
 namespace SharpSystem.Web.Controllers
 {
@@ -32,10 +34,11 @@ namespace SharpSystem.Web.Controllers
 
                 xmlSerializer.Serialize(stream, nfse);
 
-
                 return RedirectToAction(nameof(Index));
                 //return View(arquivoXMLstring);
             }
         }
+
+        
     }
 }
