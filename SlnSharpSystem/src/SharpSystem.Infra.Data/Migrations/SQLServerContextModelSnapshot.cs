@@ -21,6 +21,8 @@ namespace SharpSystem.Infra.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+<<<<<<< HEAD
+=======
             modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Itens", b =>
                 {
                     b.Property<int>("Id")
@@ -259,6 +261,7 @@ namespace SharpSystem.Infra.Data.Migrations
                         });
                 });
 
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             modelBuilder.Entity("SharpSystem.Domain.Entities.Usuario.Usuario", b =>
                 {
                     b.Property<int>("Id")
@@ -271,6 +274,8 @@ namespace SharpSystem.Infra.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+<<<<<<< HEAD
+=======
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -279,6 +284,7 @@ namespace SharpSystem.Infra.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -296,12 +302,17 @@ namespace SharpSystem.Infra.Data.Migrations
                         {
                             Id = 1,
                             CFPCNPJ = "104.752.299-23",
+<<<<<<< HEAD
+=======
                             Email = "pedrogodri@gmail.com",
                             Login = "PedroGodri",
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
                             Nome = "Pedro Godri",
                             Senha = "12345"
                         });
                 });
+<<<<<<< HEAD
+=======
 
             modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Itens", b =>
                 {
@@ -360,6 +371,7 @@ namespace SharpSystem.Infra.Data.Migrations
                 {
                     b.Navigation("NotaFiscal");
                 });
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 #pragma warning restore 612, 618
         }
     }

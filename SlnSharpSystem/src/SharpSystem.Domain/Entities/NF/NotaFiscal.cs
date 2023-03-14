@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
+=======
 using System.ComponentModel.DataAnnotations.Schema;
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +11,17 @@ using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.Entities.NF
 {
+<<<<<<< HEAD
+    public class NotaFiscal
+    {
+        [XmlElement("valor_total")]
+        public string ValorTotal { get; set; }
+        public Prestador Prestador { get; set; }
+        public Tomador Tomador { get; set; }
+        public List<Itens> Lista { get; set; }
+    }
+}
+=======
     [Table("NotaFiscal")]
     [XmlRoot("nf")]
     public class NotaFiscal
@@ -42,3 +56,4 @@ namespace SharpSystem.Domain.Entities.NF
 
     }
 }
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef

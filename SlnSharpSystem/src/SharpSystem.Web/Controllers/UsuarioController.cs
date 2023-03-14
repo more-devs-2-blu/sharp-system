@@ -8,7 +8,10 @@ using System.Xml.Serialization;
 using System.Xml;
 using SharpSystem.Domain.Entities;
 using SharpSystem.Domain.Entities.NF;
+<<<<<<< HEAD
+=======
 using SharpSystem.Web.Models;
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 
 namespace SharpSystem.Web.Controllers
 {
@@ -32,7 +35,11 @@ namespace SharpSystem.Web.Controllers
         }
 
         [HttpPost]
+<<<<<<< HEAD
+        public async Task<IActionResult> Create([Bind("id, nome, cpfcnpj, email, login, senha")] UsuarioDTO usuario)
+=======
         public async Task<IActionResult> Create([Bind("id, nome, cpfcnpj, senha")] UsuarioD usuario)
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         {
             try
             {
@@ -49,6 +56,8 @@ namespace SharpSystem.Web.Controllers
                 return RedirectToAction("Index");
             }
         }
+<<<<<<< HEAD
+=======
 
         public async Task<IActionResult> Edit(int id)
         {
@@ -94,5 +103,6 @@ namespace SharpSystem.Web.Controllers
             }
             return Json(retDel);
         }
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
     }
 }

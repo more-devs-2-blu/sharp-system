@@ -1,5 +1,12 @@
+<<<<<<< HEAD
+﻿using RestSharp;
+using SharpSystem.Application.Interfaces;
+using SharpSystem.Domain.DTO;
+using SharpSystem.Domain.IServices;
+=======
 ﻿using SharpSystem.Application.Interfaces;
 using SharpSystem.Domain.DTO;
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +18,10 @@ namespace SharpSystem.Application.Services
 {
     public class WebServiceAPI : IWebServiceAPI
     {
+<<<<<<< HEAD
+
+=======
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         public string EmitirNotaFiscal(XmlSerializer xmlNotaFiscal)
         {
             throw new NotImplementedException();
