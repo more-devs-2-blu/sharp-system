@@ -1,9 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "pTZyIrXUHdDz/4o6WLRHuaiOG3OPJqyzaubVLXaBtLERx2Wbi9kfkcqoF2HN4tjMu3pJwv/V8LyHxUfBNCRGPg==",
+  "dgSpecHash": "skamcpWDzyEqqEIlXHJnegvCUCMcu90ygzide/ridGrY0vOZkgoH+NApQXWE1jTVpEq3V4Ol68Q5GsCYtsRFPw==",
   "success": true,
-  "projectFilePath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
+  "projectFilePath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
@@ -30,12 +29,6 @@
     "C:\\Users\\pedro\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": []
-=======
-  "dgSpecHash": "4cnZIbapy3Kc8ta6IJfPBn61XDhcXLBxZxUlLbqrLLTzT8JZ6BbziU6fVBprGbCyMRiRQ1m4VWQYSamHQCXQ5w==",
-  "success": true,
-  "projectFilePath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
-  "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
@@ -44,5 +37,4 @@
       "message": "Problema ao ler o arquivo de cache D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 }

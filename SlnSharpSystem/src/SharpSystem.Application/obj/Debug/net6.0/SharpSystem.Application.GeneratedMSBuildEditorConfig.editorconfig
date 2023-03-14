@@ -8,8 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SharpSystem.Application
-<<<<<<< HEAD
 build_property.ProjectDir = C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\
-=======
-build_property.ProjectDir = D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Application\
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef

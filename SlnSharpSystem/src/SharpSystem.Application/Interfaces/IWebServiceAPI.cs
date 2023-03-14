@@ -13,9 +13,5 @@ namespace SharpSystem.Application.Interfaces
         public string EmitirNotaFiscal(XmlSerializer xmlNotaFiscal);
         public XmlSerializer GetFile(NFSEDTO nfse);
         public XmlSerializer EmitirXMLSerializaer(NFSEDTO nfse);
-<<<<<<< HEAD
-
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
     }
 }

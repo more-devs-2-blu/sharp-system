@@ -2,7 +2,7 @@
 using SharpSystem.Application.Interfaces;
 using SharpSystem.Domain.DTO;
 using SharpSystem.Domain.IServices;
-﻿using SharpSystem.Application.Interfaces;
+using SharpSystem.Application.Interfaces;
 using SharpSystem.Domain.DTO;
 using System;
 using System.Collections.Generic;
