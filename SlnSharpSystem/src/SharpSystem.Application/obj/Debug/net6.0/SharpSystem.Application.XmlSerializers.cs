@@ -1,7 +1,7 @@
 [assembly:System.Security.AllowPartiallyTrustedCallers()]
 [assembly:System.Security.SecurityTransparent()]
 [assembly:System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)]
-[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"e3914692-522c-4dcd-aa16-255917760626,", Version=@"1.0.0.0")]
+[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"f4fc0250-dd2b-4151-97d9-17d1c858f013,", Version=@"1.0.0.0")]
 namespace Microsoft.Xml.Serialization.GeneratedAssembly {
 
     public class XmlSerializationWriter1 : System.Xml.Serialization.XmlSerializationWriter {
@@ -273,16 +273,16 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
         protected override void InitCallbacks() {
         }
 
-        string id4_ConverterBase64;
-        string id2_Item;
-        string id3_NotaFiscalService;
         string id1_WebServiceAPI;
+        string id2_Item;
+        string id4_ConverterBase64;
+        string id3_NotaFiscalService;
 
         protected override void InitIDs() {
-            id4_ConverterBase64 = Reader.NameTable.Add(@"ConverterBase64");
-            id2_Item = Reader.NameTable.Add(@"");
-            id3_NotaFiscalService = Reader.NameTable.Add(@"NotaFiscalService");
             id1_WebServiceAPI = Reader.NameTable.Add(@"WebServiceAPI");
+            id2_Item = Reader.NameTable.Add(@"");
+            id4_ConverterBase64 = Reader.NameTable.Add(@"ConverterBase64");
+            id3_NotaFiscalService = Reader.NameTable.Add(@"NotaFiscalService");
         }
     }
 
@@ -375,8 +375,8 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
                 if (typedSerializers == null) {
                     System.Collections.Hashtable _tmp = new System.Collections.Hashtable();
                     _tmp.Add(@"SharpSystem.Application.Services.SQLServerServices.NotaFiscalService::", new NotaFiscalServiceSerializer());
-                    _tmp.Add(@"SharpSystem.Application.Services.WebServiceAPI::", new WebServiceAPISerializer());
                     _tmp.Add(@"SharpSystem.Application.Helper.ConverterBase64::", new ConverterBase64Serializer());
+                    _tmp.Add(@"SharpSystem.Application.Services.WebServiceAPI::", new WebServiceAPISerializer());
                     if (typedSerializers == null) typedSerializers = _tmp;
                 }
                 return typedSerializers;

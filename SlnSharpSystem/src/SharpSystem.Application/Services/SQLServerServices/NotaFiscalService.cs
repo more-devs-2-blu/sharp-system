@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace SharpSystem.Application.Services.SQLServerServices
 {
@@ -45,7 +46,12 @@ namespace SharpSystem.Application.Services.SQLServerServices
             request.AlwaysMultipartFormData = true;
             request.AddXmlBody<NFSEDTO>(objeto);
             RestResponse response = await client.ExecuteAsync(request);
-
+            using (StreamWriter stream = new StreamWriter(Path.Combine(@"C:\DEV2BLU\projeto final\Nova pasta", "teste3")))
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(RestResponse));
+                xmlSerializer.Serialize(stream, response);
+                
+            }
             return;
         }
     }
