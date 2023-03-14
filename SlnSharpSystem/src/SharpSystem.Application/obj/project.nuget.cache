@@ -1,5 +1,11 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "VJIdArQQ+chv2fTByCujHYfzg7yyCGSHncwXhMvTJHH2N3FU23UykbxeI56fCPH33Uu5deghyyzz2zcCMdnmIw==",
+  "success": true,
+  "projectFilePath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
+  "expectedPackageFiles": [],
+=======
   "dgSpecHash": "EiRLXEa0lCfsJ1jJ/AY37ZHLeGe0RoewbDH6WZKsRBII1zLoOYNCLnBrbF8CHLmVHEBLr5eeujR4SgFOCVZ9Yg==",
   "success": true,
   "projectFilePath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
@@ -33,5 +39,6 @@
     "C:\\Users\\pedro\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
+>>>>>>> b46a498d2e5a14752d7f4c74302f3b0e4e3c3b7e
   "logs": []
 }

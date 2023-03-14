@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,16 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SharpSystem.Domain\SharpSystem.Domain.csproj" />
+    <Compile Remove="SQLServerServices\**" />
+    <EmbeddedResource Remove="SQLServerServices\**" />
+    <None Remove="SQLServerServices\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.XmlSerializer.Generator" Version="7.0.0" />
-    <PackageReference Include="System.Security.Cryptography.Xml" Version="7.0.1" />
+    <ProjectReference Include="..\SharpSystem.Domain\SharpSystem.Domain.csproj" />
   </ItemGroup>
 
 </Project>
