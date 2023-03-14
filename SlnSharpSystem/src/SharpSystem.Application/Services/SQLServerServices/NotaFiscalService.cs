@@ -33,7 +33,7 @@ namespace SharpSystem.Application.Services.SQLServerServices
             throw new NotImplementedException();
         }
 
-        public async Task SendXML(string Base64, NFSEDTO objeto)
+        public async Task SendXML(string Base64, string path, string name)
         {
             var options = new RestClientOptions("https://homologacao.atende.net")
             {
@@ -41,17 +41,14 @@ namespace SharpSystem.Application.Services.SQLServerServices
             };
             var client = new RestClient(options);
             var request = new RestRequest("/?pg=rest&service=WNERestServiceNFSe&cidade=integracoes", Method.Post);
+
             request.AddHeader("Authorization", Base64);
-            request.AddHeader("Cookie", "PHPSESSID=rodg956rbmrq2kfrn9ad44kv22; cidade=integracoes");
             request.AlwaysMultipartFormData = true;
-            request.AddXmlBody<NFSEDTO>(objeto);
+            request.AddFile("vamodale", path);
+
             RestResponse response = await client.ExecuteAsync(request);
-            using (StreamWriter stream = new StreamWriter(Path.Combine(@"C:\DEV2BLU\projeto final\Nova pasta", "teste3")))
-            {
-                XmlSerializer xmlSerializer = new XmlSerializer(typeof(RestResponse));
-                xmlSerializer.Serialize(stream, response);
-                
-            }
+
+            File.WriteAllText( path+name+"Resposta.txt" , response.Content.ToString());
             return;
         }
     }

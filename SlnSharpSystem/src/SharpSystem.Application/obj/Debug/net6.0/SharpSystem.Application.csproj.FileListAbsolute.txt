@@ -32,17 +32,17 @@ D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.pdb
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.genruntimeconfig.cache
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.AssemblyReference.cache
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfoInputs.cache
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfo.cs
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CoreCompileInputs.cache
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.deps.json
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.runtimeconfig.json
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.dll
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.pdb
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.dll
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.pdb
-C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.AssemblyReference.cache
-C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfoInputs.cache
-C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfo.cs
-C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CoreCompileInputs.cache
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CopyComplete
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.dll
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\refint\SharpSystem.Application.dll

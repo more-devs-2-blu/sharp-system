@@ -1,7 +1,7 @@
 [assembly:System.Security.AllowPartiallyTrustedCallers()]
 [assembly:System.Security.SecurityTransparent()]
 [assembly:System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)]
-[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"f4fc0250-dd2b-4151-97d9-17d1c858f013,", Version=@"1.0.0.0")]
+[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"14ff8e11-5883-433a-917c-a6140fa689a4,", Version=@"1.0.0.0")]
 namespace Microsoft.Xml.Serialization.GeneratedAssembly {
 
     public class XmlSerializationWriter1 : System.Xml.Serialization.XmlSerializationWriter {
@@ -273,14 +273,14 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
         protected override void InitCallbacks() {
         }
 
-        string id1_WebServiceAPI;
         string id2_Item;
+        string id1_WebServiceAPI;
         string id4_ConverterBase64;
         string id3_NotaFiscalService;
 
         protected override void InitIDs() {
-            id1_WebServiceAPI = Reader.NameTable.Add(@"WebServiceAPI");
             id2_Item = Reader.NameTable.Add(@"");
+            id1_WebServiceAPI = Reader.NameTable.Add(@"WebServiceAPI");
             id4_ConverterBase64 = Reader.NameTable.Add(@"ConverterBase64");
             id3_NotaFiscalService = Reader.NameTable.Add(@"NotaFiscalService");
         }

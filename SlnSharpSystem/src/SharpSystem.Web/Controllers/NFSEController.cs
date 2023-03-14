@@ -34,7 +34,6 @@ namespace SharpSystem.Web.Controllers
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(NFSEDTO));
                 xmlSerializer.Serialize(stream, nfse);
-                _notaFicalService.SendXML("Basic IDI1LjgyNS4zMDcvMDAwMS01MjpUZXN0ZUAyMDIz", nfse);
                 return RedirectToAction(nameof(Index));
             }
             return View();

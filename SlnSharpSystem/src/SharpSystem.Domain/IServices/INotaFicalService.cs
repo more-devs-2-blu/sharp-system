@@ -9,6 +9,6 @@ namespace SharpSystem.Domain.IServices
 {
     public interface INotaFicalService : IBaseService<NFSEDTO>
     {
-        public Task SendXML(string Base64, NFSEDTO objeto);
+        public Task SendXML(string Base64, string path, string name);
     }
 }
