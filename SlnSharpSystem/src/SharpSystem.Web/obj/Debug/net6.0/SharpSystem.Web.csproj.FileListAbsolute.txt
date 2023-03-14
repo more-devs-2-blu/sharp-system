@@ -706,3 +706,4 @@ C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Deb
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.csproj.CopyComplete
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\SharpSystem.Web.genruntimeconfig.cache
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Web\obj\Debug\net6.0\ref\SharpSystem.Web.dll
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Web\bin\Debug\net6.0\RestSharp.dll

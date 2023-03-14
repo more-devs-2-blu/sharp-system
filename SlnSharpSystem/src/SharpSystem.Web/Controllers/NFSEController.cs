@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SharpSystem.Application.Interfaces;
 using SharpSystem.Domain.DTO;
 using System.Xml.Serialization;
 
@@ -7,6 +8,7 @@ namespace SharpSystem.Web.Controllers
 {
     public class NFSEController : Controller
     {
+
         public ActionResult Index()
         {
             return View();
