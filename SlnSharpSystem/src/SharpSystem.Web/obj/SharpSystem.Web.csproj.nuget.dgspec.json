@@ -4,7 +4,6 @@
     "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj": {}
   },
   "projects": {
-<<<<<<< HEAD
     "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -90,9 +89,6 @@
       }
     },
     "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-=======
-    "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
->>>>>>> afe7de9308e1f37d67ce3c556ec893dbbea30b45
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",

@@ -19,7 +19,7 @@ namespace SharpSystem.Domain.DTO.NFDTO
         public Tomador tomador { get; set; }
         [XmlElement("itens")]
         public Itens itens { get; set; }
-    
+
         public class ListaDTO
         {
             [XmlElement("tributa_municipio_prestador")]

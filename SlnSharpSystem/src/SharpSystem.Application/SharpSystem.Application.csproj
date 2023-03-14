@@ -1,5 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-
     <ProjectReference Include="..\SharpSystem.Domain\SharpSystem.Domain.csproj" />
   </ItemGroup>
 
@@ -25,16 +23,5 @@
   <ItemGroup>
     <Folder Include="Services\WebServices\" />
   </ItemGroup>
-<<<<<<< HEAD
 
-=======
-    <Compile Remove="SQLServerServices\**" />
-    <EmbeddedResource Remove="SQLServerServices\**" />
-    <None Remove="SQLServerServices\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\SharpSystem.Domain\SharpSystem.Domain.csproj" />
-  </ItemGroup>
->>>>>>> afe7de9308e1f37d67ce3c556ec893dbbea30b45
 </Project>

@@ -1,11 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SharpSystem.Application.Interfaces;
-<<<<<<< HEAD
 using SharpSystem.Domain.DTO.NFDTO;
-=======
-using SharpSystem.Domain.DTO;
->>>>>>> afe7de9308e1f37d67ce3c556ec893dbbea30b45
 using SharpSystem.Domain.IServices;
 using System.Xml.Serialization;
 
