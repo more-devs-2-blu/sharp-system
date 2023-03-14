@@ -18,8 +18,6 @@ namespace SharpSystem.Domain.Entities.Usuario
             return encodedString;
         }
     }
-
-=======
         public string Senha { get; set; } 
     }
 }
