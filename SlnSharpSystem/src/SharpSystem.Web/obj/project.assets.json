@@ -97,7 +97,6 @@
       "MessagePackAnalyzer/2.1.152": {
         "type": "package"
       },
-<<<<<<< HEAD
       "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -131,8 +130,6 @@
           }
         }
       },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       "Microsoft.AspNetCore.Razor.Language/6.0.0": {
         "type": "package",
         "compile": {
@@ -1815,25 +1812,6 @@
           }
         }
       },
-<<<<<<< HEAD
-      "Microsoft.XmlSerializer.Generator/7.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/dotnet-Microsoft.XmlSerializer.Generator.dll": {
-            "related": ".runtimeconfig.json;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/dotnet-Microsoft.XmlSerializer.Generator.dll": {
-            "related": ".runtimeconfig.json;.xml"
-          }
-        },
-        "build": {
-          "build/_._": {}
-        }
-      },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -1895,26 +1873,15 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-<<<<<<< HEAD
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
           "lib/net6.0/Newtonsoft.Json.dll": {
-=======
-      "Newtonsoft.Json/13.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             "related": ".xml"
           }
         },
         "runtime": {
-<<<<<<< HEAD
           "lib/net6.0/Newtonsoft.Json.dll": {
-=======
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             "related": ".xml"
           }
         }
@@ -2065,22 +2032,6 @@
           }
         }
       },
-<<<<<<< HEAD
-      "RestSharp/109.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/RestSharp.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/RestSharp.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -2571,33 +2522,17 @@
           }
         }
       },
-<<<<<<< HEAD
-      "System.Formats.Asn1/7.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.Formats.Asn1.dll": {
-=======
       "System.Formats.Asn1/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             "related": ".xml"
           }
         },
         "runtime": {
-<<<<<<< HEAD
-          "lib/net6.0/System.Formats.Asn1.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-=======
           "lib/netstandard2.0/System.Formats.Asn1.dll": {
             "related": ".xml"
           }
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         }
       },
       "System.Globalization/4.3.0": {
@@ -3427,15 +3362,6 @@
           }
         }
       },
-<<<<<<< HEAD
-      "System.Security.Cryptography.Pkcs/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Formats.Asn1": "7.0.0"
-        },
-        "compile": {
-          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
-=======
       "System.Security.Cryptography.Pkcs/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -3444,29 +3370,16 @@
         },
         "compile": {
           "ref/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             "related": ".xml"
           }
         },
         "runtime": {
-<<<<<<< HEAD
-          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
-=======
           "lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {
             "related": ".xml"
           }
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             "assetType": "runtime",
             "rid": "win"
           }
@@ -3557,28 +3470,6 @@
           }
         }
       },
-<<<<<<< HEAD
-      "System.Security.Cryptography.Xml/7.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Security.Cryptography.Pkcs": "7.0.0"
-        },
-        "compile": {
-          "lib/net6.0/System.Security.Cryptography.Xml.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.Security.Cryptography.Xml.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       "System.Security.Permissions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -3872,36 +3763,13 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "SharpSystem.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-<<<<<<< HEAD
-          "Microsoft.XmlSerializer.Generator": "7.0.0",
-          "RestSharp": "109.0.1",
-          "SharpSystem.Domain": "1.0.0",
-          "System.Security.Cryptography.Xml": "7.0.1"
-=======
-          "SharpSystem.Domain": "1.0.0"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
-        },
-        "compile": {
-          "bin/placeholder/SharpSystem.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SharpSystem.Application.dll": {}
-        }
-      },
       "SharpSystem.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-<<<<<<< HEAD
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Newtonsoft.Json": "13.0.3"
         },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         "compile": {
           "bin/placeholder/SharpSystem.Domain.dll": {}
         },
@@ -4030,7 +3898,6 @@
         "tools/uninstall.ps1"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
       "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
       "type": "package",
@@ -4057,8 +3924,6 @@
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
       "sha512": "yCtBr1GSGzJrrp1NJUb4ltwFYMKHw/tJLnIDvg9g/FnkGIEzmE19tbCQqXARIJv5kdtBgsoVIdGLL+zmjxvM/A==",
       "type": "package",
@@ -6406,30 +6271,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< HEAD
-    "Microsoft.XmlSerializer.Generator/7.0.0": {
-      "sha512": "sRBmjGZxttqpmh48nBAJ+EVJfwvmRPlvu7HqwGY6C/MR/w6mPzRAFaIIrV1gvbMlT2FXmanxTjXvxO1aC4j0zg==",
-      "type": "package",
-      "path": "microsoft.xmlserializer.generator/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "build/Microsoft.XmlSerializer.Generator.props",
-        "build/Microsoft.XmlSerializer.Generator.targets",
-        "lib/netstandard2.0/dotnet-Microsoft.XmlSerializer.Generator.dll",
-        "lib/netstandard2.0/dotnet-Microsoft.XmlSerializer.Generator.runtimeconfig.json",
-        "lib/netstandard2.0/dotnet-Microsoft.XmlSerializer.Generator.xml",
-        "microsoft.xmlserializer.generator.7.0.0.nupkg.sha512",
-        "microsoft.xmlserializer.generator.nuspec",
-        "prefercliruntime",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -6456,25 +6297,15 @@
         "netstandard.library.nuspec"
       ]
     },
-<<<<<<< HEAD
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
       "path": "newtonsoft.json/13.0.3",
-=======
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
-      "type": "package",
-      "path": "newtonsoft.json/13.0.1",
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
-<<<<<<< HEAD
         "README.md",
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -6483,22 +6314,15 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
-<<<<<<< HEAD
         "lib/net6.0/Newtonsoft.Json.dll",
         "lib/net6.0/Newtonsoft.Json.xml",
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-<<<<<<< HEAD
         "newtonsoft.json.13.0.3.nupkg.sha512",
-=======
-        "newtonsoft.json.13.0.1.nupkg.sha512",
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -6664,29 +6488,6 @@
         "nuget.versioning.nuspec"
       ]
     },
-<<<<<<< HEAD
-    "RestSharp/109.0.1": {
-      "sha512": "OkJ23uaV8qwCKuR7RKBUFlnXxIDZ7P1jEaoDawXgysujIcWZgIwE6p90kJZxY9EVv9ESjZtGlSmP8k+kOfDH9g==",
-      "type": "package",
-      "path": "restsharp/109.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net471/RestSharp.dll",
-        "lib/net471/RestSharp.xml",
-        "lib/net6.0/RestSharp.dll",
-        "lib/net6.0/RestSharp.xml",
-        "lib/net7.0/RestSharp.dll",
-        "lib/net7.0/RestSharp.xml",
-        "lib/netstandard2.0/RestSharp.dll",
-        "lib/netstandard2.0/RestSharp.xml",
-        "restsharp.109.0.1.nupkg.sha512",
-        "restsharp.nuspec",
-        "restsharp.png"
-      ]
-    },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -7610,40 +7411,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< HEAD
-    "System.Formats.Asn1/7.0.0": {
-      "sha512": "+nfpV0afLmvJW8+pLlHxRjz3oZJw4fkyU9MMEaMhCsHi/SN9bGF9q79ROubDiwTiCHezmK0uCWkPP7tGFP/4yg==",
-      "type": "package",
-      "path": "system.formats.asn1/7.0.0",
-=======
     "System.Formats.Asn1/5.0.0": {
       "sha512": "MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
       "type": "package",
       "path": "system.formats.asn1/5.0.0",
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-<<<<<<< HEAD
-        "buildTransitive/net461/System.Formats.Asn1.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Formats.Asn1.targets",
-        "lib/net462/System.Formats.Asn1.dll",
-        "lib/net462/System.Formats.Asn1.xml",
-        "lib/net6.0/System.Formats.Asn1.dll",
-        "lib/net6.0/System.Formats.Asn1.xml",
-        "lib/net7.0/System.Formats.Asn1.dll",
-        "lib/net7.0/System.Formats.Asn1.xml",
-        "lib/netstandard2.0/System.Formats.Asn1.dll",
-        "lib/netstandard2.0/System.Formats.Asn1.xml",
-        "system.formats.asn1.7.0.0.nupkg.sha512",
-        "system.formats.asn1.nuspec",
-        "useSharedDesignerContext.txt"
-=======
         "lib/net461/System.Formats.Asn1.dll",
         "lib/net461/System.Formats.Asn1.xml",
         "lib/netstandard2.0/System.Formats.Asn1.dll",
@@ -7652,7 +7429,6 @@
         "system.formats.asn1.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       ]
     },
     "System.Globalization/4.3.0": {
@@ -9845,35 +9621,16 @@
         "system.security.cryptography.openssl.nuspec"
       ]
     },
-<<<<<<< HEAD
-    "System.Security.Cryptography.Pkcs/7.0.0": {
-      "sha512": "mjUbEXkR6DYRef6dnEYKdfec9otcAkibExL+1f9hmbGlWIUyaCnS3Y3oGZEet38waXmuY1ORE8vgv4sgD5nMYg==",
-      "type": "package",
-      "path": "system.security.cryptography.pkcs/7.0.0",
-=======
     "System.Security.Cryptography.Pkcs/5.0.0": {
       "sha512": "9TPLGjBCGKmNvG8pjwPeuYy0SMVmGZRwlTZvyPHDbYv/DRkoeumJdfumaaDNQzVGMEmbWtg07zUpSW9q70IlDQ==",
       "type": "package",
       "path": "system.security.cryptography.pkcs/5.0.0",
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-<<<<<<< HEAD
-        "buildTransitive/net461/System.Security.Cryptography.Pkcs.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets",
-        "lib/net462/System.Security.Cryptography.Pkcs.dll",
-        "lib/net462/System.Security.Cryptography.Pkcs.xml",
-        "lib/net6.0/System.Security.Cryptography.Pkcs.dll",
-        "lib/net6.0/System.Security.Cryptography.Pkcs.xml",
-        "lib/net7.0/System.Security.Cryptography.Pkcs.dll",
-        "lib/net7.0/System.Security.Cryptography.Pkcs.xml",
-=======
         "lib/net46/System.Security.Cryptography.Pkcs.dll",
         "lib/net461/System.Security.Cryptography.Pkcs.dll",
         "lib/net461/System.Security.Cryptography.Pkcs.xml",
@@ -9881,20 +9638,10 @@
         "lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll",
         "lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.xml",
         "lib/netstandard1.3/System.Security.Cryptography.Pkcs.dll",
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
         "lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
         "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
         "lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
-<<<<<<< HEAD
-        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.xml",
-        "system.security.cryptography.pkcs.7.0.0.nupkg.sha512",
-        "system.security.cryptography.pkcs.nuspec",
-        "useSharedDesignerContext.txt"
-=======
         "ref/net46/System.Security.Cryptography.Pkcs.dll",
         "ref/net461/System.Security.Cryptography.Pkcs.dll",
         "ref/net461/System.Security.Cryptography.Pkcs.xml",
@@ -9922,7 +9669,6 @@
         "system.security.cryptography.pkcs.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       ]
     },
     "System.Security.Cryptography.Primitives/4.3.0": {
@@ -10045,36 +9791,6 @@
         "system.security.cryptography.x509certificates.nuspec"
       ]
     },
-<<<<<<< HEAD
-    "System.Security.Cryptography.Xml/7.0.1": {
-      "sha512": "MCxBCtH0GrDuvU63ZODwQHQZPchb24pUAX3MfZ6b13qg246ZD10PRdOvay8C9HBPfCXkymUNwFPEegud7ax2zg==",
-      "type": "package",
-      "path": "system.security.cryptography.xml/7.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Security.Cryptography.Xml.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Xml.targets",
-        "lib/net462/System.Security.Cryptography.Xml.dll",
-        "lib/net462/System.Security.Cryptography.Xml.xml",
-        "lib/net6.0/System.Security.Cryptography.Xml.dll",
-        "lib/net6.0/System.Security.Cryptography.Xml.xml",
-        "lib/net7.0/System.Security.Cryptography.Xml.dll",
-        "lib/net7.0/System.Security.Cryptography.Xml.xml",
-        "lib/netstandard2.0/System.Security.Cryptography.Xml.dll",
-        "lib/netstandard2.0/System.Security.Cryptography.Xml.xml",
-        "system.security.cryptography.xml.7.0.1.nupkg.sha512",
-        "system.security.cryptography.xml.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
     "System.Security.Permissions/6.0.0": {
       "sha512": "T/uuc7AklkDoxmcJ7LGkyX1CcSviZuLCa4jg3PekfJ7SU0niF0IVTXwUiNVP9DSpzou2PpxJ+eNY2IfDM90ZCg==",
       "type": "package",
@@ -10941,11 +10657,6 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "SharpSystem.Application/1.0.0": {
-      "type": "project",
-      "path": "../SharpSystem.Application/SharpSystem.Application.csproj",
-      "msbuildProject": "../SharpSystem.Application/SharpSystem.Application.csproj"
-    },
     "SharpSystem.Domain/1.0.0": {
       "type": "project",
       "path": "../SharpSystem.Domain/SharpSystem.Domain.csproj",
@@ -10959,41 +10670,24 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
-<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.12",
-      "SharpSystem.Application >= 1.0.0",
       "SharpSystem.Domain >= 1.0.0",
       "SharpSystem.Infra.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\pedro\\.nuget\\packages\\": {},
-<<<<<<< HEAD
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
     "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
-      "projectName": "SharpSystem.Web",
-      "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
-      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\obj\\",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-=======
       "projectUniqueName": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
       "projectName": "SharpSystem.Web",
       "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
@@ -11002,7 +10696,6 @@
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       ],
       "configFilePaths": [
         "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11014,26 +10707,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-        "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
-              "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj"
-            },
-            "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-              "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
-            },
-            "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
-              "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj"
-=======
             "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
               "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj"
             },
@@ -11042,7 +10721,6 @@
             },
             "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
               "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             }
           }
         }
@@ -11061,15 +10739,12 @@
             "target": "Package",
             "version": "[7.0.3, )"
           },
-<<<<<<< HEAD
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.3, )"
           },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.3, )"
@@ -11108,23 +10783,19 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-      }
-    }
-  }
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
     {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Não é possível encontrar as informações do projeto para 'D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
     }
   ]
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 }

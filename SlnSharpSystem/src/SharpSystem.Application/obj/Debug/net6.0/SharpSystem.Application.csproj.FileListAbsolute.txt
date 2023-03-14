@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.deps.json
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.runtimeconfig.json
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.dll
@@ -18,24 +17,6 @@ D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\n
 D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.deps.json
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.runtimeconfig.json
-=======
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.deps.json
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.dll
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.pdb
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.dll
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.pdb
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.AssemblyReference.cache
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfoInputs.cache
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfo.cs
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CoreCompileInputs.cache
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CopyComplete
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.dll
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\refint\SharpSystem.Application.dll
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.pdb
-D:\Projects\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.deps.json
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.pdb
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.dll
@@ -49,7 +30,6 @@ D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\refint\SharpSystem.Application.dll
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.pdb
-<<<<<<< HEAD
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.genruntimeconfig.cache
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.AssemblyReference.cache
@@ -69,21 +49,3 @@ C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.pdb
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.genruntimeconfig.cache
 C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll
-=======
-D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.deps.json
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.dll
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.pdb
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.dll
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.pdb
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.AssemblyReference.cache
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfoInputs.cache
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfo.cs
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CoreCompileInputs.cache
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CopyComplete
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.dll
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\refint\SharpSystem.Application.dll
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.pdb
-C:\Users\heart\Desktop\proj ana\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef

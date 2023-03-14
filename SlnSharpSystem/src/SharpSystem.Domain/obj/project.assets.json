@@ -1,7 +1,6 @@
 {
   "version": 3,
   "targets": {
-<<<<<<< HEAD
     "net6.0": {
       "Humanizer.Core/2.14.1": {
         "type": "package",
@@ -1065,32 +1064,11 @@
   },
   "packageFolders": {
     "C:\\Users\\pedro\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
-    "net6.0": {}
-  },
-  "libraries": {},
-  "projectFileDependencyGroups": {
-    "net6.0": []
-  },
-  "packageFolders": {
-    "C:\\Users\\pedro\\.nuget\\packages\\": {},
     "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
-      "projectName": "SharpSystem.Domain",
-      "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
-      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\obj\\",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-=======
       "projectUniqueName": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
       "projectName": "SharpSystem.Domain",
       "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
@@ -1099,7 +1077,6 @@
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
       ],
       "configFilePaths": [
         "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1111,10 +1088,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-        "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1132,7 +1105,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-<<<<<<< HEAD
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": {
             "target": "Package",
@@ -1149,8 +1121,6 @@
             "version": "[13.0.3, )"
           }
         },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         "imports": [
           "net461",
           "net462",
@@ -1167,12 +1137,6 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-      }
-    }
-  }
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
@@ -1185,5 +1149,4 @@
       "message": "Problema ao ler o arquivo de cache D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 }
