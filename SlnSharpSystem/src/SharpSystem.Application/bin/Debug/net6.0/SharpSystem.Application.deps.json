@@ -8,21 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "SharpSystem.Application/1.0.0": {
         "dependencies": {
-<<<<<<< HEAD
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
           "Microsoft.XmlSerializer.Generator": "7.0.0",
           "RestSharp": "109.0.1",
           "SharpSystem.Domain": "1.0.0",
           "System.Security.Cryptography.Xml": "7.0.1"
-=======
-          "SharpSystem.Domain": "1.0.0"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         },
         "runtime": {
           "SharpSystem.Application.dll": {}
         }
       },
-<<<<<<< HEAD
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -335,9 +330,6 @@
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Newtonsoft.Json": "13.0.3"
         },
-=======
-      "SharpSystem.Domain/1.0.0": {
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         "runtime": {
           "SharpSystem.Domain.dll": {}
         }
@@ -350,7 +342,6 @@
       "serviceable": false,
       "sha512": ""
     },
-<<<<<<< HEAD
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -554,8 +545,6 @@
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
     },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
     "SharpSystem.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,

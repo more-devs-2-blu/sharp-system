@@ -9,7 +9,6 @@ namespace SharpSystem.Domain.Entities.Usuario
     public class Login
     {
         public string CFPCNPJ { get; set; }
-<<<<<<< HEAD
         public string Senha { get; set; }
         public string mapTo64()
         {
@@ -20,8 +19,4 @@ namespace SharpSystem.Domain.Entities.Usuario
         }
     }
 
-=======
-        public string Senha { get; set; } 
-    }
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 }
