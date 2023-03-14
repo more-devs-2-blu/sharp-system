@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using SharpSystem.Domain.DTO;
+using SharpSystem.Domain.Entities.Usuario;
 using SharpSystem.Domain.IServices;
 
 namespace SharpSystem.Web.Services
@@ -13,14 +14,14 @@ namespace SharpSystem.Web.Services
             _httpContext = httpContext;
         }
 
-        public UsuarioDTO BuscarSessaoUsuario()
+        public Usuario BuscarSessaoUsuario()
         {
             string sessaoUsuario = _httpContext.HttpContext.Session.GetString("sessaoUsuarioLogado");
             if (string.IsNullOrEmpty(sessaoUsuario)) return null;
-            return JsonConvert.DeserializeObject<UsuarioDTO>(sessaoUsuario);
+            return JsonConvert.DeserializeObject<Usuario>(sessaoUsuario);
         }
 
-        public void CriarSessaoUsuario(UsuarioDTO usuario)
+        public void CriarSessaoUsuario(Usuario usuario)
         {
             string valor = JsonConvert.SerializeObject(usuario);
             _httpContext.HttpContext.Session.SetString("sessaoUsuarioLogado", valor);
