@@ -5,6 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+<<<<<<< HEAD
+=======
+using static System.Net.Mime.MediaTypeNames;
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 
 namespace SharpSystem.Domain.DTO
 {
@@ -13,6 +17,7 @@ namespace SharpSystem.Domain.DTO
     {
         [XmlElement("nf")]
         public NotaFiscal notaFiscal { get; set; }
+<<<<<<< HEAD
         [XmlElement("prestador")]
         public Prestador prestador { get; set; }
         [XmlElement("tomador")]
@@ -117,3 +122,18 @@ namespace SharpSystem.Domain.DTO
         //}
     }
 }
+=======
+        
+        [XmlElement("prestador")]
+        public Prestador prestador { get; set; }
+        
+        [XmlElement("tomador")]
+        public Tomador tomador { get; set; }
+
+        [XmlElement("itens")]
+        public Itens itens { get; set; }
+
+        
+    }
+}
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef

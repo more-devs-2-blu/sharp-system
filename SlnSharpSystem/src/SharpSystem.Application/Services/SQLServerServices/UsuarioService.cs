@@ -32,8 +32,13 @@ namespace SharpSystem.Application.Services.SQLServerServices
                     id = u.Id,
                     nome = u.Nome,
                     cpfcnpj = u.CFPCNPJ,
+<<<<<<< HEAD
                     //email = u.Email,
                     //login = u.Login,
+=======
+                    email = u.Email,
+                    login = u.Login,
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
                     senha = u.Senha,
                 }).ToList();
         }

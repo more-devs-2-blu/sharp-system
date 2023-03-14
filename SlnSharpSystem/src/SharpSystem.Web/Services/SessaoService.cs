@@ -14,11 +14,19 @@ namespace SharpSystem.Web.Services
             _httpContext = httpContext;
         }
 
+<<<<<<< HEAD
         public UsuarioDTO BuscarSessaoUsuario()
         {
             string sessaoUsuario = _httpContext.HttpContext.Session.GetString("sessaoUsuarioLogado");
             if (string.IsNullOrEmpty(sessaoUsuario)) return null;
             return JsonConvert.DeserializeObject<UsuarioDTO>(sessaoUsuario);
+=======
+        public Usuario BuscarSessaoUsuario()
+        {
+            string sessaoUsuario = _httpContext.HttpContext.Session.GetString("sessaoUsuarioLogado");
+            if (string.IsNullOrEmpty(sessaoUsuario)) return null;
+            return JsonConvert.DeserializeObject<Usuario>(sessaoUsuario);
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         }
 
         public void CriarSessaoUsuario(Usuario usuario)

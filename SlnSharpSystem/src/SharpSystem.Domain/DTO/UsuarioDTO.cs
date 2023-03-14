@@ -23,7 +23,12 @@ namespace SharpSystem.Domain.DTO
                 Id = id,
                 Nome = nome,
                 CFPCNPJ = cpfcnpj,
+<<<<<<< HEAD
                 //Email = email,
+=======
+                Email = email,
+                Login = login,
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
                 Senha = senha
             };
         }
@@ -35,6 +40,7 @@ namespace SharpSystem.Domain.DTO
                 id = usuario.Id,
                 nome = usuario.Nome,
                 cpfcnpj = usuario.CFPCNPJ,
+<<<<<<< HEAD
                 //email = usuario.Email,
                 //login = usuario.Login,
                 senha = usuario.Senha,
@@ -47,5 +53,12 @@ namespace SharpSystem.Domain.DTO
             string encodedString = Convert.ToBase64String(encodedBytes);
             return encodedString;
         }
+=======
+                email = usuario.Email,
+                login = usuario.Login,
+                senha = usuario.Senha,
+            };
+        }
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
     }
 }

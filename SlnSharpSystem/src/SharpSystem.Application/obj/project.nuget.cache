@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Rq2CWWiZrXdc8xf3hoeSzt06vGnYJLUBx5ttoY3xizN8idkspNEjIqGGJLDj3/K4u/M2WPQrC87fsAwnahrXwg==",
   "success": true,
   "projectFilePath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
@@ -35,4 +36,18 @@
     "C:\\Users\\pedro\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
   "logs": []
+=======
+  "dgSpecHash": "zmdwlAyII/KlOsUVwliZrYje04hhSjQ6jwUOJhI3vBjIqq1+V8fyRkZFCOxqW8ns5qJIyD+QU2Q99fA9SVOffg==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 }

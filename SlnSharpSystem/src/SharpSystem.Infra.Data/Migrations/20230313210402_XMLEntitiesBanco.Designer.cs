@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SharpSystem.Infra.Data.Context;
 
@@ -10,9 +11,11 @@ using SharpSystem.Infra.Data.Context;
 namespace SharpSystem.Infra.Data.Migrations
 {
     [DbContext(typeof(SQLServerContext))]
-    partial class SQLServerContextModelSnapshot : ModelSnapshot
+    [Migration("20230313210402_XMLEntitiesBanco")]
+    partial class XMLEntitiesBanco
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,8 +24,6 @@ namespace SharpSystem.Infra.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-<<<<<<< HEAD
-=======
             modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Itens", b =>
                 {
                     b.Property<int>("Id")
@@ -261,7 +262,6 @@ namespace SharpSystem.Infra.Data.Migrations
                         });
                 });
 
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             modelBuilder.Entity("SharpSystem.Domain.Entities.Usuario.Usuario", b =>
                 {
                     b.Property<int>("Id")
@@ -274,8 +274,6 @@ namespace SharpSystem.Infra.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-<<<<<<< HEAD
-=======
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -284,7 +282,6 @@ namespace SharpSystem.Infra.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -302,17 +299,12 @@ namespace SharpSystem.Infra.Data.Migrations
                         {
                             Id = 1,
                             CFPCNPJ = "104.752.299-23",
-<<<<<<< HEAD
-=======
                             Email = "pedrogodri@gmail.com",
                             Login = "PedroGodri",
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
                             Nome = "Pedro Godri",
                             Senha = "12345"
                         });
                 });
-<<<<<<< HEAD
-=======
 
             modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Itens", b =>
                 {
@@ -371,7 +363,6 @@ namespace SharpSystem.Infra.Data.Migrations
                 {
                     b.Navigation("NotaFiscal");
                 });
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 #pragma warning restore 612, 618
         }
     }

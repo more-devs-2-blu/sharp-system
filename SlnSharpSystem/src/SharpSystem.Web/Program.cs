@@ -11,7 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+<<<<<<< HEAD
 //Conect SQL Server
+=======
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 var connectionStringUser = builder.Configuration.GetConnectionString("SQLServerConnection");
 builder.Services.AddDbContext<SQLServerContext>
     (options => options.UseSqlServer(connectionStringUser));
@@ -26,7 +29,10 @@ builder.Services.AddScoped<ISessaoService, SessaoService>();
 
 // Services
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+<<<<<<< HEAD
 builder.Services.AddScoped<INotaFicalService, NotaFiscalService>();
+=======
+>>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 
 // Cookies
 builder.Services.AddSession(o =>
