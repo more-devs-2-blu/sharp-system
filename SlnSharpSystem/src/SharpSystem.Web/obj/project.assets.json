@@ -2048,6 +2048,19 @@
           }
         }
       },
+      "RestSharp/109.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -6564,6 +6577,26 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "RestSharp/109.0.1": {
+      "sha512": "OkJ23uaV8qwCKuR7RKBUFlnXxIDZ7P1jEaoDawXgysujIcWZgIwE6p90kJZxY9EVv9ESjZtGlSmP8k+kOfDH9g==",
+      "type": "package",
+      "path": "restsharp/109.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/net7.0/RestSharp.dll",
+        "lib/net7.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.109.0.1.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -10774,29 +10807,30 @@
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.12",
+      "RestSharp >= 109.0.1",
       "SharpSystem.Application >= 1.0.0",
       "SharpSystem.Domain >= 1.0.0",
       "SharpSystem.Infra.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\heart\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pedro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
+      "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
       "projectName": "SharpSystem.Web",
-      "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
-      "packagesPath": "C:\\Users\\heart\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\obj\\",
+      "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
+      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+      "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\heart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10805,20 +10839,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
-              "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj"
+            "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
+              "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj"
             },
-            "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-              "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
+            "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
+              "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
             },
-            "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
-              "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj"
+            "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
+              "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj"
             }
           }
         }
@@ -10860,6 +10895,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.12, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[109.0.1, )"
           }
         },
         "imports": [
@@ -10881,7 +10920,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

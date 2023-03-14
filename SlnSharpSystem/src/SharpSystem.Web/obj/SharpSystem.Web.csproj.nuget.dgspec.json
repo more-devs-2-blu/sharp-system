@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj": {}
+    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj": {}
   },
   "projects": {
-    "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
+    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
+        "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
         "projectName": "SharpSystem.Application",
-        "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
-        "packagesPath": "C:\\Users\\heart\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\obj\\",
+        "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\heart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-                "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
+              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
+                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
               }
             }
           }
@@ -79,24 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
+    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
+        "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
         "projectName": "SharpSystem.Domain",
-        "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\heart\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\obj\\",
+        "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\heart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,6 +106,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -154,24 +156,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
+    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj",
+        "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj",
         "projectName": "SharpSystem.Infra.Data",
-        "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\heart\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\obj\\",
+        "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\heart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -180,14 +182,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-                "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
+              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
+                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
               }
             }
           }
@@ -243,24 +246,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj": {
+    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
+        "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
         "projectName": "SharpSystem.Web",
-        "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
-        "packagesPath": "C:\\Users\\heart\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\obj\\",
+        "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\heart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -269,20 +272,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
-                "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj"
+              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
+                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj"
               },
-              "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-                "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
+              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
+                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
               },
-              "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
-                "projectPath": "D:\\dev\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj"
+              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
+                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj"
               }
             }
           }
@@ -324,6 +328,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.12, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[109.0.1, )"
             }
           },
           "imports": [
@@ -345,7 +353,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

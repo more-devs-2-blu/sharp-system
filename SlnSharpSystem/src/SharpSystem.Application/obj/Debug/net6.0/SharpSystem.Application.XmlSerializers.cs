@@ -1,7 +1,7 @@
 [assembly:System.Security.AllowPartiallyTrustedCallers()]
 [assembly:System.Security.SecurityTransparent()]
 [assembly:System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)]
-[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"be1cd7ce-c7b7-4f11-a637-faeadde62578,", Version=@"1.0.0.0")]
+[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"9c1ae8ed-53bd-4973-900b-45d73ca38e46,", Version=@"1.0.0.0")]
 namespace Microsoft.Xml.Serialization.GeneratedAssembly {
 
     public class XmlSerializationWriter1 : System.Xml.Serialization.XmlSerializationWriter {
@@ -187,14 +187,14 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
         protected override void InitCallbacks() {
         }
 
+        string id3_ConverterBase64;
         string id1_WebServiceAPI;
         string id2_Item;
-        string id3_ConverterBase64;
 
         protected override void InitIDs() {
+            id3_ConverterBase64 = Reader.NameTable.Add(@"ConverterBase64");
             id1_WebServiceAPI = Reader.NameTable.Add(@"WebServiceAPI");
             id2_Item = Reader.NameTable.Add(@"");
-            id3_ConverterBase64 = Reader.NameTable.Add(@"ConverterBase64");
         }
     }
 
@@ -269,8 +269,8 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
             get {
                 if (typedSerializers == null) {
                     System.Collections.Hashtable _tmp = new System.Collections.Hashtable();
-                    _tmp.Add(@"SharpSystem.Application.Services.WebServiceAPI::", new WebServiceAPISerializer());
                     _tmp.Add(@"SharpSystem.Application.Helper.ConverterBase64::", new ConverterBase64Serializer());
+                    _tmp.Add(@"SharpSystem.Application.Services.WebServiceAPI::", new WebServiceAPISerializer());
                     if (typedSerializers == null) typedSerializers = _tmp;
                 }
                 return typedSerializers;
