@@ -31,7 +31,7 @@ namespace SharpSystem.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([Bind("id, nome, cpfcnpj, email, login, senha")] UsuarioDTO usuario)
+        public async Task<IActionResult> Create([Bind("id, nome, cpfcnpj, senha")] UsuarioD usuario)
         {
             try
             {
@@ -44,7 +44,33 @@ namespace SharpSystem.Web.Controllers
             }
             catch (Exception erro)
             {
-                TempData["MsgErro"] = $"Usuário não foi cadastrado corretamente, detalhe do erro: {erro.Message}"
+                TempData["MsgErro"] = $"Usuário não foi cadastrado corretamente, detalhe do erro: {erro.Message}";
+                return RedirectToAction("Index");
+            }
+        }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            var usuario = await _service.FindById(id);
+            return View(usuario);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(int? id, [Bind("id, nome, cpfcnpj, senha")] UsuarioDTO usuario)
+        {
+            if (id != usuario.id) return NotFound();
+
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    if (await _service.Save(usuario) > 0) return RedirectToAction(nameof(Index));
+                }
+                return View(usuario);
+            }
+            catch (Exception erro)
+            {
+                TempData["MsgErro"] = $"Usuário não foi alterado corretamente, detalhe do erro: {erro.Message}";
                 return RedirectToAction("Index");
             }
         }
