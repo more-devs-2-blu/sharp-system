@@ -1,5 +1,7 @@
-﻿using SharpSystem.Application.Interfaces;
-using SharpSystem.Domain.DTO;
+﻿using RestSharp;
+using SharpSystem.Application.Interfaces;
+using SharpSystem.Domain.DTO.NFDTO;
+using SharpSystem.Domain.IServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,7 @@ namespace SharpSystem.Application.Services
 {
     public class WebServiceAPI : IWebServiceAPI
     {
+
         public string EmitirNotaFiscal(XmlSerializer xmlNotaFiscal)
         {
             throw new NotImplementedException();

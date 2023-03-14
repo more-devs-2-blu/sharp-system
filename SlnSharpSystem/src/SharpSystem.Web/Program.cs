@@ -26,6 +26,7 @@ builder.Services.AddScoped<ISessaoService, SessaoService>();
 
 // Services
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<INotaFicalService, NotaFiscalService>();
 
 // Cookies
 builder.Services.AddSession(o =>

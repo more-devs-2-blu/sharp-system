@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using SharpSystem.Domain.DTO;
+using SharpSystem.Domain.Entities.Usuario;
 using SharpSystem.Domain.IServices;
 
 namespace SharpSystem.Web.Services
@@ -20,7 +21,7 @@ namespace SharpSystem.Web.Services
             return JsonConvert.DeserializeObject<UsuarioDTO>(sessaoUsuario);
         }
 
-        public void CriarSessaoUsuario(UsuarioDTO usuario)
+        public void CriarSessaoUsuario(Usuario usuario)
         {
             string valor = JsonConvert.SerializeObject(usuario);
             _httpContext.HttpContext.Session.SetString("sessaoUsuarioLogado", valor);

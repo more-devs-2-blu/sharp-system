@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace SharpSystem.Domain.DTO
+namespace SharpSystem.Domain.DTO.NFDTO
 {
     [XmlRoot("nfse")]
     public class NFSEDTO

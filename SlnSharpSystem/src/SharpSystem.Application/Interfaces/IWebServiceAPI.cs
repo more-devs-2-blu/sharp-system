@@ -1,4 +1,4 @@
-﻿using SharpSystem.Domain.DTO;
+﻿using SharpSystem.Domain.DTO.NFDTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +13,6 @@ namespace SharpSystem.Application.Interfaces
         public string EmitirNotaFiscal(XmlSerializer xmlNotaFiscal);
         public XmlSerializer GetFile(NFSEDTO nfse);
         public XmlSerializer EmitirXMLSerializaer(NFSEDTO nfse);
+
     }
 }

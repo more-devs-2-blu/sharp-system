@@ -1,12 +1,12 @@
 [assembly:System.Security.AllowPartiallyTrustedCallers()]
 [assembly:System.Security.SecurityTransparent()]
 [assembly:System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)]
-[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"be1cd7ce-c7b7-4f11-a637-faeadde62578,", Version=@"1.0.0.0")]
+[assembly:System.Xml.Serialization.XmlSerializerVersionAttribute(ParentAssemblyId=@"14ff8e11-5883-433a-917c-a6140fa689a4,", Version=@"1.0.0.0")]
 namespace Microsoft.Xml.Serialization.GeneratedAssembly {
 
     public class XmlSerializationWriter1 : System.Xml.Serialization.XmlSerializationWriter {
 
-        public void Write4_WebServiceAPI(object o) {
+        public void Write5_WebServiceAPI(object o) {
             WriteStartDocument();
             if (o == null) {
                 WriteNullTagLiteral(@"WebServiceAPI", @"");
@@ -16,17 +16,27 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
             Write2_WebServiceAPI(@"WebServiceAPI", @"", ((global::SharpSystem.Application.Services.WebServiceAPI)o), true, false);
         }
 
-        public void Write5_ConverterBase64(object o) {
+        public void Write6_NotaFiscalService(object o) {
+            WriteStartDocument();
+            if (o == null) {
+                WriteNullTagLiteral(@"NotaFiscalService", @"");
+                return;
+            }
+            TopLevelElement();
+            Write3_NotaFiscalService(@"NotaFiscalService", @"", ((global::SharpSystem.Application.Services.SQLServerServices.NotaFiscalService)o), true, false);
+        }
+
+        public void Write7_ConverterBase64(object o) {
             WriteStartDocument();
             if (o == null) {
                 WriteNullTagLiteral(@"ConverterBase64", @"");
                 return;
             }
             TopLevelElement();
-            Write3_ConverterBase64(@"ConverterBase64", @"", ((global::SharpSystem.Application.Helper.ConverterBase64)o), true, false);
+            Write4_ConverterBase64(@"ConverterBase64", @"", ((global::SharpSystem.Application.Helper.ConverterBase64)o), true, false);
         }
 
-        void Write3_ConverterBase64(string n, string ns, global::SharpSystem.Application.Helper.ConverterBase64 o, bool isNullable, bool needType) {
+        void Write4_ConverterBase64(string n, string ns, global::SharpSystem.Application.Helper.ConverterBase64 o, bool isNullable, bool needType) {
             if ((object)o == null) {
                 if (isNullable) WriteNullTagLiteral(n, ns);
                 return;
@@ -41,6 +51,24 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
             }
             WriteStartElement(n, ns, o, false, null);
             if (needType) WriteXsiType(@"ConverterBase64", @"");
+            WriteEndElement(o);
+        }
+
+        void Write3_NotaFiscalService(string n, string ns, global::SharpSystem.Application.Services.SQLServerServices.NotaFiscalService o, bool isNullable, bool needType) {
+            if ((object)o == null) {
+                if (isNullable) WriteNullTagLiteral(n, ns);
+                return;
+            }
+            if (!needType) {
+                System.Type t = o.GetType();
+                if (t == typeof(global::SharpSystem.Application.Services.SQLServerServices.NotaFiscalService)) {
+                }
+                else {
+                    throw CreateUnknownTypeException(o);
+                }
+            }
+            WriteStartElement(n, ns, o, false, null);
+            if (needType) WriteXsiType(@"NotaFiscalService", @"");
             WriteEndElement(o);
         }
 
@@ -68,7 +96,7 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
 
     public class XmlSerializationReader1 : System.Xml.Serialization.XmlSerializationReader {
 
-        public object Read4_WebServiceAPI() {
+        public object Read5_WebServiceAPI() {
             object o = null;
             Reader.MoveToContent();
             if (Reader.NodeType == System.Xml.XmlNodeType.Element) {
@@ -86,13 +114,31 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
             return (object)o;
         }
 
-        public object Read5_ConverterBase64() {
+        public object Read6_NotaFiscalService() {
             object o = null;
             Reader.MoveToContent();
             if (Reader.NodeType == System.Xml.XmlNodeType.Element) {
                 do {
-                    if (((object) Reader.LocalName == (object)id3_ConverterBase64 && (object) Reader.NamespaceURI == (object)id2_Item)) {
-                        o = Read3_ConverterBase64(true, true);
+                    if (((object) Reader.LocalName == (object)id3_NotaFiscalService && (object) Reader.NamespaceURI == (object)id2_Item)) {
+                        o = Read3_NotaFiscalService(true, true);
+                        break;
+                    }
+                    throw CreateUnknownNodeException();
+                } while (false);
+            }
+            else {
+                UnknownNode(null, @":NotaFiscalService");
+            }
+            return (object)o;
+        }
+
+        public object Read7_ConverterBase64() {
+            object o = null;
+            Reader.MoveToContent();
+            if (Reader.NodeType == System.Xml.XmlNodeType.Element) {
+                do {
+                    if (((object) Reader.LocalName == (object)id4_ConverterBase64 && (object) Reader.NamespaceURI == (object)id2_Item)) {
+                        o = Read4_ConverterBase64(true, true);
                         break;
                     }
                     throw CreateUnknownNodeException();
@@ -104,12 +150,12 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
             return (object)o;
         }
 
-        global::SharpSystem.Application.Helper.ConverterBase64 Read3_ConverterBase64(bool isNullable, bool checkType) {
+        global::SharpSystem.Application.Helper.ConverterBase64 Read4_ConverterBase64(bool isNullable, bool checkType) {
             System.Xml.XmlQualifiedName xsiType = checkType ? GetXsiType() : null;
             bool isNull = false;
             if (isNullable) isNull = ReadNull();
             if (checkType) {
-            if (xsiType == null || ((object) ((System.Xml.XmlQualifiedName)xsiType).Name == (object)id3_ConverterBase64 && (object) ((System.Xml.XmlQualifiedName)xsiType).Namespace == (object)id2_Item)) {
+            if (xsiType == null || ((object) ((System.Xml.XmlQualifiedName)xsiType).Name == (object)id4_ConverterBase64 && (object) ((System.Xml.XmlQualifiedName)xsiType).Namespace == (object)id2_Item)) {
             }
             else {
                 throw CreateUnknownTypeException((System.Xml.XmlQualifiedName)xsiType);
@@ -118,6 +164,46 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
             if (isNull) return null;
             global::SharpSystem.Application.Helper.ConverterBase64 o;
             o = new global::SharpSystem.Application.Helper.ConverterBase64();
+            System.Span<bool> paramsRead = stackalloc bool[0];
+            while (Reader.MoveToNextAttribute()) {
+                if (!IsXmlnsAttribute(Reader.Name)) {
+                    UnknownNode((object)o);
+                }
+            }
+            Reader.MoveToElement();
+            if (Reader.IsEmptyElement) {
+                Reader.Skip();
+                return o;
+            }
+            Reader.ReadStartElement();
+            Reader.MoveToContent();
+            while (Reader.NodeType != System.Xml.XmlNodeType.EndElement && Reader.NodeType != System.Xml.XmlNodeType.None) {
+                if (Reader.NodeType == System.Xml.XmlNodeType.Element) {
+                    UnknownNode((object)o, @"");
+                }
+                else {
+                    UnknownNode((object)o, @"");
+                }
+                Reader.MoveToContent();
+            }
+            ReadEndElement();
+            return o;
+        }
+
+        global::SharpSystem.Application.Services.SQLServerServices.NotaFiscalService Read3_NotaFiscalService(bool isNullable, bool checkType) {
+            System.Xml.XmlQualifiedName xsiType = checkType ? GetXsiType() : null;
+            bool isNull = false;
+            if (isNullable) isNull = ReadNull();
+            if (checkType) {
+            if (xsiType == null || ((object) ((System.Xml.XmlQualifiedName)xsiType).Name == (object)id3_NotaFiscalService && (object) ((System.Xml.XmlQualifiedName)xsiType).Namespace == (object)id2_Item)) {
+            }
+            else {
+                throw CreateUnknownTypeException((System.Xml.XmlQualifiedName)xsiType);
+            }
+            }
+            if (isNull) return null;
+            global::SharpSystem.Application.Services.SQLServerServices.NotaFiscalService o;
+            o = new global::SharpSystem.Application.Services.SQLServerServices.NotaFiscalService();
             System.Span<bool> paramsRead = stackalloc bool[0];
             while (Reader.MoveToNextAttribute()) {
                 if (!IsXmlnsAttribute(Reader.Name)) {
@@ -187,14 +273,16 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
         protected override void InitCallbacks() {
         }
 
-        string id1_WebServiceAPI;
         string id2_Item;
-        string id3_ConverterBase64;
+        string id1_WebServiceAPI;
+        string id4_ConverterBase64;
+        string id3_NotaFiscalService;
 
         protected override void InitIDs() {
-            id1_WebServiceAPI = Reader.NameTable.Add(@"WebServiceAPI");
             id2_Item = Reader.NameTable.Add(@"");
-            id3_ConverterBase64 = Reader.NameTable.Add(@"ConverterBase64");
+            id1_WebServiceAPI = Reader.NameTable.Add(@"WebServiceAPI");
+            id4_ConverterBase64 = Reader.NameTable.Add(@"ConverterBase64");
+            id3_NotaFiscalService = Reader.NameTable.Add(@"NotaFiscalService");
         }
     }
 
@@ -214,11 +302,26 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
         }
 
         protected override void Serialize(object objectToSerialize, System.Xml.Serialization.XmlSerializationWriter writer) {
-            ((XmlSerializationWriter1)writer).Write4_WebServiceAPI(objectToSerialize);
+            ((XmlSerializationWriter1)writer).Write5_WebServiceAPI(objectToSerialize);
         }
 
         protected override object Deserialize(System.Xml.Serialization.XmlSerializationReader reader) {
-            return ((XmlSerializationReader1)reader).Read4_WebServiceAPI();
+            return ((XmlSerializationReader1)reader).Read5_WebServiceAPI();
+        }
+    }
+
+    public sealed class NotaFiscalServiceSerializer : XmlSerializer1 {
+
+        public override System.Boolean CanDeserialize(System.Xml.XmlReader xmlReader) {
+            return xmlReader.IsStartElement(@"NotaFiscalService", @"");
+        }
+
+        protected override void Serialize(object objectToSerialize, System.Xml.Serialization.XmlSerializationWriter writer) {
+            ((XmlSerializationWriter1)writer).Write6_NotaFiscalService(objectToSerialize);
+        }
+
+        protected override object Deserialize(System.Xml.Serialization.XmlSerializationReader reader) {
+            return ((XmlSerializationReader1)reader).Read6_NotaFiscalService();
         }
     }
 
@@ -229,11 +332,11 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
         }
 
         protected override void Serialize(object objectToSerialize, System.Xml.Serialization.XmlSerializationWriter writer) {
-            ((XmlSerializationWriter1)writer).Write5_ConverterBase64(objectToSerialize);
+            ((XmlSerializationWriter1)writer).Write7_ConverterBase64(objectToSerialize);
         }
 
         protected override object Deserialize(System.Xml.Serialization.XmlSerializationReader reader) {
-            return ((XmlSerializationReader1)reader).Read5_ConverterBase64();
+            return ((XmlSerializationReader1)reader).Read7_ConverterBase64();
         }
     }
 
@@ -245,8 +348,9 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
             get {
                 if (readMethods == null) {
                     System.Collections.Hashtable _tmp = new System.Collections.Hashtable();
-                    _tmp[@"SharpSystem.Application.Services.WebServiceAPI::"] = @"Read4_WebServiceAPI";
-                    _tmp[@"SharpSystem.Application.Helper.ConverterBase64::"] = @"Read5_ConverterBase64";
+                    _tmp[@"SharpSystem.Application.Services.WebServiceAPI::"] = @"Read5_WebServiceAPI";
+                    _tmp[@"SharpSystem.Application.Services.SQLServerServices.NotaFiscalService::"] = @"Read6_NotaFiscalService";
+                    _tmp[@"SharpSystem.Application.Helper.ConverterBase64::"] = @"Read7_ConverterBase64";
                     if (readMethods == null) readMethods = _tmp;
                 }
                 return readMethods;
@@ -257,8 +361,9 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
             get {
                 if (writeMethods == null) {
                     System.Collections.Hashtable _tmp = new System.Collections.Hashtable();
-                    _tmp[@"SharpSystem.Application.Services.WebServiceAPI::"] = @"Write4_WebServiceAPI";
-                    _tmp[@"SharpSystem.Application.Helper.ConverterBase64::"] = @"Write5_ConverterBase64";
+                    _tmp[@"SharpSystem.Application.Services.WebServiceAPI::"] = @"Write5_WebServiceAPI";
+                    _tmp[@"SharpSystem.Application.Services.SQLServerServices.NotaFiscalService::"] = @"Write6_NotaFiscalService";
+                    _tmp[@"SharpSystem.Application.Helper.ConverterBase64::"] = @"Write7_ConverterBase64";
                     if (writeMethods == null) writeMethods = _tmp;
                 }
                 return writeMethods;
@@ -269,8 +374,9 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
             get {
                 if (typedSerializers == null) {
                     System.Collections.Hashtable _tmp = new System.Collections.Hashtable();
-                    _tmp.Add(@"SharpSystem.Application.Services.WebServiceAPI::", new WebServiceAPISerializer());
+                    _tmp.Add(@"SharpSystem.Application.Services.SQLServerServices.NotaFiscalService::", new NotaFiscalServiceSerializer());
                     _tmp.Add(@"SharpSystem.Application.Helper.ConverterBase64::", new ConverterBase64Serializer());
+                    _tmp.Add(@"SharpSystem.Application.Services.WebServiceAPI::", new WebServiceAPISerializer());
                     if (typedSerializers == null) typedSerializers = _tmp;
                 }
                 return typedSerializers;
@@ -278,11 +384,13 @@ namespace Microsoft.Xml.Serialization.GeneratedAssembly {
         }
         public override System.Boolean CanSerialize(System.Type type) {
             if (type == typeof(global::SharpSystem.Application.Services.WebServiceAPI)) return true;
+            if (type == typeof(global::SharpSystem.Application.Services.SQLServerServices.NotaFiscalService)) return true;
             if (type == typeof(global::SharpSystem.Application.Helper.ConverterBase64)) return true;
             return false;
         }
         public override System.Xml.Serialization.XmlSerializer GetSerializer(System.Type type) {
             if (type == typeof(global::SharpSystem.Application.Services.WebServiceAPI)) return new WebServiceAPISerializer();
+            if (type == typeof(global::SharpSystem.Application.Services.SQLServerServices.NotaFiscalService)) return new NotaFiscalServiceSerializer();
             if (type == typeof(global::SharpSystem.Application.Helper.ConverterBase64)) return new ConverterBase64Serializer();
             return null;
         }

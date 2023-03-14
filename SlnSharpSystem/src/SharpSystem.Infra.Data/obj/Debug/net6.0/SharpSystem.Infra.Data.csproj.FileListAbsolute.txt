@@ -32,3 +32,20 @@ D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\r
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.pdb
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.genruntimeconfig.cache
 D:\dev\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\ref\SharpSystem.Infra.Data.dll
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.AssemblyReference.cache
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.AssemblyInfoInputs.cache
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.AssemblyInfo.cs
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.CoreCompileInputs.cache
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.deps.json
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.runtimeconfig.json
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.dll
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Infra.Data.pdb
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Domain.dll
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\bin\Debug\net6.0\SharpSystem.Domain.pdb
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.csproj.CopyComplete
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.dll
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\refint\SharpSystem.Infra.Data.dll
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.pdb
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\SharpSystem.Infra.Data.genruntimeconfig.cache
+C:\DEV2BLU\projeto final\sharp-system\SlnSharpSystem\src\SharpSystem.Infra.Data\obj\Debug\net6.0\ref\SharpSystem.Infra.Data.dll

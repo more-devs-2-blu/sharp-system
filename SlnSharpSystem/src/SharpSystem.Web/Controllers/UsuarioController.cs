@@ -44,7 +44,7 @@ namespace SharpSystem.Web.Controllers
             }
             catch (Exception erro)
             {
-                TempData["MsgErro"] = $"Usuário não foi cadastrado corretamente, detalhe do erro: {erro.Message}"
+                TempData["MsgErro"] = $"Usuário não foi cadastrado corretamente, detalhe do erro: {erro.Message}";
                 return RedirectToAction("Index");
             }
         }

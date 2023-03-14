@@ -12,6 +12,6 @@ namespace SharpSystem.Domain.IServices
     {
         void CriarSessaoUsuario(Usuario usuario);
         void RemoverSessaoUsuario();
-        Usuario BuscarSessaoUsuario();
+        UsuarioDTO BuscarSessaoUsuario();
     }
 }
