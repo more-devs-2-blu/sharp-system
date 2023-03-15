@@ -23,6 +23,7 @@
 `Tecnologia 2` : Vue.JS</br>
 `Tecnologia 3` : Visual Studio Code</br>
 `Tecnologia 4` : Visual Studio 2022</br>
+`Tecnologia 5` : Banco de Dados SQL Server 2019</br>
 
 # 📝 Proposta Geral
 <p align="justify">A proposta para o desenvolvimento do nosso projeto é criar uma solução que facilite a emissão, digitação e gestão de Notas Fiscais Eletrônicas de Serviço (NFS-e). Dessa forma, nossa equipe desenvolveu um Sistema Web utilizando a tenclogia do C# .NET MVC com cadastro de usuário, login de usuário e emissão de nota fiscal pelo próprio sistema, e usuando o Vue.JS para as telas do sistema</p>
