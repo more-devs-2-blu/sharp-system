@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SharpSystem.Domain.DTO.NFSDTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,5 +18,19 @@ namespace SharpSystem.Domain.Entities.NFS
         public string AliquotaItemListaServico { get; set; }
         public string SituacaoTributaria { get; set; }
         public string ValorTributavel { get; set; }
+        public ListaDTO mapToDTO()
+        {
+            return new ListaDTO()
+            {
+                id = Id,
+                tributaMunicipioPrestador = TributaMunicipioPrestador,
+                codigoLocalPrestacaoServico = CodigoLocalPrestacaoServico,
+                codigoItemListaServico = CodigoItemListaServico,
+                descritivo = Descritivo,
+                aliquotaItemListaServico = AliquotaItemListaServico,
+                situacaoTributaria = SituacaoTributaria,
+                valorTributavel = ValorTributavel,
+            };
+        }
     }
 }

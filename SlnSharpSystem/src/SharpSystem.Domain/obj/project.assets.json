@@ -2177,11 +2177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV2BLU\\Projetos Pessoais\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Nova pasta\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
       "projectName": "SharpSystem.Domain",
-      "projectPath": "C:\\DEV2BLU\\Projetos Pessoais\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
+      "projectPath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Nova pasta\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV2BLU\\Projetos Pessoais\\SlnSharpSystem\\src\\SharpSystem.Domain\\obj\\",
+      "outputPath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Nova pasta\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
