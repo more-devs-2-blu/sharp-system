@@ -6,7 +6,9 @@
 
 <p align="center"><a href="https://github.com/pedrogodri/estudo-de-caso/blob/main/LICENSE"><img alt="GitHub Licença" src="https://img.shields.io/badge/Status-Desenvolvimento-blue"></a>
 <a href="https://github.com/pedrogodri/estudo-de-caso/blob/main/STATUS"><img alt="GitHub Status de Desenvolvimento" src="https://img.shields.io/badge/Vers%C3%A3o-1.4-blue"></a>
-<a href="https://github.com/pedrogodri/estudo-de-caso/blob/main/RELEASE-DATE"><img alt="GitHub Data Entrega" src="https://img.shields.io/badge/Empresa-Senior-blue"></a></p>
+<a href="https://github.com/pedrogodri/estudo-de-caso/blob/main/RELEASE-DATE"><img alt="GitHub Data Entrega" src="https://img.shields.io/badge/Empresa-Senior-blue"></a>
+<a href="https://github.com/pedrogodri/estudo-de-caso/blob/main/RELEASE-DATE"><img alt="GitHub Data Entrega" src="https://img.shields.io/badge/Turma-C%23-blue"></a></p>
+
 <p align="center"> :construction: <b>Projeto em desenvolvimento</b> :construction: </p>
 
 # :hammer: Funcionalidades do projeto
