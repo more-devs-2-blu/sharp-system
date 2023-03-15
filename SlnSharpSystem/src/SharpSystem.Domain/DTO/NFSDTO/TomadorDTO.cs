@@ -1,9 +1,4 @@
 ﻿using SharpSystem.Domain.Entities.NFS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.DTO.NFSDTO
@@ -47,28 +42,28 @@ namespace SharpSystem.Domain.DTO.NFSDTO
                 cpfCnpj = tomador.CpfCnpj,
                 tipo = tomador.Tipo,
                 nomeRazaoSocial = tomador.NomeRazaoSocial,
-                logradouro= tomador.Logradouro,
+                logradouro = tomador.Logradouro,
                 email = tomador.Email,
                 numeroResidencia = tomador.NumeroResidencia,
-                bairro= tomador.Bairro,
+                bairro = tomador.Bairro,
                 cidade = tomador.Cidade,
-                cep= tomador.Cep,
+                cep = tomador.Cep,
             };
         }
         public Tomador mapToEntity()
         {
             return new Tomador()
             {
-                Id= id,
-                CpfCnpj= cpfCnpj,
-                Tipo= tipo,
-                NomeRazaoSocial= nomeRazaoSocial,
-                Logradouro= logradouro,
-                Email= email,
-                NumeroResidencia= numeroResidencia,
-                Bairro= bairro,
-                Cep= cep,
-                Cidade= cidade,
+                Id = id,
+                CpfCnpj = cpfCnpj,
+                Tipo = tipo,
+                NomeRazaoSocial = nomeRazaoSocial,
+                Logradouro = logradouro,
+                Email = email,
+                NumeroResidencia = numeroResidencia,
+                Bairro = bairro,
+                Cep = cep,
+                Cidade = cidade,
             };
         }
     }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BmSU/T6wG7GCIH0qTLrX8G2UCGddBw1IXR1b4rJmBYcwY2TaAkazhGVTstwRPq5TgLQDNxWys801lKZFGoOx9w==",
+  "dgSpecHash": "mOEaIorzcosJM76ro2UcmJLNVaZtsKooQLGpZN4a39ll8qJXzYSRm1dunhnIHCxoYzcfZ+rrhZ4UVHvidW8XaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Nova pasta\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\restsharp\\109.0.1\\restsharp.109.0.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",

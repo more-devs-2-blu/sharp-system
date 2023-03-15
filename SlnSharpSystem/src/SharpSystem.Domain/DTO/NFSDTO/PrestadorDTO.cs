@@ -1,9 +1,4 @@
 ﻿using SharpSystem.Domain.Entities.NFS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.DTO.NFSDTO
@@ -24,7 +19,7 @@ namespace SharpSystem.Domain.DTO.NFSDTO
             {
                 id = prestador.Id,
                 cpfCnpj = prestador.CpfCnpj,
-                cidade= prestador.Cidade,
+                cidade = prestador.Cidade,
             };
         }
         public Prestador mapToEntity()

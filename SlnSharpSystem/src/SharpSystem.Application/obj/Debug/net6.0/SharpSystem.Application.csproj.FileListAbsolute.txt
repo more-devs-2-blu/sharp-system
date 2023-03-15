@@ -13,3 +13,18 @@ C:\DEV2BLU\Projetos Pessoais\SlnSharpSystem\src\SharpSystem.Application\obj\Debu
 C:\DEV2BLU\Projetos Pessoais\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\refint\SharpSystem.Application.dll
 C:\DEV2BLU\Projetos Pessoais\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.pdb
 C:\DEV2BLU\Projetos Pessoais\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.deps.json
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Application.pdb
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\bin\Debug\net6.0\SharpSystem.Domain.pdb
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.AssemblyReference.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.csproj.CopyComplete
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\refint\SharpSystem.Application.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\SharpSystem.Application.pdb
+C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Application\obj\Debug\net6.0\ref\SharpSystem.Application.dll

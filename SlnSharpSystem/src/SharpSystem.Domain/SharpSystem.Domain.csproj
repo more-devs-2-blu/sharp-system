@@ -10,9 +10,4 @@
     <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="IRepositories\INFSRespositories\" />
-    <Folder Include="IServices\INFSServices\" />
-  </ItemGroup>
-
 </Project>

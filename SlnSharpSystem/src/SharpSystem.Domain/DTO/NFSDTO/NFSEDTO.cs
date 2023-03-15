@@ -1,9 +1,4 @@
 ﻿using SharpSystem.Domain.Entities.NFS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.DTO.NFSDTO
@@ -14,7 +9,7 @@ namespace SharpSystem.Domain.DTO.NFSDTO
         [XmlIgnore]
         public int id { get; set; }
         [XmlElement("nf")]
-        public NotalFiscalDTO notaFiscalDTO { get; set; }
+        public NotaFiscalDTO notaFiscalDTO { get; set; }
         [XmlElement("prestador")]
         public PrestadorDTO prestador { get; set; }
         [XmlElement("tomador")]

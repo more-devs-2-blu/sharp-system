@@ -1,9 +1,4 @@
 ﻿using SharpSystem.Domain.Entities.NFS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.DTO.NFSDTO
@@ -41,7 +36,7 @@ namespace SharpSystem.Domain.DTO.NFSDTO
                 tributaMunicipioPrestador = lista.TributaMunicipioPrestador,
                 codigoLocalPrestacaoServico = lista.CodigoLocalPrestacaoServico,
                 codigoItemListaServico = lista.CodigoItemListaServico,
-                descritivo= lista.Descritivo,
+                descritivo = lista.Descritivo,
                 aliquotaItemListaServico = lista.AliquotaItemListaServico,
                 situacaoTributaria = lista.SituacaoTributaria,
                 valorTributavel = lista.ValorTributavel,
@@ -51,7 +46,7 @@ namespace SharpSystem.Domain.DTO.NFSDTO
         {
             return new Lista()
             {
-                Id= id,
+                Id = id,
                 TributaMunicipioPrestador = tributaMunicipioPrestador,
                 CodigoLocalPrestacaoServico = codigoLocalPrestacaoServico,
                 CodigoItemListaServico = codigoItemListaServico,

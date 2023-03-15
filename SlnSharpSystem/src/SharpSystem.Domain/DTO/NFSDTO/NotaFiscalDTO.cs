@@ -3,16 +3,16 @@ using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.DTO.NFSDTO
 {
-    public class NotalFiscalDTO
+    public class NotaFiscalDTO
     {
         [XmlIgnore]
         public int id { get; set; }
         [XmlElement("valor_total")]
         public string valorTotal { get; set; }
 
-        public NotalFiscalDTO mapToDTO(NotaFiscal notaFiscal)
+        public NotaFiscalDTO mapToDTO(NotaFiscal notaFiscal)
         {
-            return new NotalFiscalDTO()
+            return new NotaFiscalDTO()
             {
                 id = notaFiscal.Id,
                 valorTotal = notaFiscal.ValorTotal

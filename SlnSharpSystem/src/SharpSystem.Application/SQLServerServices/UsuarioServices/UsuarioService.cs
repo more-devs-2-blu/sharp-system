@@ -1,6 +1,7 @@
 ﻿using SharpSystem.Domain.DTO.UsuarioDTO;
 using SharpSystem.Domain.IRepositories.IUsuarioRepositories;
 using SharpSystem.Domain.IServices;
+using System.Text;
 
 namespace SharpSystem.Application.Services.SQLServerServices
 {
@@ -42,6 +43,18 @@ namespace SharpSystem.Application.Services.SQLServerServices
         {
             var entity = await _repository.FindById(id);
             return await _repository.Delete(entity);
+        }
+        public static string DecodeFromBase64(string str)
+        {
+            byte[] encodedBytes = Convert.FromBase64String(str);
+            string decodedString = Encoding.UTF8.GetString(encodedBytes);
+            return decodedString;
+        }
+        public static string EncodeToBase64(string str)
+        {
+            byte[] encodedBytes = Encoding.UTF8.GetBytes(str);
+            string encodedString = Convert.ToBase64String(encodedBytes);
+            return encodedString;
         }
     }
 }

@@ -1,9 +1,4 @@
 ﻿using SharpSystem.Domain.Entities.NFS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.DTO.NFSDTO
@@ -19,7 +14,7 @@ namespace SharpSystem.Domain.DTO.NFSDTO
             return new ItensDTO()
             {
                 id = itens.Id,
-                listaDTO = itens.lista.mapToDTO()
+                listaDTO = listaDTO.mapToDTO(itens.lista)
             };
         }
         public Itens mapToEntity()
