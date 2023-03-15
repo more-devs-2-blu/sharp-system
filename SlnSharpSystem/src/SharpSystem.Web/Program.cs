@@ -4,7 +4,6 @@ using SharpSystem.Domain.IRepositories.IUsuarioRepositories;
 using SharpSystem.Domain.IServices;
 using SharpSystem.Infra.Data.Context;
 using SharpSystem.Infra.Data.Repositories;
-using SharpSystem.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,30 +11,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //Conect SQL Server
-var connectionStringUser = builder.Configuration.GetConnectionString("SQLServerConnection");
 builder.Services.AddDbContext<SQLServerContext>
-    (options => options.UseSqlServer(connectionStringUser));
+    (options => options.UseSqlServer("Server=PCDOPH\\SQLEXPRESS;Database=SistemaNotas;User Id=sa;Password=admin;TrustServerCertificate=True;Encrypt=False;"));
 
-builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-
-// ## Dependency Injection
-
-// Repositories
+// ### Dependency Injection
+// # Repositories
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-builder.Services.AddScoped<ISessaoService, SessaoService>();
 
-// Services
+// # Services
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
-builder.Services.AddScoped<INotaFicalService, NotaFiscalService>();
-
-// Cookies
-builder.Services.AddSession(o =>
-{
-    o.Cookie.HttpOnly = true;
-    o.Cookie.IsEssential = true;
-});
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -51,8 +38,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
-app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

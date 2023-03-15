@@ -16,7 +16,7 @@ namespace SharpSystem.Infra.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.3")
+                .HasAnnotation("ProductVersion", "7.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -44,15 +44,6 @@ namespace SharpSystem.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CFPCNPJ = "104.752.299-23",
-                            Nome = "Pedro Godri",
-                            Senha = "12345"
-                        });
                 });
 #pragma warning restore 612, 618
         }
