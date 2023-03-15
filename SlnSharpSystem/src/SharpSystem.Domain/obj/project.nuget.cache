@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rjItZB5KpFP8bUY21R+e636nUwaJZPfwUcerYjC267iFP1c/lvEKUX8zSxygaISDTc4chnoMLKHGfbP9WQY4bg==",
+  "dgSpecHash": "89/W5ov9aDLCKkFzvolJpqd+NwQDODzWKwoyUlCsMVoKXJoVniBlN+w4JeJuRtLsMbvWGs34P2rJF9e2MOda6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Nova pasta\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
+  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\sharp-system-ph.new\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

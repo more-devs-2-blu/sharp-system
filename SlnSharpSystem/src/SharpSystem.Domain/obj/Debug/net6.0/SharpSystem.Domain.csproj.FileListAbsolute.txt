@@ -22,3 +22,15 @@ C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem
 C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\refint\SharpSystem.Domain.dll
 C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.pdb
 C:\Users\pedro\OneDrive\Área de Trabalho\Nova pasta\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\ref\SharpSystem.Domain.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\bin\Debug\net6.0\SharpSystem.Domain.deps.json
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\bin\Debug\net6.0\SharpSystem.Domain.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\bin\Debug\net6.0\SharpSystem.Domain.pdb
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\refint\SharpSystem.Domain.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.pdb
+C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\ref\SharpSystem.Domain.dll

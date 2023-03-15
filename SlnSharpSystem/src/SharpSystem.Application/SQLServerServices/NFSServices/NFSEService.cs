@@ -103,7 +103,7 @@ namespace SharpSystem.Application.SQLServerServices.NFSServices
             string path = "D:\\Documents\\XML" + NomeDoArquivo;
             request.AddHeader("Authorization", Base64);
             request.AlwaysMultipartFormData = true;
-            request.AddFile("vamodale", NomeDoArquivo);
+            request.AddFile("XML", NomeDoArquivo);
 
             RestResponse response = await client.ExecuteAsync(request);
 
