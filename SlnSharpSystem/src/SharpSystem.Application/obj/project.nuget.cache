@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rq2CWWiZrXdc8xf3hoeSzt06vGnYJLUBx5ttoY3xizN8idkspNEjIqGGJLDj3/K4u/M2WPQrC87fsAwnahrXwg==",
+  "dgSpecHash": "QqPXsAgNrR4GlgD3J5tctCppPttyX3Pp/mLh2X7qf7NwCS/uSDeCwjh8mzi4EQpIh913SrzDzzBwq9iDWIgx5Q==",
   "success": true,
-  "projectFilePath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
+  "projectFilePath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

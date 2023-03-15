@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zA0t8G82eE123iXZ4lNVaQ7bMJjC/KzXM1CW5sUYJoT31H7zDPn5KrBY7o5XFs423N2vujafkmDiazmm4wCsXw==",
+  "dgSpecHash": "v/aTKF5usLIycS22sH7U4WBWltlvgIvS3YnzyxqPTJo3CmbMt2/OPK1WvQ2dXb0D7iBiQavm8JukFtUSGosM1Q==",
   "success": true,
-  "projectFilePath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj",
+  "projectFilePath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
