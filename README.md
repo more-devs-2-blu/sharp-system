@@ -30,13 +30,13 @@
 # 📃 Descrição do Sistema
 <p align="justify">Tendo em vista que a forma utilizada atualmente é arcaica, nosso sistema visa facilitar a vida dos usuário nas compras e troca de carros. Tem como objetivo tornar mais prática a venda de automóveis, contando com as opções de criar um usuário realizando o seu cadastro Caso o usuário seja um vendedor, poderá cadastrar um carro, moto, ônibus ou caminhão. Se necessário o vendedor pode descadastrar um veículo também. Mas se o usuário for um comprador, ele poderá comprar os veículos anunciados pelos vendedores, e também poderá anunciar seus veículos.</p>
 
-# 📈 Diagrama de Classes
-<p align="center">
+<h1>📈 Diagramas </h1>
+
+<h2>Diagrama de Classes</h2>
 
 ![image](https://github.com/pedrogodri/Imagens/blob/main/DiagramaClasses.PNG?raw=true)
-  
- # 📈 Diagrama de Casos de Uso
-<p align="center">
+
+<h2>Diagrama de Casos de Uso</h2>
 
 ![image](https://github.com/pedrogodri/Imagens/blob/main/DiagramaCasosUso.PNG?raw=true)
 
