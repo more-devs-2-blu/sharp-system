@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SharpSystem.Domain.DTO
 {
-    internal class LoginDTO
+    public class LoginDTO
     {
         public string cpfcnpj { get; set; }
         public string senha { get; set; }
