@@ -16,19 +16,16 @@ namespace SharpSystem.Infra.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.3")
+                .HasAnnotation("ProductVersion", "7.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-<<<<<<< HEAD
-=======
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Itens", b =>
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NFS.Itens", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
@@ -40,87 +37,61 @@ namespace SharpSystem.Infra.Data.Migrations
                     b.HasIndex("listaId");
 
                     b.ToTable("Itens");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            listaId = 1
-                        });
                 });
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Lista", b =>
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NFS.Lista", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("AliquotaItemListaServico")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("aliquotaItemListaServico");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CodigoItemListaServico")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("codigoItemListaServico");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CodigoLocalPrestacaoServico")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("codigoLocalPrestacaoServio");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Descritivo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("descritivo");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SituacaoTributaria")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("situacaoTributaria");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TributaMunicipioPrestador")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("tributaMunicipioPrestador");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ValorTributavel")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("valorTributavel");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Listas");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            AliquotaItemListaServico = "5,0",
-                            CodigoItemListaServico = "94",
-                            CodigoLocalPrestacaoServico = "12",
-                            Descritivo = "teste bla bla",
-                            SituacaoTributaria = "0",
-                            TributaMunicipioPrestador = "10",
-                            ValorTributavel = "1,0"
-                        });
                 });
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.NotaFiscal", b =>
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NFS.NFSE", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ItemId")
+                    b.Property<int>("ItensId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("NotaFiscalId")
                         .HasColumnType("int");
 
                     b.Property<int>("PrestadorId")
@@ -129,139 +100,106 @@ namespace SharpSystem.Infra.Data.Migrations
                     b.Property<int>("TomadorId")
                         .HasColumnType("int");
 
-                    b.Property<string>("ValorTotal")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("valorTotal");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("ItemId");
+                    b.HasIndex("ItensId");
+
+                    b.HasIndex("NotaFiscalId");
 
                     b.HasIndex("PrestadorId");
 
                     b.HasIndex("TomadorId");
 
-                    b.ToTable("NotaFiscal");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            ItemId = 1,
-                            PrestadorId = 1,
-                            TomadorId = 1,
-                            ValorTotal = "150,00"
-                        });
+                    b.ToTable("NFSEs");
                 });
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Prestador", b =>
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NFS.NotaFiscal", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ValorTotal")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("NotaFiscals");
+                });
+
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NFS.Prestador", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Cidade")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("cidade");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CpfCnpj")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("cpfcnpj");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Prestador");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Cidade = "8357",
-                            CpfCnpj = "115.187.919-10"
-                        });
                 });
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Tomador", b =>
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NFS.Tomador", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Bairro")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("bairro");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Cep")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("cep");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Cidade")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("cidade");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CpfCnpj")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("cpfcnpj");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("email");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Logradouro")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("logradouro");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NomeRazaoSocial")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("nomeRazaoSocial");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NumeroResidencia")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("numeroResidencia");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Tipo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("tipo");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("tomador");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Bairro = "Agua Verde",
-                            Cep = "89062712",
-                            Cidade = "8357",
-                            CpfCnpj = "12.345.678/0001-00",
-                            Email = "teste@gmail.com",
-                            Logradouro = "Oscar Wippel",
-                            NomeRazaoSocial = "Empresa teste",
-                            NumeroResidencia = "123",
-                            Tipo = "J"
-                        });
+                    b.ToTable("Tomador");
                 });
 
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             modelBuilder.Entity("SharpSystem.Domain.Entities.Usuario.Usuario", b =>
                 {
                     b.Property<int>("Id")
@@ -274,17 +212,6 @@ namespace SharpSystem.Infra.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-<<<<<<< HEAD
-=======
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Login")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -296,82 +223,53 @@ namespace SharpSystem.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CFPCNPJ = "104.752.299-23",
-<<<<<<< HEAD
-=======
-                            Email = "pedrogodri@gmail.com",
-                            Login = "PedroGodri",
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
-                            Nome = "Pedro Godri",
-                            Senha = "12345"
-                        });
                 });
-<<<<<<< HEAD
-=======
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Itens", b =>
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NFS.Itens", b =>
                 {
-                    b.HasOne("SharpSystem.Domain.Entities.NF.Lista", "Lista")
-                        .WithMany("Itens")
+                    b.HasOne("SharpSystem.Domain.Entities.NFS.Lista", "lista")
+                        .WithMany()
                         .HasForeignKey("listaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Lista");
+                    b.Navigation("lista");
                 });
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.NotaFiscal", b =>
+            modelBuilder.Entity("SharpSystem.Domain.Entities.NFS.NFSE", b =>
                 {
-                    b.HasOne("SharpSystem.Domain.Entities.NF.Itens", "itens")
-                        .WithMany("NotaFiscal")
-                        .HasForeignKey("ItemId")
+                    b.HasOne("SharpSystem.Domain.Entities.NFS.Itens", "Itens")
+                        .WithMany()
+                        .HasForeignKey("ItensId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SharpSystem.Domain.Entities.NF.Prestador", "prestador")
-                        .WithMany("NotaFiscal")
+                    b.HasOne("SharpSystem.Domain.Entities.NFS.NotaFiscal", "NotaFiscal")
+                        .WithMany()
+                        .HasForeignKey("NotaFiscalId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SharpSystem.Domain.Entities.NFS.Prestador", "Prestador")
+                        .WithMany()
                         .HasForeignKey("PrestadorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SharpSystem.Domain.Entities.NF.Tomador", "tomador")
-                        .WithMany("NotaFiscal")
+                    b.HasOne("SharpSystem.Domain.Entities.NFS.Tomador", "Tomador")
+                        .WithMany()
                         .HasForeignKey("TomadorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("itens");
-
-                    b.Navigation("prestador");
-
-                    b.Navigation("tomador");
-                });
-
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Itens", b =>
-                {
-                    b.Navigation("NotaFiscal");
-                });
-
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Lista", b =>
-                {
                     b.Navigation("Itens");
-                });
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Prestador", b =>
-                {
                     b.Navigation("NotaFiscal");
-                });
 
-            modelBuilder.Entity("SharpSystem.Domain.Entities.NF.Tomador", b =>
-                {
-                    b.Navigation("NotaFiscal");
+                    b.Navigation("Prestador");
+
+                    b.Navigation("Tomador");
                 });
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 #pragma warning restore 612, 618
         }
     }

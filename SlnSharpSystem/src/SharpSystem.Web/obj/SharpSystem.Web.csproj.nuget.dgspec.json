@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj": {}
-  },
-  "projects": {
-    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
-        "projectName": "SharpSystem.Application",
-        "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-=======
     "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj": {}
   },
   "projects": {
@@ -31,7 +15,6 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         ],
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,23 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-          "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
-=======
               "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
                 "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
               }
             }
           }
@@ -73,29 +47,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-<<<<<<< HEAD
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Microsoft.XmlSerializer.Generator": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
             "RestSharp": {
               "target": "Package",
               "version": "[109.0.1, )"
-            },
-            "System.Security.Cryptography.Xml": {
-              "target": "Package",
-              "version": "[7.0.1, )"
             }
           },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
           "imports": [
             "net461",
             "net462",
@@ -112,23 +69,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
-        "projectName": "SharpSystem.Domain",
-        "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
@@ -144,7 +84,6 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         ],
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,10 +95,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-          "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -177,25 +112,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-<<<<<<< HEAD
           "dependencies": {
-            "Microsoft.AspNetCore.Http.Abstractions": {
+            "RestSharp": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[109.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "System.Xml.XmlSerializer": {
               "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[4.3.0, )"
             }
           },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
           "imports": [
             "net461",
             "net462",
@@ -212,23 +138,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj",
-        "projectName": "SharpSystem.Infra.Data",
-        "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
@@ -244,7 +153,6 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         ],
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -256,23 +164,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-          "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
-=======
               "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
                 "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
               }
             }
           }
@@ -289,20 +188,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
-<<<<<<< HEAD
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -312,7 +208,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
@@ -331,23 +227,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
-        "projectName": "SharpSystem.Web",
-        "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\SharpSystem.Web.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Web\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
@@ -363,7 +242,6 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         ],
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -375,26 +253,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-          "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
-                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj"
-              },
-              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj": {
-                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Domain\\SharpSystem.Domain.csproj"
-              },
-              "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
-                "projectPath": "C:\\DEV2BLU\\projeto final\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj"
-=======
               "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj": {
                 "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Application\\SharpSystem.Application.csproj"
               },
@@ -403,7 +267,6 @@
               },
               "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj": {
                 "projectPath": "D:\\Documents\\sharp-system\\SlnSharpSystem\\src\\SharpSystem.Infra.Data\\SharpSystem.Infra.Data.csproj"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
               }
             }
           }
@@ -420,20 +283,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
-<<<<<<< HEAD
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
-=======
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
@@ -443,11 +303,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.12, )"
+              "version": "[6.0.13, )"
             }
           },
           "imports": [
@@ -469,11 +329,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
         }
       }
     }

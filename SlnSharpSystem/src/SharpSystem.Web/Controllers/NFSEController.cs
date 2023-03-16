@@ -1,34 +1,25 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-<<<<<<< HEAD
-using SharpSystem.Application.Interfaces;
-using SharpSystem.Domain.DTO;
-using SharpSystem.Domain.IServices;
+﻿using Microsoft.AspNetCore.Mvc;
+using SharpSystem.Application.SQLServerServices.NFSServices;
+using SharpSystem.Domain.DTO.NFSDTO;
+using SharpSystem.Domain.DTO.UsuarioDTO;
+using SharpSystem.Domain.IServices.INFSServices;
 using System.Xml.Serialization;
-=======
-using SharpSystem.Domain.DTO;
-using System.Xml.Serialization;
-using System;
-using System.Net;
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
 
 namespace SharpSystem.Web.Controllers
 {
     public class NFSEController : Controller
     {
-<<<<<<< HEAD
-        private readonly INotaFicalService _notaFicalService;
+        private readonly INotaFicaslService _notaFicalService;
+        private readonly INFSEService _infseService;
 
 
-        public NFSEController(INotaFicalService notaFicalService)
+        public NFSEController(INotaFicaslService notaFicalService, INFSEService infseService)
         {
             _notaFicalService = notaFicalService;
+            _infseService = infseService;
         }
 
-=======
-        string arquivoXMLstring = "";
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
-        public ActionResult Index()
+        public IActionResult Index()
         {
             return View();
         }
@@ -38,36 +29,17 @@ namespace SharpSystem.Web.Controllers
             return View();
         }
 
-        public ActionResult CreateXML(NFSEDTO nfse)
+        [HttpPost]
+        public async Task<IActionResult> Create([Bind("notaFiscalDTO, prestador, tomador, itens, ")] NFSEDTO nfse)
         {
-            string nomeArquivo = DateTime.Now.ToString().Replace(@"/", "").Replace(@" ", "").Replace(@":", "") + ".xml";
-<<<<<<< HEAD
-            using (StreamWriter stream = new StreamWriter(Path.Combine(@"C:\DEV2BLU\projeto final\Nova pasta", nomeArquivo)))
-            {
-                XmlSerializer xmlSerializer = new XmlSerializer(typeof(NFSEDTO));
-                xmlSerializer.Serialize(stream, nfse);
-                return RedirectToAction(nameof(Index));
-            }
-            return View();
-        }
-=======
-            using (StreamWriter stream = new StreamWriter(Path.Combine(@"D:\dev\sharp-system", nomeArquivo)))
-            {
-                XmlSerializer xmlSerializer = new XmlSerializer(typeof(NFSEDTO));
-                // Cria uma string do XML
-                var sw = new StringWriter();
-                xmlSerializer.Serialize(sw, nfse);
-                arquivoXMLstring = sw.ToString();
-
-
-                xmlSerializer.Serialize(stream, nfse);
-
-                return RedirectToAction(nameof(Index));
-                //return View(arquivoXMLstring);
-            }
+                if(await _infseService.Save(nfse) > 0) 
+                {
+                    string nameXML = _infseService.CreateXML(nfse);
+                    _infseService.SendXML(nameXML, "Basic MjU4MjUzMDcwMDAxNTI6VGVzdGVAMjAyMw==");
+                }
+            return RedirectToAction(nameof(Index));
         }
 
-        
->>>>>>> 382b642530529f38c9e349e12a7338fff40a45ef
+
     }
 }
