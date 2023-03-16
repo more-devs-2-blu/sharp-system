@@ -1,5 +1,41 @@
 ﻿@model IEnumerable<SharpSystem.Domain.DTO.NFSDTO.NFSEDTO>
+@{
+    Layout = null;
+}
+<link rel="stylesheet" href="~/css/nfes.css" asp-append-version="true" />
+<div class="main">
+    <section class="card-menu">
+        <img src="/img/logo-sharp-system.png" alt="">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><img src="/img/logout-icon.png" style="width:30px; margin-bottom:50px; " alt=""></a>
+    </section>
+    <div class="profile">
+        <button>
+            <a asp-controller="NFSE" asp-action="Index">Inicio</a>
+            </button>
+        <div class="info">
+            <h3>Benagal Eletronica</h3>
+            <p>213.321/000-12</p>
+        </div>
+        <img src="/img/user-icon.png" style="width:50px; height:60px; margin-bottom:100px " alt="user-icon">
+    </div>
+    <section class="main_square">
+        <div class="left_square" >
+             <a asp-area="" asp-controller="NFSE" asp-action="Create">Emitir Nota Fiscal</a>
+            <p>Acessar emissão de nota fiscal</p>
+            <p>Nota Fiscal Eletronica</p>
+        </div>
+        <div class="right_square">
+            <h2>Gerenciar Notas</h2>
+            <p>Consultar Notas</p>
+            <p>Nota Fiscal Eletronica</p>
+        </div>
+    </section>
 
-<section>
-    <a class="btn btn-primary" asp-action="Create">CRIAR NFS-E</a>
-</section>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+
+

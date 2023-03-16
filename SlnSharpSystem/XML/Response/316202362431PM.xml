@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<retorno>
+	<mensagem>
+		<codigo> XSD Error 1839: Element 'cpfcnpj': [facet 'pattern'] The value '312121' is not accepted by the pattern '\d{9,14}'. Line: 7</codigo>
+		<codigo> XSD Error 1824: Element 'cpfcnpj': '312121' is not a valid value of the atomic type 'tipoCpfCnpj'. Line: 7</codigo>
+		<codigo> XSD Error 1824: Element 'cidade': 'f' is not a valid value of the atomic type 'tipoCidade'. Line: 8</codigo>
+		<codigo> XSD Error 1840: Element 'tipo': [facet 'enumeration'] The value 'f' is not an element of the set {'E', 'F', 'J'}. Line: 11</codigo>
+		<codigo> XSD Error 1824: Element 'tipo': 'f' is not a valid value of the atomic type 'tipoPessoa'. Line: 11</codigo>
+		<codigo> XSD Error 1839: Element 'cpfcnpj': [facet 'pattern'] The value '3232' is not accepted by the pattern '\d{9,14}'. Line: 12</codigo>
+		<codigo> XSD Error 1824: Element 'cpfcnpj': '3232' is not a valid value of the atomic type 'tipoCpfCnpj'. Line: 12</codigo>
+		<codigo> XSD Error 1833: Element 'cep': [facet 'minInclusive'] The value '3232' is less than the minimum value allowed ('1000000'). Line: 19</codigo>
+		<codigo> XSD Error 1824: Element 'cep': '3232' is not a valid value of the atomic type 'tipoCep'. Line: 19</codigo>
+		<codigo> XSD Error 1840: Element 'tributa_municipio_prestador': [facet 'enumeration'] The value 'f' is not an element of the set {'1', '0', 'S', 's', 'N', 'n'}. Line: 23</codigo>
+		<codigo> XSD Error 1824: Element 'tributa_municipio_prestador': 'f' is not a valid value of the atomic type 'tipoTributaMunicipio'. Line: 23</codigo>
+		<codigo> XSD Error 1824: Element 'codigo_local_prestacao_servico': 'f' is not a valid value of the atomic type 'tipoCidade'. Line: 24</codigo>
+		<codigo> XSD Error 1824: Element 'situacao_tributaria': 'f' is not a valid value of the atomic type 'xs:integer'. Line: 28</codigo>
+	</mensagem>
+</retorno>

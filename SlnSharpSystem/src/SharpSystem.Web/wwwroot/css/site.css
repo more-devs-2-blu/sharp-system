@@ -1,18 +1,314 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 100px;
+    height: 100vh;
+    width: 100%;
+    background: black;
+    background-image: url(/img/background-login.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 122px;
+    letter-spacing: 0.1em;
+    text-align: start;
+    margin-bottom: 50px;
+    letter-spacing: 0.1em;
+    color: #FBFCFF;
+}
+
+p {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0.1em;
+    color: #FBFCFF;
+}
+
+.layout_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-width: 400px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    border: solid 1px #ffff;
+    width: 500px;
+    height: 600px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+    .layout_right label {
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 51px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+
+    .layout_right input {
+        border: 0;
+        border-bottom: 1px solid #555;
+        background: transparent;
+        width: 300px;
+        padding: 8px 0 5px 0;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .layout_right img {
+        margin-left: 350px;
+        width: 70px;
+    }
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-login {
+    display: flex;
+    background: rgba(43, 21, 226, 0.79);
+    border-radius: 40px;
+    height: 69px;
+    width: 200px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+}
+
+.btn-cadastrar {
+    display: flex;
+    background: #5154F1;
+    border-radius: 40px;
+    height: 69px;
+    width: 300px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+navbar__main {
+    border-radius: 5px;
+    .navbar__container margin-left: 130px;
+    height: 90px !important;
+    position: absolute !important;
+    background: #6657f4 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar__layout {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar__layout__actions {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+    .navbar__layout__actions button {
+        padding: 10px 20px;
+        border: 3px solid #ffffff;
+        color: #ffffff;
+        font-weight: bold;
+        background: transparent;
+        cursor: pointer;
+        border: 3px solid #dad9d9;
+    }
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+span {
+    height: 2px;
+    width: 100%;
+    background: #FFFBFB;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 21px;
+    color: #FFFBFB;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+background-color: #f1f1f1;
+}
+
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+    /* Mark input boxes that gets an error on validation: */
+    input.invalid {
+        background-color: #ffdddd;
+    }
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+button {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+}
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+#prevBtn {
+    background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+    .step.active {
+        opacity: 1;
+    }
+
+    /* Mark the steps that are finished and valid: */
+    .step.finish {
+        background-color: #04AA6D;
+    }
+.button{
+    
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+
 }

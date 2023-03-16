@@ -20,24 +20,6 @@ namespace SharpSystem.Web.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public async Task<IActionResult> Create([Bind("id, nome, cpfcnpj, senha")] UsuarioDTO usuario)
-        {
-            try
-            {
-                if (ModelState.IsValid)
-                {
-                    TempData["MsgSucesso"] = "Usuário cadastrado com sucesso";
-                    if (await _service.Save(usuario) > 0) return RedirectToAction("Index");
-                }
-                return View(usuario);
-            }
-            catch (Exception erro)
-            {
-                TempData["MsgErro"] = $"Usuário não foi cadastrado corretamente, detalhe do erro: {erro.Message}";
-                return RedirectToAction("Index");
-            }
-        }
         public async Task<IActionResult> Edit(int id)
         {
             var usuario = await _service.FindById(id);

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nfse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <nf>
+    <valor_total>10</valor_total>
+  </nf>
+  <prestador>
+    <cpfcnpj>312121</cpfcnpj>
+    <cidade>f</cidade>
+  </prestador>
+  <tomador>
+    <tipo>f</tipo>
+    <cpfcnpj>3232</cpfcnpj>
+    <nome_razao_social>f</nome_razao_social>
+    <logradouro>f</logradouro>
+    <email>f</email>
+    <numero_residencia>232</numero_residencia>
+    <bairro>f</bairro>
+    <cidade>3232</cidade>
+    <cep>3232</cep>
+  </tomador>
+  <itens>
+    <lista>
+      <tributa_municipio_prestador>f</tributa_municipio_prestador>
+      <codigo_local_prestacao_servico>f</codigo_local_prestacao_servico>
+      <codigo_item_lista_servico>3232</codigo_item_lista_servico>
+      <descritivo>f</descritivo>
+      <aliquota_item_lista_servico>9</aliquota_item_lista_servico>
+      <situacao_tributaria>f</situacao_tributaria>
+      <valor_tributavel>7</valor_tributavel>
+    </lista>
+  </itens>
+</nfse>

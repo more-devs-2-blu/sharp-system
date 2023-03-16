@@ -51,5 +51,6 @@ namespace SharpSystem.Application.SQLServerServices.NFSServices
             var entity = await _itensRepository.FindById(id);
             return await _itensRepository.Delete(entity);
         }
+
     }
 }

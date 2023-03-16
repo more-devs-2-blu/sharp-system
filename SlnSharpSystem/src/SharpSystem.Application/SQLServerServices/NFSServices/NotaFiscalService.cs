@@ -41,5 +41,10 @@ namespace SharpSystem.Application.SQLServerServices.NFSServices
             var entity = await _notaFiscalRepository.FindById(id);
             return await _notaFiscalRepository.Delete(entity);
         }
+
+        public Task<int> Update(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

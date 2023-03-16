@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿    using Microsoft.AspNetCore.Mvc;
 using SharpSystem.Application.SQLServerServices.NFSServices;
 using SharpSystem.Domain.DTO.NFSDTO;
 using SharpSystem.Domain.DTO.UsuarioDTO;
@@ -18,12 +18,11 @@ namespace SharpSystem.Web.Controllers
             _notaFicalService = notaFicalService;
             _infseService = infseService;
         }
-
+        [Route("nfse")]
         public IActionResult Index()
         {
             return View();
         }
-
         public ActionResult Create()
         {
             return View();

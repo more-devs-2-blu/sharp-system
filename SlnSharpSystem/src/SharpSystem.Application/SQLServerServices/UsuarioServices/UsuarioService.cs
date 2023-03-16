@@ -56,5 +56,6 @@ namespace SharpSystem.Application.Services.SQLServerServices
             string encodedString = Convert.ToBase64String(encodedBytes);
             return encodedString;
         }
+
     }
 }

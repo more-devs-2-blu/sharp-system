@@ -1,0 +1,393 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 100px;
+    height: 100vh;
+    width: 100%;
+    background: #F5F0F0;
+    border-radius: 28px;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+}
+
+    .main button {
+        height: 40px;
+        margin-right: 1000px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        background: none;
+        border: 1px solid white;
+    }
+
+.profile {
+    display: flex;
+    background: #6657F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 10%;
+    width: 93%;
+    border-radius: 10px;
+}
+
+.info {
+    margin-left: 450px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFBFB;
+    white-space: nowrap;
+}
+    .info h3{
+        margin: 10px 0px 10px 0px;
+    }
+.profile img {
+    width: 50px;
+    margin-right:10px;
+}
+
+    span {
+        color: white;
+    }
+
+.card-menu {
+    width: 5%;
+    border: 1px solid #000000;
+    background: #150D5E;
+    border-radius: 40px;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+img {
+    margin-top: 20px;
+    cursor: pointer;
+    width: 70px;
+}
+.main2 {
+    display: flex;
+    height: 100%;
+    background: #F5F0F0;
+    border-radius: 28px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.main_square {
+    display: flex;
+    background: #D9D9D9;
+    width: 70%;
+    height: 80%;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #FFF1F1;
+    border-radius: 32px;
+    margin-top: 50px;
+}
+
+.left_square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 50%;
+    background: #FAF8F8;
+    border: 1px solid #FFF1F1;
+    border-radius: 32px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+}
+
+    .left_square a {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .left_square p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #9B8E8E;
+    }
+        .
+
+        .left_square p:nth-child(3) {
+            font-family: 'Inter';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #797979;
+        }
+
+.right_square {
+    width: 400px;
+    height: 50%;
+    background: #FAF8F8;
+    border: 1px solid #FFF1F1;
+    border-radius: 32px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+}
+
+    .right_square h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
+
+    .right_square p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #9B8E8E;
+    }
+
+        .right_square p:nth-child(3) {
+            font-family: 'Inter';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #797979;
+        }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+#multi-step-form-container {
+    margin-top: 5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.button {
+    padding: 0.7rem 1.5rem;
+    border: 1px solid #4361ee;
+    background-color: #4361ee;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    border: 1px solid #0e9594;
+    background-color: red;
+}
+
+.mt-3 {
+    margin-top: 2rem;
+}
+
+.d-none {
+    display: none;
+}
+
+.form-step {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 3rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+#regForm {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-family: Raleway;
+    padding-top: 40px;
+    width: 30%;
+    align-items: center;
+    max-width: 800px;
+    border-radius: 20px
+}
+.tab{
+    width:600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+input {
+    padding: 10px;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+.form-control {
+    width: 300px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+    /* Mark input boxes that gets an error on validation: */
+    input.invalid {
+        background-color: #ffdddd;
+    }
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+button {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+}
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+#prevBtn {
+    background: #28856E;
+    border: 1px solid #98FCC0;
+    border-radius: 40px;
+    padding-bottom: 3px
+
+}
+
+#nextBtn {
+    width: 118px;
+    height: 36px;
+    background: #6657F4;
+    border: 1px solid #9287F9;
+    border-radius: 40px;
+    padding-bottom:30px;
+
+    border: 0px;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+    .step.active {
+        opacity: 1;
+    }
+
+    /* Mark the steps that are finished and valid: */
+    .step.finish {
+        background-color: #04AA6D;
+    }

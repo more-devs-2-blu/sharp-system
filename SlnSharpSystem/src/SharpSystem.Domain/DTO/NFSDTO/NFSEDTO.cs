@@ -3,6 +3,7 @@ using System.Xml.Serialization;
 
 namespace SharpSystem.Domain.DTO.NFSDTO
 {
+
     [XmlRoot("nfse")]
     public class NFSEDTO
     {
@@ -22,10 +23,10 @@ namespace SharpSystem.Domain.DTO.NFSDTO
             return new NFSEDTO
             {
                 id = nfse.Id,
-                notaFiscalDTO = notaFiscalDTO.mapToDTO(nfse.NotaFiscal),
-                prestador = prestador.mapToDTO(nfse.Prestador),
-                tomador = tomador.mapToDTO(nfse.Tomador),
-                itens = itens.mapToDTO(nfse.Itens),
+                notaFiscalDTO = new NotaFiscalDTO().mapToDTO(nfse.NotaFiscal),
+                prestador = new PrestadorDTO().mapToDTO(nfse.Prestador),
+                tomador = new TomadorDTO().mapToDTO(nfse.Tomador),
+                itens = new ItensDTO().mapToDTO(nfse.Itens),
             };
         }
         public NFSE mapToEntity()
