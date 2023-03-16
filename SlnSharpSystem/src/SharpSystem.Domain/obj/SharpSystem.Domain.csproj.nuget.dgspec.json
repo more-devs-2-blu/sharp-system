@@ -44,19 +44,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Http.Abstractions": {
+            "RestSharp": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[109.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "System.Xml.XmlSerializer": {
               "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

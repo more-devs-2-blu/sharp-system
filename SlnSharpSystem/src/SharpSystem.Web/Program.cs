@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using SharpSystem.Application.Services.SQLServerServices;
+using SharpSystem.Application.SQLServerServices.NFSServices;
+using SharpSystem.Domain.IRepositories.INFSRespositories;
 using SharpSystem.Domain.IRepositories.IUsuarioRepositories;
 using SharpSystem.Domain.IServices;
+using SharpSystem.Domain.IServices.INFSServices;
 using SharpSystem.Infra.Data.Context;
 using SharpSystem.Infra.Data.Repositories;
-using SharpSystem.Web.Services;
+using SharpSystem.Infra.Data.Respositories.NFSRespositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,21 +15,29 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //Conect SQL Server
-var connectionStringUser = builder.Configuration.GetConnectionString("SQLServerConnection");
 builder.Services.AddDbContext<SQLServerContext>
-    (options => options.UseSqlServer(connectionStringUser));
+    (options => options.UseSqlServer("Server=DESKTOP-M1NTML1\\SQLEXPRESS;Database=SharpSystem;User Id=sa;Password=admin1535;TrustServerCertificate=True;Encrypt=False;"));
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-// ## Dependency Injection
-
-// Repositories
+// ### Dependency Injection
+// # Repositories
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-builder.Services.AddScoped<ISessaoService, SessaoService>();
+builder.Services.AddScoped<IItensRepository, ItensRepository>();
+builder.Services.AddScoped<IListaRepository, ListaRepository>();
+builder.Services.AddScoped<INFSERespository, NFSERepository>();
+builder.Services.AddScoped<INotaFiscalRepository, NotaFiscalRepository>();
+builder.Services.AddScoped<IPrestadorRepository, PrestadorRepository>();
+builder.Services.AddScoped<ITomadorRespository, TomadorRespository>();
 
-// Services
+// # Services
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
-builder.Services.AddScoped<INotaFicalService, NotaFiscalService>();
+builder.Services.AddScoped<IItensService, ItensService>();
+builder.Services.AddScoped<IListaService, ListaService>();
+builder.Services.AddScoped<INFSEService, NFSEService>();
+builder.Services.AddScoped<INotaFicaslService, NotaFiscalService>();
+builder.Services.AddScoped<IPrestadorService, PrestadorService>();
+builder.Services.AddScoped<ITomadorService, TomadorService>();
 
 // Cookies
 builder.Services.AddSession(o =>
@@ -51,8 +62,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
-app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
