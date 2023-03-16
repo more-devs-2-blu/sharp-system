@@ -11,8 +11,8 @@ using SharpSystem.Infra.Data.Context;
 namespace SharpSystem.Infra.Data.Migrations
 {
     [DbContext(typeof(SQLServerContext))]
-    [Migration("20230315191131_notas")]
-    partial class notas
+    [Migration("20230316224639_nova")]
+    partial class nova
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -16,7 +16,7 @@ builder.Services.AddControllersWithViews();
 
 //Conect SQL Server
 builder.Services.AddDbContext<SQLServerContext>
-    (options => options.UseSqlServer("Server=DESKTOP-M1NTML1\\SQLEXPRESS;Database=SharpSystem;User Id=sa;Password=admin1535;TrustServerCertificate=True;Encrypt=False;"));
+    (options => options.UseSqlServer("Server=PCDOPH\\SQLEXPRESS;Database=SistemaXML;User Id=sa;Password=admin;TrustServerCertificate=True;Encrypt=False;"));
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 

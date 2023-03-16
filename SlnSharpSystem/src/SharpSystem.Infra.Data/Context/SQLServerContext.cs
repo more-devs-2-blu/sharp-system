@@ -15,7 +15,7 @@ namespace SharpSystem.Infra.Data.Context
         }
 
         #region DbSets<Tables>
-        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Itens> Itens { get; set; }
         public DbSet<Lista> Listas { get; set; }
         public DbSet<NFSE> NFSEs { get; set; }

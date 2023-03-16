@@ -5,7 +5,7 @@
 namespace SharpSystem.Infra.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class notas : Migration
+    public partial class nova : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -75,6 +75,21 @@ namespace SharpSystem.Infra.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Tomador", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Usuarios",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CFPCNPJ = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Senha = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Usuarios", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -167,6 +182,9 @@ namespace SharpSystem.Infra.Data.Migrations
         {
             migrationBuilder.DropTable(
                 name: "NFSEs");
+
+            migrationBuilder.DropTable(
+                name: "Usuarios");
 
             migrationBuilder.DropTable(
                 name: "Itens");
