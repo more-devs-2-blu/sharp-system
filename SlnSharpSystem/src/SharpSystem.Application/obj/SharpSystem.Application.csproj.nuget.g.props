@@ -13,4 +13,13 @@
     <SourceRoot Include="C:\Users\pedro\.nuget\packages\" />
     <SourceRoot Include="D:\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.win7-x64\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.Tools.runtime.win7-x64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.win7-x64\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.Tools.runtime.win7-x64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-x64\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.Tools.runtime.linux-x64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-x64\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.Tools.runtime.linux-x64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-arm64\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.Tools.runtime.linux-arm64.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-arm64\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.Tools.runtime.linux-arm64.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-arm\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.Tools.runtime.linux-arm.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild.tools.runtime.linux-arm\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.Tools.runtime.linux-arm.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.msbuild\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)ikvm.msbuild\8.4.5\buildTransitive\netstandard2.0\IKVM.MSBuild.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm.image\8.4.5\buildTransitive\IKVM.Image.props" Condition="Exists('$(NuGetPackageRoot)ikvm.image\8.4.5\buildTransitive\IKVM.Image.props')" />
+    <Import Project="$(NuGetPackageRoot)ikvm\8.4.5\buildTransitive\netstandard2.0\IKVM.props" Condition="Exists('$(NuGetPackageRoot)ikvm\8.4.5\buildTransitive\netstandard2.0\IKVM.props')" />
+  </ImportGroup>
 </Project>

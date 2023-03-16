@@ -1,7 +1,10 @@
-﻿using RestSharp;
+﻿using javax.xml.bind.annotation;
+using RestSharp;
 using SharpSystem.Domain.DTO.NFSDTO;
 using SharpSystem.Domain.IRepositories.INFSRespositories;
 using SharpSystem.Domain.IServices.INFSServices;
+using System.Xml;
+using System.Xml.Linq;
 using System.Xml.Serialization;
 
 namespace SharpSystem.Application.SQLServerServices.NFSServices
@@ -108,6 +111,24 @@ namespace SharpSystem.Application.SQLServerServices.NFSServices
             RestResponse response = await client.ExecuteAsync(request);
 
             File.WriteAllText("D:\\Documents\\XML\\Respostas\\" + NomeDoArquivo, response.Content.ToString());
+            string xmlResponsePDF = NomeDoArquivo + response.Content.ToString();
+
+            /*XElement xml = XElement.Parse(string.Format("<root>{0}</root>", xmlResponsePDF))
+            string link_nfse = xml.Element("link_nfse").Value;*/
+
+            /*XDocument xDoc = XDocument.Parse(xmlResponsePDF);
+            var descendantsQuery = from desc in xDoc.Root.Descendants("link_nfse")
+                                   select desc;*/
+
+            XElement elements = XElement.Parse(xmlResponsePDF); // XElement.Parse(stringWithXmlGoesHere)
+            XNamespace df = elements.Name.Namespace;
+            var loteDistDFeIntElements = elements.Element(df + "loteDistDFeInt").Elements();
+            var retorno = from nota in elements.Element(df + "loteDistDFeInt").Elements()
+                          select new
+                          {
+                              nsu = (string)nota.Attribute("NSU").Value,
+                              schema = (string)nota.Attribute("schema").Value
+                          };
 
             string pedro = "Pedro";
             return response;

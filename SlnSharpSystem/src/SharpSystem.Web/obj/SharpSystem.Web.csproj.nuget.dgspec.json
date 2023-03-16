@@ -48,6 +48,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "IKVM": {
+              "target": "Package",
+              "version": "[8.4.5, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[109.0.1, )"
