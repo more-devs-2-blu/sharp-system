@@ -107,7 +107,7 @@ namespace SharpSystem.Application.SQLServerServices.NFSServices
 
             RestResponse response = await client.ExecuteAsync(request);
 
-            File.WriteAllText("D:\\Documents\\XML\\Respostas\\" + NomeDoArquivo + "Resposta.txt", response.Content.ToString());
+            File.WriteAllText("D:\\Documents\\XML\\Respostas\\" + NomeDoArquivo, response.Content.ToString());
 
             string pedro = "Pedro";
             return response;
