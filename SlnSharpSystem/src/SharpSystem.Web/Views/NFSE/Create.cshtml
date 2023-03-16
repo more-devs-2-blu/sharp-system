@@ -1,0 +1,110 @@
+﻿@model SharpSystem.Domain.DTO.NFSDTO.NFSEDTO;
+
+<h1>CADASTRO DE NFS-E</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" class="text-dark">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="notaFiscalDTO.valorTotal" class="control-label">Valor Total</label>
+                <input asp-for="notaFiscalDTO.valorTotal" class="form-control" required />
+                <span asp-validation-for="notaFiscalDTO.valorTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="prestador.cidade" class="control-label">Cidade do prestador</label>
+                <input asp-for="prestador.cidade" class="form-control" required />
+                <span asp-validation-for="prestador.cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="prestador.cpfCnpj" class="control-label">CPF/CNPJ prestador</label>
+                <input asp-for="prestador.cpfCnpj" class="form-control" required />
+                <span asp-validation-for="prestador.cpfCnpj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.tipo" class="control-label">Tipo tomador</label>
+                <input asp-for="tomador.tipo" class="form-control" required />
+                <span asp-validation-for="tomador.tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.cpfCnpj" class="control-label">CPF/CNPJ tomador</label>
+                <input asp-for="tomador.cpfCnpj" class="form-control" required />
+                <span asp-validation-for="tomador.cpfCnpj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.nomeRazaoSocial" class="control-label">NomeRazaoSocial</label>
+                <input asp-for="tomador.nomeRazaoSocial" class="form-control" required />
+                <span asp-validation-for="tomador.nomeRazaoSocial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.logradouro" class="control-label">Logradouro</label>
+                <input asp-for="tomador.logradouro" class="form-control" required />
+                <span asp-validation-for="tomador.logradouro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.email" class="control-label">Email</label>
+                <input asp-for="tomador.email" class="form-control" required />
+                <span asp-validation-for="tomador.email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.numeroResidencia" class="control-label">NumeroResidencia</label>
+                <input asp-for="tomador.numeroResidencia" class="form-control" required />
+                <span asp-validation-for="tomador.numeroResidencia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.bairro" class="control-label">Bairro</label>
+                <input asp-for="tomador.bairro" class="form-control" required />
+                <span asp-validation-for="tomador.bairro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.cidade" class="control-label">Cidade</label>
+                <input asp-for="tomador.cidade" class="form-control" required />
+                <span asp-validation-for="tomador.cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tomador.cep" class="control-label">Cep</label>
+                <input asp-for="tomador.cep" class="form-control" required />
+                <span asp-validation-for="tomador.cep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.listaDTO.tributaMunicipioPrestador" class="control-label">TributaMunicipioPrestador</label>
+                <input asp-for="itens.listaDTO.tributaMunicipioPrestador" class="form-control" required />
+                <span asp-validation-for="itens.listaDTO.tributaMunicipioPrestador" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.listaDTO.codigoLocalPrestacaoServico" class="control-label">CodigoLocalPrestacaoServico</label>
+                <input asp-for="itens.listaDTO.codigoLocalPrestacaoServico" class="form-control" required />
+                <span asp-validation-for="itens.listaDTO.codigoLocalPrestacaoServico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.listaDTO.codigoItemListaServico" class="control-label">CodigoItemListaServico</label>
+                <input asp-for="itens.listaDTO.codigoItemListaServico" class="form-control" required />
+                <span asp-validation-for="itens.listaDTO.codigoItemListaServico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.listaDTO.descritivo" class="control-label">Descritivo</label>
+                <input asp-for="itens.listaDTO.descritivo" class="form-control" required />
+                <span asp-validation-for="itens.listaDTO.descritivo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.listaDTO.aliquotaItemListaServico" class="control-label">AliquotaItemListaServico</label>
+                <input asp-for="itens.listaDTO.aliquotaItemListaServico" class="form-control" required />
+                <span asp-validation-for="itens.listaDTO.aliquotaItemListaServico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.listaDTO.situacaoTributaria" class="control-label">SituacaoTributaria</label>
+                <input asp-for="itens.listaDTO.situacaoTributaria" class="form-control" required />
+                <span asp-validation-for="itens.listaDTO.situacaoTributaria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="itens.listaDTO.valorTributavel" class="control-label">ValorTributavel</label>
+                <input asp-for="itens.listaDTO.valorTributavel" class="form-control" required />
+                <span asp-validation-for="itens.listaDTO.valorTributavel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" asp-action="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+

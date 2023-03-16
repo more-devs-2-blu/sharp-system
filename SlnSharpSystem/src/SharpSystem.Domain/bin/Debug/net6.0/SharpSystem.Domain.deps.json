@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "SharpSystem.Domain/1.0.0": {
         "dependencies": {
+          "RestSharp": "109.0.1",
           "System.Xml.XmlSerializer": "4.3.0"
         },
         "runtime": {
@@ -16,6 +17,14 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "RestSharp/109.0.1": {
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "assemblyVersion": "109.0.1.0",
+            "fileVersion": "109.0.1.0"
+          }
+        }
+      },
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -272,6 +281,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "RestSharp/109.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OkJ23uaV8qwCKuR7RKBUFlnXxIDZ7P1jEaoDawXgysujIcWZgIwE6p90kJZxY9EVv9ESjZtGlSmP8k+kOfDH9g==",
+      "path": "restsharp/109.0.1",
+      "hashPath": "restsharp.109.0.1.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",

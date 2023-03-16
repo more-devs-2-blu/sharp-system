@@ -2503,6 +2503,7 @@
       },
       "SharpSystem.Domain/1.0.0": {
         "dependencies": {
+          "RestSharp": "109.0.1",
           "System.Xml.XmlSerializer": "4.3.0"
         },
         "runtime": {

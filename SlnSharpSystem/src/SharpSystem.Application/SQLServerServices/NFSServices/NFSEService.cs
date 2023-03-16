@@ -82,9 +82,9 @@ namespace SharpSystem.Application.SQLServerServices.NFSServices
             var entity = await _nfseRespository.FindById(id);
             return await _nfseRespository.Delete(entity);
         }
-        public string CreatXML(NFSEDTO nfse)
+        public string CreateXML(NFSEDTO nfse)
         {
-            string nomeArquivo = nfse.id + ".xml";
+            string nomeArquivo = DateTime.Now.ToString().Replace(@"/", "").Replace(@" ", "").Replace(@":", "") + ".xml";
             using (StreamWriter stream = new StreamWriter(Path.Combine(@"D:\Documents\XML", nomeArquivo)))
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(NFSEDTO));
@@ -100,14 +100,16 @@ namespace SharpSystem.Application.SQLServerServices.NFSServices
             };
             var client = new RestClient(options);
             var request = new RestRequest("/?pg=rest&service=WNERestServiceNFSe&cidade=integracoes", Method.Post);
-            string path = "D:\\Documents\\XML" + NomeDoArquivo;
+            string path = "D:\\Documents\\XML\\" + NomeDoArquivo;
             request.AddHeader("Authorization", Base64);
             request.AlwaysMultipartFormData = true;
-            request.AddFile("XML", NomeDoArquivo);
+            request.AddFile("XML", $"D:\\Documents\\XML\\{NomeDoArquivo}");
 
             RestResponse response = await client.ExecuteAsync(request);
 
-            File.WriteAllText("D:\\Documents\\Respostas" + NomeDoArquivo + "Resposta.txt", response.Content.ToString());
+            File.WriteAllText("D:\\Documents\\XML\\Respostas\\" + NomeDoArquivo + "Resposta.txt", response.Content.ToString());
+
+            string pedro = "Pedro";
             return response;
         }
     }

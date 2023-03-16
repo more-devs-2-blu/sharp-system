@@ -35,7 +35,7 @@ namespace SharpSystem.Domain.DTO.UsuarioDTO
         }
         public string mapTo64()
         {
-            string str = $"{cpfcnpj}:{senha}";
+            string str = $"Basic {cpfcnpj}:{senha}";
             byte[] encodedBytes = Encoding.UTF8.GetBytes(str);
             string encodedString = Convert.ToBase64String(encodedBytes);
             return encodedString;

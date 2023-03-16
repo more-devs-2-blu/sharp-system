@@ -34,3 +34,15 @@ C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src
 C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\refint\SharpSystem.Domain.dll
 C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.pdb
 C:\Users\pedro\OneDrive\Área de Trabalho\sharp-system-ph.new\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\ref\SharpSystem.Domain.dll
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\bin\Debug\net6.0\SharpSystem.Domain.deps.json
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\bin\Debug\net6.0\SharpSystem.Domain.dll
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\bin\Debug\net6.0\SharpSystem.Domain.pdb
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.csproj.AssemblyReference.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.AssemblyInfoInputs.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.AssemblyInfo.cs
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.csproj.CoreCompileInputs.cache
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.dll
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\refint\SharpSystem.Domain.dll
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\SharpSystem.Domain.pdb
+D:\Documents\sharp-system\SlnSharpSystem\src\SharpSystem.Domain\obj\Debug\net6.0\ref\SharpSystem.Domain.dll

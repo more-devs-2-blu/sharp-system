@@ -19,7 +19,7 @@ namespace SharpSystem.Domain.DTO.NFSDTO
 
         public NFSEDTO mapToDTO(NFSE nfse)
         {
-            return new NFSEDTO()
+            return new NFSEDTO
             {
                 id = nfse.Id,
                 notaFiscalDTO = notaFiscalDTO.mapToDTO(nfse.NotaFiscal),
@@ -30,7 +30,7 @@ namespace SharpSystem.Domain.DTO.NFSDTO
         }
         public NFSE mapToEntity()
         {
-            return new NFSE()
+            return new NFSE
             {
                 Id = id,
                 NotaFiscal = notaFiscalDTO.mapToEntity(),
