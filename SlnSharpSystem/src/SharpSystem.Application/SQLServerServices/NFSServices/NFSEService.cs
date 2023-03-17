@@ -120,7 +120,7 @@ namespace SharpSystem.Application.SQLServerServices.NFSServices
             var descendantsQuery = from desc in xDoc.Root.Descendants("link_nfse")
                                    select desc;*/
 
-            XElement elements = XElement.Parse(xmlResponsePDF); // XElement.Parse(stringWithXmlGoesHere)
+            /*XElement elements = XElement.Parse(xmlResponsePDF); // XElement.Parse(stringWithXmlGoesHere)
             XNamespace df = elements.Name.Namespace;
             var loteDistDFeIntElements = elements.Element(df + "loteDistDFeInt").Elements();
             var retorno = from nota in elements.Element(df + "loteDistDFeInt").Elements()
@@ -128,7 +128,7 @@ namespace SharpSystem.Application.SQLServerServices.NFSServices
                           {
                               nsu = (string)nota.Attribute("NSU").Value,
                               schema = (string)nota.Attribute("schema").Value
-                          };
+                          };*/
 
             string pedro = "Pedro";
             return response;
