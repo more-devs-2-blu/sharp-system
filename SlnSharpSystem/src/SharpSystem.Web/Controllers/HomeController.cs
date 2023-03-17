@@ -37,12 +37,12 @@ namespace SharpSystem.Web.Controllers
             TempData["Incorrect Login"] = "Invalid User";
             return RedirectToAction("Index", "Home");
         }
-        [Route("cadastro")]
+
+
         public IActionResult Create()
         {
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> Create([Bind("id, nome, cpfcnpj, senha")] UsuarioDTO usuario)
         {
@@ -51,7 +51,7 @@ namespace SharpSystem.Web.Controllers
                 if (ModelState.IsValid)
                 {
                     TempData["MsgSucesso"] = "Usuário cadastrado com sucesso";
-                    if (await _service.Save(usuario) > 0) return RedirectToAction("Index","NFSE");
+                    if (await _service.Save(usuario) > 0) return RedirectToAction("Index", "NFSE");
                 }
                 return View(usuario);
             }
