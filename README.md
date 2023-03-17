@@ -28,9 +28,6 @@
 # 📝 Proposta Geral
 <p align="justify">A proposta para o desenvolvimento do nosso projeto é criar uma solução que facilite a emissão, digitação e gestão de Notas Fiscais Eletrônicas de Serviço (NFS-e). Dessa forma, nossa equipe desenvolveu um Sistema Web utilizando a tenclogia do C# .NET MVC com cadastro de usuário, login de usuário e emissão de nota fiscal pelo próprio sistema, e usuando views nativas do C# com Javascript para as telas do sistema</p>
 
-# 📃 Descrição do Sistema
-<p align="justify">Tendo em vista que a forma utilizada atualmente é arcaica, nosso sistema visa facilitar a vida dos usuário nas compras e troca de carros. Tem como objetivo tornar mais prática a venda de automóveis, contando com as opções de criar um usuário realizando o seu cadastro Caso o usuário seja um vendedor, poderá cadastrar um carro, moto, ônibus ou caminhão. Se necessário o vendedor pode descadastrar um veículo também. Mas se o usuário for um comprador, ele poderá comprar os veículos anunciados pelos vendedores, e também poderá anunciar seus veículos.</p>
-
 <h1>📈 Diagramas </h1>
 
 <h2>Diagrama de Classes</h2>
