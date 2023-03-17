@@ -16,7 +16,7 @@ builder.Services.AddControllersWithViews();
 
 //Conect SQL Server
 builder.Services.AddDbContext<SQLServerContext>
-(options => options.UseSqlServer("Server = ANALYDIAMOREIRA; Database = SharpSystem; User Id = sa; Password = adm; TrustServerCertificate = True; Encrypt = False;"));
+(options => options.UseSqlServer("Server=DESKTOP-M1NTML1\\SQLEXPRESS;Database=SharpSystem;User Id=sa;Password=admin1535;TrustServerCertificate=True;Encrypt=False;"));
 
 
 

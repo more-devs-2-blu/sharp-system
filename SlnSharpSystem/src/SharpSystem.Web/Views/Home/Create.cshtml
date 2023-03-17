@@ -1,27 +1,43 @@
-﻿@model SharpSystem.Domain.DTO.UsuarioDTO.UsuarioDTO
+﻿@using SharpSystem.Domain.DTO.UsuarioDTO;
+@model UsuarioDTO;
 
 @{
     Layout = null;
 }
+
 <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
 <div>
     <h1> Sharp System</h1>
     <p> Organize e crie sua NFS-e de <br> forma rápida e intuitiva.</p>
 </div>
-<<div class="layout_right">
+
+
+
+<div class="layout_right">
     <img src="/img/logo-sharp-system.png" alt="">
     <form asp-action="Create" method="Post">
-        <label for="cpfcnpj">CNPJ</label><br />
+        
+        <label asp-for="nome">Nome</label><br />
+        <div class="input-field">
+            <input type="text" asp-for="nome" class="input" riqured /><br />
+            <i class='bx bx-lock-alt'></i>
+        </div>
+
+        <label asp-for="cpfcnpj">CNPJ</label><br />
         <div class="input-field">
             <input type="text" asp-for="cpfcnpj" class="input" riqured /><br />
             <i class='bx bx-lock-alt'></i>
         </div>
 
-        <label for="senha">Senha</label><br />
-        <input type="password" asp-for="senha" class="input" riqured />
-        <div class="button">
-            <a class="btn-cadastrar" asp-controller="Home" asp-action="Create">Cadastro</a>
-            <a class="btn-login" asp-controller="Home" asp-action="Index">Login</a>
+        <label asp-for="senha">Senha</label><br />
+        <div class="input-field">
+            <input type="password" asp-for="senha" class="input" riqured />
+            <i class='bx bx-lock-alt'></i>
+        </div>
+        
+        <div class="form-group button">
+            <a asp-area="" asp-controller="NFSE" asp-action="Index"><input type="submit" value="Create" class="btn-cadastrar" /></a>
         </div>
     </form>
 </div>
